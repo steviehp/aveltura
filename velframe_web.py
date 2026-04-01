@@ -139,6 +139,21 @@ async def queries():
     except:
         return {"total": 0, "recent": []}
 
+@app.post("/api/chat")
+async def chat(request: dict, key: str = Depends(verify_key)):
+    message = request.get("message", "")
+    if not message:
+        raise HTTPException(status_code=400, detail="No message provided")
+    
+    import requests as req
+    response = req.post(
+        f"http://localhost:{os.getenv('VEL_PORT', '8001')}/query",
+        json={"message": message},
+        headers={"Authorization": f"Bearer {VEL_API_KEY}"},
+        timeout=300
+    )
+    return response.json()
+
 @app.get("/", response_class=HTMLResponse)
 async def index():
     with open(os.path.join(BASE_DIR, "velframe_ui.html")) as f:

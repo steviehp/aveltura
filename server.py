@@ -56,7 +56,7 @@ class Query(BaseModel):
 
 @app.post("/query", dependencies=[Depends(verify_key)])
 @limiter.limit("10/minute")
-async def query(q: Query):
+async def query(request: Request, q: Query):
     start = time.time()
     response = query_engine.query(q.message)
     result = ""

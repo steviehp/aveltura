@@ -132,6 +132,42 @@
       margin-bottom: 12px;
     }
 
+    .chat-message-user {
+      color: #00ff88;
+      margin: 8px 0 4px;
+    }
+    .chat-message-vel {
+      color: #aaa;
+      margin: 4px 0 12px;
+      padding-left: 16px;
+      border-left: 2px solid #1a1a1a;
+    }
+    .chat-thinking {
+      color: #555;
+      font-style: italic;
+    }
+
+    #chat-history {
+      height: 500px;
+      margin-bottom: 16px;
+    }
+
+    #chat-input {
+      flex: 1;
+      background: #111;
+      border: 1px solid #222;
+      color: #e0e0e0;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+    }
+
+    #chat-input:focus {
+      outline: none;
+      border-color: #00ff88;
+    }
+
     #toast {
       position: fixed;
       bottom: 24px;
@@ -157,12 +193,13 @@
 </div>
 
 <div class="tabs">
-  <div class="tab active" onclick="switchTab('overview')">Overview</div>
-  <div class="tab" onclick="switchTab('services')">Services</div>
-  <div class="tab" onclick="switchTab('scraper')">Scraper</div>
-  <div class="tab" onclick="switchTab('logs')">Logs</div>
-  <div class="tab" onclick="switchTab('queries')">Queries</div>
-  <div class="tab" onclick="switchTab('system')">System</div>
+  <div class="tab active" onclick="switchTab('overview', this)">Overview</div>
+  <div class="tab" onclick="switchTab('services', this)">Services</div>
+  <div class="tab" onclick="switchTab('scraper', this)">Scraper</div>
+  <div class="tab" onclick="switchTab('logs', this)">Logs</div>
+  <div class="tab" onclick="switchTab('queries', this)">Queries</div>
+  <div class="tab" onclick="switchTab('system', this)">System</div>
+  <div class="tab" onclick="switchTab('chat', this)">Chat</div>
 </div>
 
 <div class="content">
@@ -228,6 +265,21 @@
     <div class="grid" id="system-cards"></div>
   </div>
 
+  <!-- Chat -->
+  <div class="pane" id="pane-chat">
+    <div class="section-title">Vel Chat</div>
+    <div class="log-box" id="chat-history"></div>
+    <div style="display:flex;gap:8px;margin-top:16px">
+      <input
+        id="chat-input"
+        type="text"
+        placeholder="Ask Vel something..."
+        onkeydown="if(event.key==='Enter') sendChat()"
+      >
+      <button class="btn btn-green" onclick="sendChat()">Send</button>
+    </div>
+  </div>
+
 </div>
 
 <div id="toast"></div>
@@ -259,10 +311,10 @@ function toast(msg) {
   setTimeout(() => t.classList.remove("show"), 3000);
 }
 
-function switchTab(name) {
+function switchTab(name, el) {
   document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
   document.querySelectorAll(".pane").forEach(p => p.classList.remove("active"));
-  event.target.classList.add("active");
+  el.classList.add("active");
   document.getElementById(`pane-${name}`).classList.add("active");
   if (name === "logs") loadLogs();
   if (name === "queries") loadQueries();
@@ -271,11 +323,9 @@ function switchTab(name) {
 async function loadStatus() {
   const data = await fetch("/api/status").then(r => r.json());
   
-  // Topbar
   document.getElementById("topbar-stats").textContent = 
     `CPU: ${data.system.cpu_percent}% | RAM: ${data.system.ram_used}GB/${data.system.ram_total}GB | Disk: ${data.system.disk_used}GB/${data.system.disk_total}GB`;
 
-  // Overview cards
   document.getElementById("overview-cards").innerHTML = `
     <div class="card"><div class="card-label">Engines</div><div class="card-value">${data.db.engines}</div></div>
     <div class="card"><div class="card-label">Mods</div><div class="card-value">${data.db.mods}</div></div>
@@ -283,7 +333,6 @@ async function loadStatus() {
     <div class="card"><div class="card-label">Index Version</div><div class="card-value">v${data.db.index_version}</div></div>
   `;
 
-  // Services
   const servicesHtml = Object.entries(data.services).map(([name, status]) => `
     <div class="service">
       <span class="service-name">${name}</span>
@@ -293,7 +342,6 @@ async function loadStatus() {
   document.getElementById("overview-services").innerHTML = servicesHtml;
   document.getElementById("services-list").innerHTML = servicesHtml;
 
-  // Scraper cards
   document.getElementById("scraper-cards").innerHTML = `
     <div class="card"><div class="card-label">Engines</div><div class="card-value">${data.db.engines}</div><div class="card-sub">${data.db.rows} total rows</div></div>
     <div class="card"><div class="card-label">Mods</div><div class="card-value">${data.db.mods}</div></div>
@@ -301,7 +349,6 @@ async function loadStatus() {
     <div class="card"><div class="card-label">Last Scrape</div><div class="card-value" style="font-size:12px;margin-top:4px">${data.db.last_scrape.substring(0,40)}</div></div>
   `;
 
-  // System cards
   document.getElementById("system-cards").innerHTML = `
     <div class="card">
       <div class="card-label">CPU</div>
@@ -388,7 +435,42 @@ async function loadQueries() {
   ).join("");
 }
 
-// Init
+async function sendChat() {
+  const input = document.getElementById("chat-input");
+  const history = document.getElementById("chat-history");
+  const message = input.value.trim();
+  if (!message) return;
+
+  input.value = "";
+  
+  const userDiv = document.createElement("div");
+  userDiv.className = "chat-message-user";
+  userDiv.textContent = `> ${message}`;
+  history.appendChild(userDiv);
+
+  const thinkingDiv = document.createElement("div");
+  thinkingDiv.className = "chat-thinking";
+  thinkingDiv.textContent = "Vel is thinking...";
+  history.appendChild(thinkingDiv);
+  history.scrollTop = history.scrollHeight;
+
+  try {
+    const data = await api("/api/chat", "POST", { message });
+    history.removeChild(thinkingDiv);
+    const velDiv = document.createElement("div");
+    velDiv.className = "chat-message-vel";
+    velDiv.textContent = data.response || data.detail || "No response";
+    history.appendChild(velDiv);
+  } catch (e) {
+    history.removeChild(thinkingDiv);
+    const errDiv = document.createElement("div");
+    errDiv.className = "chat-thinking";
+    errDiv.textContent = "Error: could not reach Vel";
+    history.appendChild(errDiv);
+  }
+  history.scrollTop = history.scrollHeight;
+}
+
 loadStatus();
 setInterval(loadStatus, 10000);
 </script>
