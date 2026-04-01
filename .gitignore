@@ -1,0 +1,7 @@
+.env
+storage/
+__pycache__/
+*.pyc
+*.log
+engine_specs.xlsx
+vel-backups/
