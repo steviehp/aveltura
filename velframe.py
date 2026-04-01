@@ -1,9 +1,14 @@
 from textual.app import App, ComposeResult
 from textual.widgets import Header, Footer, TabbedContent, TabPane, Static, Button, Log
-from textual.containers import Horizontal, Vertical
+from textual.containers import Horizontal
 import subprocess
 import psutil
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+BASE_DIR = os.getenv("BASE_DIR", "/home/_homeos/engine-analysis")
 
 def get_service_status(service):
     result = subprocess.run(
@@ -108,7 +113,7 @@ class ScraperPane(Static):
         try:
             import pandas as pd
             import json
-            df = pd.read_csv("/home/_homeos/engine-analysis/engine_specs.csv")
+            df = pd.read_csv(os.path.join(BASE_DIR, "engine_specs.csv"))
             engine_count = df["engine"].nunique()
             row_count = len(df)
         except:
@@ -117,20 +122,20 @@ class ScraperPane(Static):
 
         try:
             import pandas as pd
-            mods_df = pd.read_csv("/home/_homeos/engine-analysis/mods_specs.csv")
+            mods_df = pd.read_csv(os.path.join(BASE_DIR, "mods_specs.csv"))
             mods_count = mods_df["mod"].nunique()
         except:
             mods_count = 0
 
         try:
-            with open("/home/_homeos/engine-analysis/scraper.log") as f:
+            with open(os.path.join(BASE_DIR, "scraper.log")) as f:
                 lines = f.readlines()
             last_scrape = lines[-1].strip() if lines else "Never"
         except:
             last_scrape = "Never"
 
         try:
-            with open("/home/_homeos/engine-analysis/cleaner.log") as f:
+            with open(os.path.join(BASE_DIR, "cleaner.log")) as f:
                 lines = f.readlines()
             last_clean = lines[-1].strip() if lines else "Never"
         except:
@@ -138,7 +143,7 @@ class ScraperPane(Static):
 
         try:
             import json
-            with open("/home/_homeos/engine-analysis/index_manifest.json") as f:
+            with open(os.path.join(BASE_DIR, "index_manifest.json")) as f:
                 manifest = json.load(f)
             index_version = manifest.get("version", 0)
             last_built = manifest.get("last_built", "Never")
@@ -160,29 +165,29 @@ class ScraperPane(Static):
         log = self.query_one("#scraper_log", Log)
         if event.button.id == "run_scraper":
             log.write("Running scraper...\n")
-            result = subprocess.run(["python3", "/home/_homeos/engine-analysis/scraper.py"], capture_output=True, text=True)
+            result = subprocess.run(["python3", os.path.join(BASE_DIR, "scraper.py")], capture_output=True, text=True)
             log.write(result.stdout)
             log.write(result.stderr)
         elif event.button.id == "run_discovery":
             log.write("Running discovery...\n")
-            result = subprocess.run(["python3", "/home/_homeos/engine-analysis/discovery.py"], capture_output=True, text=True)
+            result = subprocess.run(["python3", os.path.join(BASE_DIR, "discovery.py")], capture_output=True, text=True)
             log.write(result.stdout)
             log.write(result.stderr)
         elif event.button.id == "run_cleaner":
             log.write("Running cleaner...\n")
-            result = subprocess.run(["python3", "/home/_homeos/engine-analysis/cleaner.py"], capture_output=True, text=True)
+            result = subprocess.run(["python3", os.path.join(BASE_DIR, "cleaner.py")], capture_output=True, text=True)
             log.write(result.stdout)
             log.write(result.stderr)
         elif event.button.id == "run_ingest":
             log.write("Running ingestion...\n")
-            result = subprocess.run(["python3", "/home/_homeos/engine-analysis/ingest.py"], capture_output=True, text=True)
+            result = subprocess.run(["python3", os.path.join(BASE_DIR, "ingest.py")], capture_output=True, text=True)
             log.write(result.stdout)
             log.write(result.stderr)
         elif event.button.id == "rebuild_index":
             log.write("Rebuilding index...\n")
-            subprocess.run(["rm", "-rf", "/home/_homeos/engine-analysis/storage"])
-            subprocess.run(["rm", "-f", "/home/_homeos/engine-analysis/index_manifest.json"])
-            result = subprocess.run(["python3", "/home/_homeos/engine-analysis/rag.py"], capture_output=True, text=True)
+            subprocess.run(["rm", "-rf", os.path.join(BASE_DIR, "storage")])
+            subprocess.run(["rm", "-f", os.path.join(BASE_DIR, "index_manifest.json")])
+            result = subprocess.run(["python3", os.path.join(BASE_DIR, "rag.py")], capture_output=True, text=True)
             log.write(result.stdout)
             subprocess.run(["sudo", "systemctl", "restart", "vel"])
             log.write("Vel restarted.\n")
@@ -190,12 +195,12 @@ class ScraperPane(Static):
             log.write("Running full pipeline: backup → scrape → discover → clean → ingest → rebuild...\n")
             for script in ["backup.py", "scraper.py", "discovery.py", "cleaner.py", "ingest.py"]:
                 log.write(f"Running {script}...\n")
-                result = subprocess.run(["python3", f"/home/_homeos/engine-analysis/{script}"], capture_output=True, text=True)
+                result = subprocess.run(["python3", os.path.join(BASE_DIR, script)], capture_output=True, text=True)
                 log.write(result.stdout)
             log.write("Rebuilding index...\n")
-            subprocess.run(["rm", "-rf", "/home/_homeos/engine-analysis/storage"])
-            subprocess.run(["rm", "-f", "/home/_homeos/engine-analysis/index_manifest.json"])
-            result = subprocess.run(["python3", "/home/_homeos/engine-analysis/rag.py"], capture_output=True, text=True)
+            subprocess.run(["rm", "-rf", os.path.join(BASE_DIR, "storage")])
+            subprocess.run(["rm", "-f", os.path.join(BASE_DIR, "index_manifest.json")])
+            result = subprocess.run(["python3", os.path.join(BASE_DIR, "rag.py")], capture_output=True, text=True)
             log.write(result.stdout)
             subprocess.run(["sudo", "systemctl", "restart", "vel"])
             log.write("Full pipeline complete, Vel restarted.\n")
@@ -213,7 +218,7 @@ class QueryHistoryPane(Static):
 
     def refresh_queries(self):
         try:
-            with open("/home/_homeos/engine-analysis/query.log") as f:
+            with open(os.path.join(BASE_DIR, "query.log")) as f:
                 lines = f.readlines()
             total = len(lines)
             self.query_one("#query_stats", Static).update(
@@ -254,7 +259,7 @@ class VelFrame(App):
     }
     Button {
         margin: 1;
-        min-width: 16;
+        min-width: 20;
     }
     Log {
         height: 25;

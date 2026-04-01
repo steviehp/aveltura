@@ -2,6 +2,7 @@
 storage/
 __pycache__/
 *.pyc
+*.pyo
 *.log
 engine_specs.xlsx
 vel-backups/

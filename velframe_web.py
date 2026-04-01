@@ -1,18 +1,17 @@
 from fastapi import FastAPI, HTTPException, Depends
-from fastapi.responses import HTMLResponse, StreamingResponse
+from fastapi.responses import HTMLResponse
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-from fastapi.staticfiles import StaticFiles
 from dotenv import load_dotenv
 import subprocess
 import psutil
 import pandas as pd
 import json
 import os
-import asyncio
 
 load_dotenv()
 
 VEL_API_KEY = os.getenv("VEL_API_KEY")
+BASE_DIR = os.getenv("BASE_DIR", "/home/_homeos/engine-analysis")
 security = HTTPBearer()
 
 def verify_key(credentials: HTTPAuthorizationCredentials = Depends(security)):
@@ -49,7 +48,7 @@ def get_system_stats():
 
 def get_db_stats():
     try:
-        df = pd.read_csv("/home/_homeos/engine-analysis/engine_specs.csv")
+        df = pd.read_csv(os.path.join(BASE_DIR, "engine_specs.csv"))
         engine_count = df["engine"].nunique()
         row_count = len(df)
     except:
@@ -57,13 +56,13 @@ def get_db_stats():
         row_count = 0
 
     try:
-        mods_df = pd.read_csv("/home/_homeos/engine-analysis/mods_specs.csv")
+        mods_df = pd.read_csv(os.path.join(BASE_DIR, "mods_specs.csv"))
         mods_count = mods_df["mod"].nunique()
     except:
         mods_count = 0
 
     try:
-        with open("/home/_homeos/engine-analysis/index_manifest.json") as f:
+        with open(os.path.join(BASE_DIR, "index_manifest.json")) as f:
             manifest = json.load(f)
         index_version = manifest.get("version", 0)
         last_built = manifest.get("last_built", "Never")
@@ -72,7 +71,7 @@ def get_db_stats():
         last_built = "Never"
 
     try:
-        with open("/home/_homeos/engine-analysis/scraper.log") as f:
+        with open(os.path.join(BASE_DIR, "scraper.log")) as f:
             lines = f.readlines()
         last_scrape = lines[-1].strip() if lines else "Never"
     except:
@@ -121,7 +120,7 @@ async def run_script(script: str, key: str = Depends(verify_key)):
     if script not in allowed:
         raise HTTPException(status_code=400, detail="Invalid script")
     result = subprocess.run(
-        ["python3", f"/home/_homeos/engine-analysis/{script}.py"],
+        ["python3", os.path.join(BASE_DIR, f"{script}.py")],
         capture_output=True, text=True
     )
     return {"output": result.stdout, "errors": result.stderr}
@@ -134,7 +133,7 @@ async def reset_faillock(key: str = Depends(verify_key)):
 @app.get("/api/queries")
 async def queries():
     try:
-        with open("/home/_homeos/engine-analysis/query.log") as f:
+        with open(os.path.join(BASE_DIR, "query.log")) as f:
             lines = f.readlines()
         return {"total": len(lines), "recent": [l.strip() for l in lines[-50:]]}
     except:
@@ -142,5 +141,5 @@ async def queries():
 
 @app.get("/", response_class=HTMLResponse)
 async def index():
-    with open("/home/_homeos/engine-analysis/velframe_ui.html") as f:
+    with open(os.path.join(BASE_DIR, "velframe_ui.html")) as f:
         return f.read()
