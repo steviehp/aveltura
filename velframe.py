@@ -1,5 +1,5 @@
 from textual.app import App, ComposeResult
-from textual.widgets import Header, Footer, TabbedContent, TabPane, Static, Button, Log, DataTable
+from textual.widgets import Header, Footer, TabbedContent, TabPane, Static, Button, Log
 from textual.containers import Horizontal, Vertical
 import subprocess
 import psutil
@@ -94,6 +94,8 @@ class ScraperPane(Static):
             yield Button("Run Scraper", id="run_scraper", variant="success")
             yield Button("Run Discovery", id="run_discovery", variant="success")
             yield Button("Run Cleaner", id="run_cleaner", variant="warning")
+            yield Button("Ingest Files", id="run_ingest", variant="success")
+        with Horizontal():
             yield Button("Rebuild Index", id="rebuild_index", variant="warning")
             yield Button("Full Pipeline", id="full_pipeline", variant="error")
         yield Log(id="scraper_log")
@@ -105,12 +107,20 @@ class ScraperPane(Static):
     def refresh_info(self):
         try:
             import pandas as pd
+            import json
             df = pd.read_csv("/home/_homeos/engine-analysis/engine_specs.csv")
             engine_count = df["engine"].nunique()
             row_count = len(df)
         except:
             engine_count = 0
             row_count = 0
+
+        try:
+            import pandas as pd
+            mods_df = pd.read_csv("/home/_homeos/engine-analysis/mods_specs.csv")
+            mods_count = mods_df["mod"].nunique()
+        except:
+            mods_count = 0
 
         try:
             with open("/home/_homeos/engine-analysis/scraper.log") as f:
@@ -126,11 +136,24 @@ class ScraperPane(Static):
         except:
             last_clean = "Never"
 
+        try:
+            import json
+            with open("/home/_homeos/engine-analysis/index_manifest.json") as f:
+                manifest = json.load(f)
+            index_version = manifest.get("version", 0)
+            last_built = manifest.get("last_built", "Never")
+        except:
+            index_version = 0
+            last_built = "Never"
+
         self.query_one("#scraper_info", Static).update(
-            f"[bold]Engines in DB:[/bold] {engine_count}  |  "
-            f"[bold]Total rows:[/bold] {row_count}\n"
+            f"[bold]Engines:[/bold] {engine_count}  |  "
+            f"[bold]Mods:[/bold] {mods_count}  |  "
+            f"[bold]Rows:[/bold] {row_count}  |  "
+            f"[bold]Index v{index_version}[/bold]\n"
             f"[bold]Last scrape:[/bold] {last_scrape}\n"
             f"[bold]Last clean:[/bold] {last_clean}\n"
+            f"[bold]Last built:[/bold] {last_built}\n"
         )
 
     def on_button_pressed(self, event: Button.Pressed):
@@ -139,29 +162,39 @@ class ScraperPane(Static):
             log.write("Running scraper...\n")
             result = subprocess.run(["python3", "/home/_homeos/engine-analysis/scraper.py"], capture_output=True, text=True)
             log.write(result.stdout)
+            log.write(result.stderr)
         elif event.button.id == "run_discovery":
             log.write("Running discovery...\n")
             result = subprocess.run(["python3", "/home/_homeos/engine-analysis/discovery.py"], capture_output=True, text=True)
             log.write(result.stdout)
+            log.write(result.stderr)
         elif event.button.id == "run_cleaner":
             log.write("Running cleaner...\n")
             result = subprocess.run(["python3", "/home/_homeos/engine-analysis/cleaner.py"], capture_output=True, text=True)
             log.write(result.stdout)
+            log.write(result.stderr)
+        elif event.button.id == "run_ingest":
+            log.write("Running ingestion...\n")
+            result = subprocess.run(["python3", "/home/_homeos/engine-analysis/ingest.py"], capture_output=True, text=True)
+            log.write(result.stdout)
+            log.write(result.stderr)
         elif event.button.id == "rebuild_index":
             log.write("Rebuilding index...\n")
             subprocess.run(["rm", "-rf", "/home/_homeos/engine-analysis/storage"])
+            subprocess.run(["rm", "-f", "/home/_homeos/engine-analysis/index_manifest.json"])
             result = subprocess.run(["python3", "/home/_homeos/engine-analysis/rag.py"], capture_output=True, text=True)
             log.write(result.stdout)
             subprocess.run(["sudo", "systemctl", "restart", "vel"])
             log.write("Vel restarted.\n")
         elif event.button.id == "full_pipeline":
-            log.write("Running full pipeline: scrape → discover → clean → rebuild...\n")
-            for script in ["scraper.py", "discovery.py", "cleaner.py"]:
+            log.write("Running full pipeline: backup → scrape → discover → clean → ingest → rebuild...\n")
+            for script in ["backup.py", "scraper.py", "discovery.py", "cleaner.py", "ingest.py"]:
                 log.write(f"Running {script}...\n")
                 result = subprocess.run(["python3", f"/home/_homeos/engine-analysis/{script}"], capture_output=True, text=True)
                 log.write(result.stdout)
             log.write("Rebuilding index...\n")
             subprocess.run(["rm", "-rf", "/home/_homeos/engine-analysis/storage"])
+            subprocess.run(["rm", "-f", "/home/_homeos/engine-analysis/index_manifest.json"])
             result = subprocess.run(["python3", "/home/_homeos/engine-analysis/rag.py"], capture_output=True, text=True)
             log.write(result.stdout)
             subprocess.run(["sudo", "systemctl", "restart", "vel"])
@@ -221,6 +254,7 @@ class VelFrame(App):
     }
     Button {
         margin: 1;
+        min-width: 16;
     }
     Log {
         height: 25;
