@@ -7,8 +7,11 @@ from scraper import search_wikipedia, scrape_engine
 
 load_dotenv()
 
+import os
+BASE_DIR = os.getenv("BASE_DIR", "/home/_homeos/engine-analysis")
+
 logging.basicConfig(
-    filename="discovery.log",
+    filename=os.path.join(BASE_DIR, "discovery.log"),
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -35,9 +38,27 @@ SEED_CATEGORIES = [
 def normalize(name):
     return name.lower().strip().replace("-", " ").replace("_", " ")
 
+def is_valid_engine(title):
+    title_lower = title.lower()
+    # Skip list pages
+    if "list of" in title_lower:
+        return False
+    if title_lower.startswith("list"):
+        return False
+    # Skip disambiguation pages
+    if "disambiguation" in title_lower:
+        return False
+    # Skip category pages
+    if "category:" in title_lower:
+        return False
+    # Must mention engine or motor
+    if "engine" not in title_lower and "motor" not in title_lower:
+        return False
+    return True
+
 def get_existing_engines():
     try:
-        df = pd.read_csv("engine_specs.csv")
+        df = pd.read_csv(os.path.join(BASE_DIR, "engine_specs.csv"))
         return set(df["engine"].unique())
     except:
         return set()
@@ -63,7 +84,7 @@ def discover_engines_from_category(category):
         results = data.get("query", {}).get("search", [])
         for r in results:
             title = r["title"]
-            if "engine" in title.lower() or "motor" in title.lower():
+            if is_valid_engine(title):
                 discovered.append(title)
     except Exception as e:
         logging.error(f"Discovery failed for {category}: {e}")
@@ -97,6 +118,9 @@ def run_discovery():
             deduped.append(e)
     new_engines = deduped
 
+    # Filter out list pages from new engines too
+    new_engines = [e for e in new_engines if is_valid_engine(e)]
+
     print(f"Found {len(new_engines)} new engines to add")
     logging.info(f"Found {len(new_engines)} new engines")
 
@@ -114,12 +138,12 @@ def run_discovery():
             logging.info(f"Added new engine: {engine}")
 
     if new_data:
-        existing_df = pd.read_csv("engine_specs.csv")
+        existing_df = pd.read_csv(os.path.join(BASE_DIR, "engine_specs.csv"))
         new_df = pd.DataFrame(new_data)
         combined = pd.concat([existing_df, new_df], ignore_index=True)
-        combined = combined.drop_duplicates(subset=["engine", "spec"], keep="first")
-        combined.to_csv("engine_specs.csv", index=False)
-        combined.to_excel("engine_specs.xlsx", index=False)
+        combined = combined.drop_duplicates(subset=["engine", "variant", "spec"], keep="first")
+        combined.to_csv(os.path.join(BASE_DIR, "engine_specs.csv"), index=False)
+        combined.to_excel(os.path.join(BASE_DIR, "engine_specs.xlsx"), index=False)
         print(f"Added {len(new_data)} new rows to database")
         logging.info(f"Discovery complete: added {len(new_data)} rows")
     else:

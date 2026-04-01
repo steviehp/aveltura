@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends, Request
 from fastapi.responses import StreamingResponse
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from llama_index.core import StorageContext, load_index_from_storage
 from llama_index.llms.ollama import Ollama
@@ -40,6 +41,7 @@ security = HTTPBearer()
 limiter = Limiter(key_func=get_remote_address)
 
 app = FastAPI(title="Vel")
+app.mount("/charts", StaticFiles(directory=os.path.join(BASE_DIR, "charts")), name="charts")
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
@@ -164,3 +166,36 @@ async def stats_regression(request: dict):
     target = request.get("target")
     predictors = request.get("predictors", [])
     return regression_analysis(target, predictors)
+
+@app.post("/viz/scatter", dependencies=[Depends(verify_key)])
+async def viz_scatter(request: dict):
+    from viz_engine import scatter_plot
+    return scatter_plot(request.get("x"), request.get("y"), request.get("title"))
+
+@app.post("/viz/bar", dependencies=[Depends(verify_key)])
+async def viz_bar(request: dict):
+    from viz_engine import bar_chart
+    return bar_chart(request.get("spec"), request.get("top_n", 15), request.get("title"))
+
+@app.post("/viz/histogram", dependencies=[Depends(verify_key)])
+async def viz_histogram(request: dict):
+    from viz_engine import histogram
+    return histogram(request.get("spec"), request.get("title"))
+
+@app.post("/viz/heatmap", dependencies=[Depends(verify_key)])
+async def viz_heatmap():
+    from viz_engine import correlation_heatmap
+    return correlation_heatmap()
+
+@app.post("/viz/compare", dependencies=[Depends(verify_key)])
+async def viz_compare(request: dict):
+    from viz_engine import compare_engines
+    return compare_engines(request.get("engines", []), request.get("spec"))
+
+@app.get("/viz/list")
+async def viz_list():
+    charts_dir = os.path.join(BASE_DIR, "charts")
+    if not os.path.exists(charts_dir):
+        return {"charts": []}
+    charts = [f for f in os.listdir(charts_dir) if f.endswith(".html")]
+    return {"charts": charts}
