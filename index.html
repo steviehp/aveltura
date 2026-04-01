@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aveltura — Vel</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: 'Courier New', monospace;
+      overflow-x: hidden;
+    }
+
+    /* Animated grid background */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-image: 
+        linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);
+      background-size: 50px 50px;
+      z-index: 0;
+      animation: gridMove 20s linear infinite;
+    }
+
+    @keyframes gridMove {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(50px, 50px); }
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 80px 0 60px;
+    }
+
+    .logo {
+      font-size: 72px;
+      font-weight: 900;
+      letter-spacing: -2px;
+      background: linear-gradient(135deg, #00ff88, #00aaff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #888;
+      margin-top: 16px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #555;
+      margin-top: 8px;
+      font-style: italic;
+    }
+
+    /* Terminal card */
+    .terminal {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 8px;
+      padding: 24px;
+      margin: 40px 0;
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .terminal-header {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    .dot-red { background: #ff5f57; }
+    .dot-yellow { background: #ffbd2e; }
+    .dot-green { background: #28ca41; }
+
+    .terminal p { color: #888; }
+    .terminal .prompt { color: #00ff88; }
+    .terminal .response { color: #e0e0e0; margin-left: 16px; }
+    .terminal .comment { color: #555; }
+
+    /* What is this */
+    .section {
+      margin: 60px 0;
+    }
+
+    .section-title {
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #00ff88;
+      margin-bottom: 16px;
+    }
+
+    .section-body {
+      font-size: 15px;
+      line-height: 1.8;
+      color: #aaa;
+    }
+
+    .section-body strong {
+      color: #e0e0e0;
+    }
+
+    /* Cards */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #1a1a1a;
+      border-radius: 8px;
+      padding: 20px;
+      transition: border-color 0.2s;
+    }
+
+    .card:hover {
+      border-color: #00ff88;
+    }
+
+    .card-title {
+      font-size: 13px;
+      font-weight: bold;
+      color: #00ff88;
+      margin-bottom: 8px;
+    }
+
+    .card-body {
+      font-size: 12px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    /* Roadmap */
+    .roadmap {
+      margin: 24px 0;
+    }
+
+    .phase {
+      display: flex;
+      gap: 16px;
+      padding: 12px 0;
+      border-bottom: 1px solid #1a1a1a;
+      align-items: flex-start;
+    }
+
+    .phase-num {
+      font-size: 11px;
+      color: #555;
+      min-width: 60px;
+      padding-top: 2px;
+    }
+
+    .phase-name {
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    .phase-name.done {
+      color: #00ff88;
+    }
+
+    .phase-name.done::after {
+      content: ' ✓';
+      color: #00ff88;
+    }
+
+    .badge {
+      font-size: 10px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 8px;
+    }
+
+    .badge-done { background: #00ff8820; color: #00ff88; }
+    .badge-soon { background: #00aaff20; color: #00aaff; }
+    .badge-planned { background: #ffffff10; color: #555; }
+
+    /* Stack */
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 16px 0;
+    }
+
+    .tag {
+      font-size: 11px;
+      padding: 4px 12px;
+      border-radius: 4px;
+      background: #1a1a1a;
+      color: #888;
+      border: 1px solid #222;
+    }
+
+    /* Products */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    .product {
+      background: #111;
+      border: 1px solid #1a1a1a;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .product-name {
+      font-size: 16px;
+      font-weight: bold;
+      color: #e0e0e0;
+      margin-bottom: 4px;
+    }
+
+    .product-status {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .status-active { color: #00ff88; }
+    .status-planned { color: #555; }
+
+    .product-desc {
+      font-size: 12px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 60px 0 40px;
+      color: #333;
+      font-size: 12px;
+    }
+
+    .footer a {
+      color: #00ff88;
+      text-decoration: none;
+    }
+
+    /* Cursor blink */
+    .cursor {
+      display: inline-block;
+      width: 8px;
+      height: 14px;
+      background: #00ff88;
+      animation: blink 1s step-end infinite;
+      vertical-align: middle;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="logo">Aveltura</div>
+      <div class="tagline">Mathematical Optimization Engine</div>
+      <div class="subtitle">drop in data. get answers. know why.</div>
+    </div>
+
+    <!-- Terminal demo -->
+    <div class="terminal">
+      <div class="terminal-header">
+        <div class="dot dot-red"></div>
+        <div class="dot dot-yellow"></div>
+        <div class="dot dot-green"></div>
+      </div>
+      <p><span class="prompt">vel ›</span> compare 2JZ-GTE and LS3 for forced induction potential</p>
+      <p class="response">The 2JZ-GTE runs a twin-turbo inline-6 with cast iron block — handles boost pressure up to 800hp+ on stock internals. The LS3 is a 6.2L V8 with aluminum block, naturally aspirated by design but responds well to supercharger kits. For high boost builds the 2JZ has the edge on bottom end durability. The LS3 wins on displacement and peak power ceiling with proper forced induction setup.</p>
+      <br>
+      <p><span class="prompt">vel ›</span> what block material handles sustained boost better and why</p>
+      <p class="response">Cast iron. Higher density means better thermal mass — it absorbs and distributes heat more evenly under sustained boost. Aluminum expands faster under heat which can cause seal failures at high boost over time. Cast iron blocks like the 2JZ and RB26 are why those engines have a reputation for surviving big power numbers on stock blocks.</p>
+      <br>
+      <p class="comment"># running on local hardware. no cloud. no subscription. yours.</p>
+      <span class="cursor"></span>
+    </div>
+
+    <!-- What is this -->
+    <div class="section">
+      <div class="section-title">What is this</div>
+      <div class="section-body">
+        You drop in data. Vel scans it, figures out what can be better, tells you <strong>how and why</strong>, and backs it up with graphs, tables, and full reports. No cloud. No subscription. <strong>Runs on hardware you own.</strong>
+        <br><br>
+        Started as a way to optimize an SC300 build. Turned into a universal optimization engine. Every night at midnight it scrapes fresh data, discovers new entries, cleans garbage, and rebuilds its knowledge base automatically. <strong>It gets smarter while you sleep.</strong>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <div class="section">
+      <div class="section-title">How it works</div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-title">RAG Pipeline</div>
+          <div class="card-body">Reads your data first, then answers questions using that data as context. Not vibes from the internet — your actual dataset.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Self Growing</div>
+          <div class="card-body">Midnight pipeline scrapes, discovers, cleans, and rebuilds automatically. New data every night without touching anything.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Fully Local</div>
+          <div class="card-body">Runs on your hardware. Mistral 7B via Ollama. No API calls to OpenAI. No data leaves your machine.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Velframe</div>
+          <div class="card-body">TUI control panel. SSH in, type velframe, see everything. Live logs, restart buttons, scraper controls, query history.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tech stack -->
+    <div class="section">
+      <div class="section-title">Stack</div>
+      <div class="stack">
+        <span class="tag">Mistral 7B</span>
+        <span class="tag">Ollama</span>
+        <span class="tag">LlamaIndex</span>
+        <span class="tag">FastAPI</span>
+        <span class="tag">Open WebUI</span>
+        <span class="tag">Textual</span>
+        <span class="tag">Tailscale</span>
+        <span class="tag">Python</span>
+        <span class="tag">systemd</span>
+        <span class="tag">Docker</span>
+        <span class="tag">btrfs</span>
+        <span class="tag">CachyOS</span>
+      </div>
+      <div class="section-body" style="margin-top: 12px; font-size: 13px;">
+        Running on a repurposed HP ZBook — i7-9850H, 23GB RAM, Quadro T2000, 990 Pro SSD. Started as a "what do I do with this laptop." Now it's a homelab server running a full AI stack 24/7.
+      </div>
+    </div>
+
+    <!-- Roadmap -->
+    <div class="section">
+      <div class="section-title">Roadmap</div>
+      <div class="roadmap">
+        <div class="phase"><span class="phase-num">Phase 1-6</span><span class="phase-name done">Foundation, Velframe, Scraper, Intelligence, Security</span><span class="badge badge-done">done</span></div>
+        <div class="phase"><span class="phase-num">Phase 7</span><span class="phase-name">Hardware ready — GPU auto detection, Docker Compose</span><span class="badge badge-soon">soon</span></div>
+        <div class="phase"><span class="phase-num">Phase 8</span><span class="phase-name">Expand knowledge — mods database, file upload ingestion</span><span class="badge badge-soon">soon</span></div>
+        <div class="phase"><span class="phase-num">Phase 8.5</span><span class="phase-name">Velframe web UI — browser based control panel</span><span class="badge badge-planned">planned</span></div>
+        <div class="phase"><span class="phase-num">Phase 9</span><span class="phase-name">Vel Chat in Velframe — query without a browser</span><span class="badge badge-planned">planned</span></div>
+        <div class="phase"><span class="phase-num">Phase 10</span><span class="phase-name">Math layer — scipy, statsmodels, correlation engine</span><span class="badge badge-planned">planned</span></div>
+        <div class="phase"><span class="phase-num">Phase 11</span><span class="phase-name">Visualization — plotly charts, optimization curves</span><span class="badge badge-planned">planned</span></div>
+        <div class="phase"><span class="phase-num">Phase 12</span><span class="phase-name">Tableau export — .twbx workbooks, pre-built dashboards</span><span class="badge badge-planned">planned</span></div>
+        <div class="phase"><span class="phase-num">Phase 13</span><span class="phase-name">Report generation — PDF engineering reports</span><span class="badge badge-planned">planned</span></div>
+        <div class="phase"><span class="phase-num">Phase 14</span><span class="phase-name">Universal datasets — optimize anything not just engines</span><span class="badge badge-planned">planned</span></div>
+        <div class="phase"><span class="phase-num">Phase 15</span><span class="phase-name">Autonomous learning — feedback loops, self improvement</span><span class="badge badge-planned">planned</span></div>
+      </div>
+    </div>
+
+    <!-- Products -->
+    <div class="section">
+      <div class="section-title">The Suite</div>
+      <div class="products">
+        <div class="product">
+          <div class="product-name">Vel</div>
+          <div class="product-status status-active">Active</div>
+          <div class="product-desc">Universal mathematical optimizer. Engineering grade. Drop in any dataset, get optimization recommendations, graphs, and reports.</div>
+        </div>
+        <div class="product">
+          <div class="product-name">FieldTech</div>
+          <div class="product-status status-planned">Planned</div>
+          <div class="product-desc">For HVAC techs and appliance installers. Pull manuals, diagnose installs, safety checks. Makes junior techs as effective as senior ones.</div>
+        </div>
+        <div class="product">
+          <div class="product-name">MechAI</div>
+          <div class="product-status status-planned">Planned</div>
+          <div class="product-desc">Car diagnostics with OBD2 integration. Listens to your engine, reads error codes, tracks maintenance by GPS odometer. Knows your exact car.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <a href="https://github.com/steviehp/aveltura">github.com/steviehp/aveltura</a>
+      <br><br>
+      built different
+    </div>
+
+  </div>
+</body>
+</html>
