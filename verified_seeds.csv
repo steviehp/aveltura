@@ -29,3 +29,33 @@ Nissan VQ35DE,base,3498,306,363,95.5,81.4,10.3,Aluminum,Aluminum,V6,verified_man
 Honda F20C,base,1997,240,208,87,83.6,11.7,Aluminum,Aluminum,Straight-4,verified_manual
 Subaru FA20,base,1998,197,205,86,86,12.5,Aluminum,Aluminum,Flat-4,verified_manual
 Toyota 1UR-FE,base,4969,381,530,94,83,10.9,Aluminum,Aluminum,V8,verified_manual
+Nissan VQ37VHR,base,3696,332,363,95.5,86.4,11.0,Aluminum,Aluminum,V6,verified_manual
+Nissan VR38DETT,base,3799,480,588,95.5,88.4,9.0,Aluminum,Aluminum,V6,verified_manual
+BMW B58B30,base,2998,335,500,82,94.6,11.0,Aluminum,Aluminum,Straight-6,verified_manual
+BMW B48B20,base,1998,255,400,82,94.6,11.0,Aluminum,Aluminum,Straight-4,verified_manual
+BMW S58B30,base,2993,503,600,84,89.6,9.3,Aluminum,Aluminum,Straight-6,verified_manual
+Mercedes M177,base,3982,503,700,83,92.4,8.6,Aluminum,Aluminum,V8,verified_manual
+Mercedes M159,base,6208,571,650,102.2,94.6,11.3,Aluminum,Aluminum,V8,verified_manual
+Mercedes OM642,base,2987,224,540,83,92.0,17.7,Aluminum,Aluminum,V6,verified_manual
+McLaren M840T,base,3994,710,770,86.1,85.8,8.7,Aluminum,Aluminum,V8,verified_manual
+Bugatti WR16,base,7993,1001,1250,86,86,9.0,Aluminum,Aluminum,W16,verified_manual
+Ferrari F154 CB,base,3902,660,760,86.5,83.1,9.4,Aluminum,Aluminum,V8,verified_manual
+Lamborghini V10 5.2,base,5204,610,560,84.5,92.8,12.7,Aluminum,Aluminum,V10,verified_manual
+Aston Martin AM28,base,5204,528,625,97,88,9.5,Aluminum,Aluminum,V12,verified_manual
+Porsche MA1 4.0,base,3996,500,570,102,81.5,12.5,Aluminum,Aluminum,Flat-6,verified_manual
+Toyota 1LR-GUE,base,4805,553,480,88.5,97.0,11.8,Aluminum,Aluminum,V10,verified_manual
+Honda C32B,base,3179,276,304,93,78,10.2,Aluminum,Aluminum,V6,verified_manual
+Mazda 13B-REW,base,1308,255,294,,,9.0,,,Rotary,verified_manual
+Ford 7.3 Godzilla,base,7322,430,678,107.7,101.6,10.5,Cast iron,Aluminum,V8,verified_manual
+Chevrolet LT2,base,6162,495,637,103.25,92,11.5,Aluminum,Aluminum,V8,verified_manual
+Dodge 6.2 Demon,base,6166,840,770,103.9,90.9,9.5,Cast iron,Aluminum,V8,verified_manual
+Cadillac LT4,base,6162,650,855,103.25,92,10.0,Aluminum,Aluminum,V8,verified_manual
+Mitsubishi 4B11T,base,1998,291,422,86,86,9.0,Aluminum,Aluminum,Straight-4,verified_manual
+Subaru EJ207,base,1994,280,392,92,75,8.0,Aluminum,Aluminum,Flat-4,verified_manual
+Toyota 2GR-FE,base,3456,277,336,94.5,83,10.8,Aluminum,Aluminum,V6,verified_manual
+Toyota 2GR-FSE,base,3456,311,377,94.5,83,12.0,Aluminum,Aluminum,V6,verified_manual
+Honda J35Y,base,3471,280,355,89,93,11.5,Aluminum,Aluminum,V6,verified_manual
+Kia Lambda II,base,3342,365,510,96,77.4,11.5,Aluminum,Aluminum,V6,verified_manual
+Kia Theta II,base,1998,255,353,86,86,9.5,Aluminum,Aluminum,Straight-4,verified_manual
+Volkswagen VR6,base,2792,200,280,81,90.3,10.5,Aluminum,Aluminum,VR6,verified_manual
+BMW M62B44,base,4398,286,440,92,82.7,10.0,Aluminum,Aluminum,V8,verified_manual
