@@ -232,7 +232,6 @@ def merge_with_seeds(normalized_df, seeds_df):
     if seeds_df.empty:
         return normalized_df
 
-    # Force numeric columns to float first
     for col in NUMERIC_COLS:
         if col in normalized_df.columns:
             normalized_df[col] = pd.to_numeric(normalized_df[col], errors="coerce")
@@ -250,12 +249,14 @@ def merge_with_seeds(normalized_df, seeds_df):
             for col in TEXT_COLS:
                 if col in seed_row and not pd.isna(seed_row[col]):
                     normalized_df.loc[mask, col] = str(seed_row[col])
+            normalized_df.loc[mask, "confidence"] = "verified_manual"
             print(f"  Updated verified specs for {engine} ({variant})")
         else:
             new_row = {
                 "engine": engine,
                 "variant": variant,
                 "engine_variant": seed_row["engine_variant"],
+                "confidence": "verified_manual"
             }
             for col in NUMERIC_COLS:
                 if col in seed_row and not pd.isna(seed_row[col]):
@@ -265,6 +266,22 @@ def merge_with_seeds(normalized_df, seeds_df):
                     new_row[col] = str(seed_row[col])
             normalized_df = pd.concat([normalized_df, pd.DataFrame([new_row])], ignore_index=True)
             print(f"  Added verified engine: {engine} ({variant})")
+
+    return normalized_df
+
+def mark_epa_verified(normalized_df):
+    epa_path = os.path.join(BASE_DIR, "engine_specs.csv")
+    if not os.path.exists(epa_path):
+        return normalized_df
+
+    epa_df = pd.read_csv(epa_path)
+    epa_engines = epa_df[epa_df["source"].str.contains("EPA", na=False)]["engine"].unique()
+
+    for engine in epa_engines:
+        mask = (normalized_df["engine"] == engine) & (normalized_df["confidence"] != "verified_manual")
+        if mask.any():
+            normalized_df.loc[mask, "confidence"] = "epa_verified"
+            print(f"  EPA verified: {engine}")
 
     return normalized_df
 
@@ -295,7 +312,8 @@ def run_normalizer():
         row = {
             "engine": engine_name,
             "variant": variant_name,
-            "engine_variant": f"{engine_name} ({variant_name})" if variant_name != "base" else engine_name
+            "engine_variant": f"{engine_name} ({variant_name})" if variant_name != "base" else engine_name,
+            "confidence": "wikipedia_single"
         }
 
         hp_in_variant = re.findall(r'(\d+)\s*hp', variant_name, re.IGNORECASE)
@@ -333,7 +351,6 @@ def run_normalizer():
 
     normalized_df = pd.DataFrame(normalized_rows)
 
-    # Force all numeric columns to float
     for col in NUMERIC_COLS:
         if col in normalized_df.columns:
             normalized_df[col] = pd.to_numeric(normalized_df[col], errors="coerce")
@@ -348,11 +365,20 @@ def run_normalizer():
     seeds_df = load_verified_seeds()
     normalized_df = merge_with_seeds(normalized_df, seeds_df)
 
+    print("Marking EPA verified engines...")
+    normalized_df = mark_epa_verified(normalized_df)
+
     output_path = os.path.join(BASE_DIR, "engine_normalized.csv")
     normalized_df.to_csv(output_path, index=False)
 
     print(f"\nNormalized {len(normalized_df)} engine variants")
     print(f"Columns: {list(normalized_df.columns)}")
+
+    # Show confidence breakdown
+    if "confidence" in normalized_df.columns:
+        print("\nConfidence breakdown:")
+        print(normalized_df["confidence"].value_counts().to_string())
+
     logging.info(f"Normalization complete: {len(normalized_df)} variants")
 
     return normalized_df
@@ -361,6 +387,6 @@ if __name__ == "__main__":
     df = run_normalizer()
     print("\nEngines with both displacement AND power_hp:")
     if "power_hp" in df.columns and "displacement" in df.columns:
-        both = df[["engine_variant", "displacement", "power_hp"]].dropna()
+        both = df[["engine_variant", "displacement", "power_hp", "confidence"]].dropna(subset=["displacement", "power_hp"])
         print(f"Count: {len(both)}")
         print(both.to_string())
