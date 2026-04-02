@@ -34,6 +34,9 @@ SPEC_MAPPING = {
     "predecessor": ["predecessor", "replaced"],
 }
 
+NUMERIC_COLS = ["displacement", "power_hp", "torque_nm", "bore_mm", "stroke_mm", "compression_ratio", "redline_rpm"]
+TEXT_COLS = ["block_material", "head_material", "configuration"]
+
 def normalize_spec_name(spec):
     spec_lower = spec.lower().strip()
     for standard_name, variations in SPEC_MAPPING.items():
@@ -189,11 +192,6 @@ def detect_shared_bad_values(normalized_df):
     return normalized_df
 
 def cross_validate_specs(normalized_df):
-    """
-    Cross validate displacement vs power_hp ratio.
-    Real engines: 0.02 to 0.5 HP per cc
-    If ratio is outside this range, null the less reliable value.
-    """
     if "displacement" not in normalized_df.columns or "power_hp" not in normalized_df.columns:
         return normalized_df
 
@@ -215,6 +213,58 @@ def cross_validate_specs(normalized_df):
         elif ratio < 0.02:
             print(f"  Cross-validate: nulled power_hp {hp} for {row['engine_variant']} (ratio {round(ratio,3)} HP/cc)")
             normalized_df.at[idx, "power_hp"] = None
+
+    return normalized_df
+
+def load_verified_seeds():
+    seeds_path = os.path.join(BASE_DIR, "verified_seeds.csv")
+    if not os.path.exists(seeds_path):
+        return pd.DataFrame()
+    df = pd.read_csv(seeds_path)
+    df["engine_variant"] = df.apply(
+        lambda r: f"{r['engine']} ({r['variant']})" if r['variant'] != "base" else r['engine'],
+        axis=1
+    )
+    print(f"Loaded {len(df)} verified seed engines")
+    return df
+
+def merge_with_seeds(normalized_df, seeds_df):
+    if seeds_df.empty:
+        return normalized_df
+
+    # Force numeric columns to float first
+    for col in NUMERIC_COLS:
+        if col in normalized_df.columns:
+            normalized_df[col] = pd.to_numeric(normalized_df[col], errors="coerce")
+
+    for _, seed_row in seeds_df.iterrows():
+        engine = seed_row["engine"]
+        variant = seed_row["variant"]
+
+        mask = (normalized_df["engine"] == engine) & (normalized_df["variant"] == variant)
+
+        if mask.any():
+            for col in NUMERIC_COLS:
+                if col in seed_row and not pd.isna(seed_row[col]):
+                    normalized_df.loc[mask, col] = float(seed_row[col])
+            for col in TEXT_COLS:
+                if col in seed_row and not pd.isna(seed_row[col]):
+                    normalized_df.loc[mask, col] = str(seed_row[col])
+            print(f"  Updated verified specs for {engine} ({variant})")
+        else:
+            new_row = {
+                "engine": engine,
+                "variant": variant,
+                "engine_variant": seed_row["engine_variant"],
+            }
+            for col in NUMERIC_COLS:
+                if col in seed_row and not pd.isna(seed_row[col]):
+                    new_row[col] = float(seed_row[col])
+            for col in TEXT_COLS:
+                if col in seed_row and not pd.isna(seed_row[col]):
+                    new_row[col] = str(seed_row[col])
+            normalized_df = pd.concat([normalized_df, pd.DataFrame([new_row])], ignore_index=True)
+            print(f"  Added verified engine: {engine} ({variant})")
 
     return normalized_df
 
@@ -283,16 +333,25 @@ def run_normalizer():
 
     normalized_df = pd.DataFrame(normalized_rows)
 
+    # Force all numeric columns to float
+    for col in NUMERIC_COLS:
+        if col in normalized_df.columns:
+            normalized_df[col] = pd.to_numeric(normalized_df[col], errors="coerce")
+
     print("Detecting shared bad values...")
     normalized_df = detect_shared_bad_values(normalized_df)
 
     print("Cross validating specs...")
     normalized_df = cross_validate_specs(normalized_df)
 
+    print("Merging verified seeds...")
+    seeds_df = load_verified_seeds()
+    normalized_df = merge_with_seeds(normalized_df, seeds_df)
+
     output_path = os.path.join(BASE_DIR, "engine_normalized.csv")
     normalized_df.to_csv(output_path, index=False)
 
-    print(f"Normalized {len(normalized_df)} engine variants")
+    print(f"\nNormalized {len(normalized_df)} engine variants")
     print(f"Columns: {list(normalized_df.columns)}")
     logging.info(f"Normalization complete: {len(normalized_df)} variants")
 

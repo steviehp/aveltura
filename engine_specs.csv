@@ -25,7 +25,7 @@ Nissan SR engine,1.6L,Type:,"Water cooled, 4 cycle in-line 4 cylinder",https://e
 Nissan SR engine,1.6L,Combustion Chamber:,"Cross flow,pentrooftype",https://en.wikipedia.org/wiki/Nissan_SR_engine,2026-04-01T16:26:03.849840
 Nissan SR engine,1.6L,Valve mechanism:,"DOHC, 4 valves per cylinder,chain drive",https://en.wikipedia.org/wiki/Nissan_SR_engine,2026-04-01T16:26:03.849841
 Nissan SR engine,1.6L,Displacement:,"1,998 cc (2.0 L)",https://en.wikipedia.org/wiki/Nissan_SR_engine,2026-04-01T16:26:03.849842
-Nissan SR engine,1.6L,Bore x Stroke:,86 mm  86 mm (3.39 in  3.39 in),https://en.wikipedia.org/wiki/Nissan_SR_engine,2026-04-01T16:26:03.849843
+Nissan SR engine,1.6L,Bore x Stroke:,86 mm 86 mm (3.39 in 3.39 in),https://en.wikipedia.org/wiki/Nissan_SR_engine,2026-04-01T16:26:03.849843
 Nissan SR engine,1.6L,Bore Pitch:,97 mm (3.82 in),https://en.wikipedia.org/wiki/Nissan_SR_engine,2026-04-01T16:26:03.849844
 Nissan SR engine,1.6L,Block Height:,211.3 mm (8.32 in),https://en.wikipedia.org/wiki/Nissan_SR_engine,2026-04-01T16:26:03.849845
 Nissan SR engine,1.6L,Compression ratio:,10.0:1,https://en.wikipedia.org/wiki/Nissan_SR_engine,2026-04-01T16:26:03.849848
@@ -368,7 +368,7 @@ Nissan VQ engine,base,Valvetrain,DOHC4 valvesx cyl. withVVT,https://en.wikipedia
 Nissan VQ engine,base,Predecessor,Nissan VE engineNissan VG engineV6 ESL engine,https://en.wikipedia.org/wiki/Nissan_VQ_engine,2026-04-01T16:26:07.016620
 Nissan VQ engine,base,Successor,Nissan VR engine,https://en.wikipedia.org/wiki/Nissan_VQ_engine,2026-04-01T16:26:07.016621
 Nissan VQ engine,base,displacement,"2,496 cc",https://en.wikipedia.org/wiki/Nissan_VQ_engine,2026-04-01T16:26:07.016623
-Nissan VQ engine,base,bore & stroke,85 mm  73.3 mm,https://en.wikipedia.org/wiki/Nissan_VQ_engine,2026-04-01T16:26:07.016624
+Nissan VQ engine,base,bore & stroke,85 mm 73.3 mm,https://en.wikipedia.org/wiki/Nissan_VQ_engine,2026-04-01T16:26:07.016624
 Nissan VQ engine,base,compression ratio,9.8:1 ~ 10.3:1,https://en.wikipedia.org/wiki/Nissan_VQ_engine,2026-04-01T16:26:07.016625
 Nissan VQ engine,base,produces PS,190 ~ 210 @ 6400rpm,https://en.wikipedia.org/wiki/Nissan_VQ_engine,2026-04-01T16:26:07.016626
 Nissan VQ engine,base,produces torque (kgfm),24.06 ~ 26.92 @ ????rpm,https://en.wikipedia.org/wiki/Nissan_VQ_engine,2026-04-01T16:26:07.016627
@@ -939,7 +939,7 @@ Chevrolet Small-Block engine,4.9L,Cylinder bore,3.500 in (88.9 mm)3.671 in (93.2
 Chevrolet Small-Block engine,4.9L,Piston stroke,3.000 in (76.2 mm)3.100 in (78.7 mm)3.250 in (82.6 mm)3.480 in (88.4 mm)3.750 in (95.3 mm),https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation),2026-04-01T16:26:15.706473
 Chevrolet Small-Block engine,4.9L,Cylinder blockmaterial,"Cast iron,aluminum",https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation),2026-04-01T16:26:15.706474
 Chevrolet Small-Block engine,4.9L,Cylinder headmaterial,"Cast iron, aluminum",https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation),2026-04-01T16:26:15.706475
-Chevrolet Small-Block engine,4.9L,Valvetrain,OHV2 valves  cyl.DOHC4 valves cyl. (LT5),https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation),2026-04-01T16:26:15.706476
+Chevrolet Small-Block engine,4.9L,Valvetrain,OHV2 valves cyl.DOHC4 valves cyl. (LT5),https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation),2026-04-01T16:26:15.706476
 Chevrolet Small-Block engine,4.9L,Valvetrain drive system,Chain,https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation),2026-04-01T16:26:15.706477
 Chevrolet Small-Block engine,4.9L,Fuelsystem,"Carburetor,fuel injection",https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation),2026-04-01T16:26:15.706479
 Chevrolet Small-Block engine,4.9L,Fuel type,Gasoline,https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation),2026-04-01T16:26:15.706480
@@ -988,7 +988,7 @@ Chevrolet Small-Block engine,4.9L,Oil system,Wet sump,https://en.wikipedia.org/w
 Chevrolet Small-Block engine,4.3L,Displacement,4311cc,https://en.wikipedia.org/wiki/Chevrolet_small-block_engine_(first-_and_second-generation),2026-04-01T16:26:15.706907
 Ford Windsor engine,base,Manufacturer,Ford Motor Company,https://en.wikipedia.org/wiki/Ford_small_block_engine,2026-04-01T16:26:16.453434
 Ford Windsor engine,base,Also called,Windsor V8 (informal)Challenger V8,https://en.wikipedia.org/wiki/Ford_small_block_engine,2026-04-01T16:26:16.453442
-Ford Windsor engine,base,Production,July 1961  2002,https://en.wikipedia.org/wiki/Ford_small_block_engine,2026-04-01T16:26:16.453443
+Ford Windsor engine,base,Production,July 1961 2002,https://en.wikipedia.org/wiki/Ford_small_block_engine,2026-04-01T16:26:16.453443
 Ford Windsor engine,base,Configuration,Naturally aspirated90 V8,https://en.wikipedia.org/wiki/Ford_small_block_engine,2026-04-01T16:26:16.453444
 Ford Windsor engine,base,Displacement,221 cu in (3.6 L)255 cu in (4.2 L)260 cu in (4.3 L)289 cu in (4.7 L)302 cu in (4.9 L) 351 cu in (5.8 L),https://en.wikipedia.org/wiki/Ford_small_block_engine,2026-04-01T16:26:16.453445
 Ford Windsor engine,base,Cylinder bore,"4.000"" (289, 302, 351W)3.800"" (260)3.680"" (255)3.500"" (221)",https://en.wikipedia.org/wiki/Ford_small_block_engine,2026-04-01T16:26:16.453447
@@ -1043,7 +1043,7 @@ Buick 3800 engine,4.1L,Cylinder bore,3.5 in (88.9 mm)3.625 in (92.1 mm)3.7 in (9
 Buick 3800 engine,4.1L,Piston stroke,2.66 in (67.6 mm)3.16 in (80.3 mm)3.1875 in (80.96 mm)3.4 in (86.4 mm),https://en.wikipedia.org/wiki/Buick_V6_engine,2026-04-01T16:26:17.642899
 Buick 3800 engine,4.1L,Cylinder blockmaterial,Cast iron,https://en.wikipedia.org/wiki/Buick_V6_engine,2026-04-01T16:26:17.642900
 Buick 3800 engine,4.1L,Cylinder headmaterial,Cast iron,https://en.wikipedia.org/wiki/Buick_V6_engine,2026-04-01T16:26:17.642902
-Buick 3800 engine,4.1L,Valvetrain,OHV2 valves  cyl.,https://en.wikipedia.org/wiki/Buick_V6_engine,2026-04-01T16:26:17.642903
+Buick 3800 engine,4.1L,Valvetrain,OHV2 valves cyl.,https://en.wikipedia.org/wiki/Buick_V6_engine,2026-04-01T16:26:17.642903
 Buick 3800 engine,4.1L,Compression ratio,"8.0:1, 8.4:1, 8.5:1, 9.0:1, 9.4:1",https://en.wikipedia.org/wiki/Buick_V6_engine,2026-04-01T16:26:17.642904
 Buick 3800 engine,4.1L,Supercharger,EatonM62 or M90 (some versions),https://en.wikipedia.org/wiki/Buick_V6_engine,2026-04-01T16:26:17.642905
 Buick 3800 engine,4.1L,Turbocharger,In LD5 and special racing editions,https://en.wikipedia.org/wiki/Buick_V6_engine,2026-04-01T16:26:17.642908
@@ -1099,10 +1099,10 @@ Ford FE engine,base,I6 engines,Flathead I6,https://en.wikipedia.org/wiki/Ford_FE
 Ford FE engine,base,Small block V8,Flathead V8,https://en.wikipedia.org/wiki/Ford_FE_engine,2026-04-01T16:26:18.416777
 Dodge Viper V10 engine,base,Type,AtmosphericAxialBeamCornishRotativeBourkeCam engineCamlessCompoundDouble-acting cylinderFlatheadFree-pistonStelzerHemiHeron headIntake over exhaustOscillating cylinderOpposed-pistonOverhead camshaftOverhead valvePentroofRotarySingle-acting cylinderSplit cycleSwing-pistonUniflowWattWedge,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095117
 Dodge Viper V10 engine,base,Stroke cycle,Two-strokeFour-strokeFive-strokeSix-strokeTwo-and four-stroke,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095125
-Dodge Viper V10 engine,base,Cylinderlayout,Inline  straightI1I2I3I4I5I6I7I8I9I12I14Flat  boxerF2F4F6F8F10F12F16V  veeV2V3V4V5VR5V6VR6V8V10V12V14V16V18V20V24WW3W6W8W12W16W18W24W30DelticHRadialSplit-singleUX,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095127
-Dodge Viper V10 engine,base,Inline  straight,I1I2I3I4I5I6I7I8I9I12I14,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095128
-Dodge Viper V10 engine,base,Flat  boxer,F2F4F6F8F10F12F16,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095129
-Dodge Viper V10 engine,base,V  vee,V2V3V4V5VR5V6VR6V8V10V12V14V16V18V20V24,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095130
+Dodge Viper V10 engine,base,Cylinderlayout,Inline straightI1I2I3I4I5I6I7I8I9I12I14Flat boxerF2F4F6F8F10F12F16V veeV2V3V4V5VR5V6VR6V8V10V12V14V16V18V20V24WW3W6W8W12W16W18W24W30DelticHRadialSplit-singleUX,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095127
+Dodge Viper V10 engine,base,Inline straight,I1I2I3I4I5I6I7I8I9I12I14,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095128
+Dodge Viper V10 engine,base,Flat boxer,F2F4F6F8F10F12F16,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095129
+Dodge Viper V10 engine,base,V vee,V2V3V4V5VR5V6VR6V8V10V12V14V16V18V20V24,https://en.wikipedia.org/wiki/V10_engine,2026-04-01T16:26:19.095130
 Chevrolet Big-Block engine,base,Manufacturer,General Motors,https://en.wikipedia.org/wiki/Chevrolet_big-block_engine,2026-04-01T16:26:19.862786
 Chevrolet Big-Block engine,base,Production,1958present,https://en.wikipedia.org/wiki/Chevrolet_big-block_engine,2026-04-01T16:26:19.862794
 Chevrolet Big-Block engine,base,Configuration,Naturally aspirated90V8,https://en.wikipedia.org/wiki/Chevrolet_big-block_engine,2026-04-01T16:26:19.862796
@@ -1501,10 +1501,10 @@ Volkswagen VR6 engine,base,Global availability of VR-engined vehiclescylinders&v
 Volkswagen VR6 engine,base,cylinders&valves,displacement& ID code(s),https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902924
 Volkswagen VR6 engine,base,Type,AtmosphericAxialBeamCornishRotativeBourkeCam engineCamlessCompoundDouble-acting cylinderFlatheadFree-pistonStelzerHemiHeron headIntake over exhaustOscillating cylinderOpposed-pistonOverhead camshaftOverhead valvePentroofRotarySingle-acting cylinderSplit cycleSwing-pistonUniflowWattWedge,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902929
 Volkswagen VR6 engine,base,Stroke cycle,Two-strokeFour-strokeFive-strokeSix-strokeTwo-and four-stroke,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902930
-Volkswagen VR6 engine,base,Cylinderlayout,Inline  straightI1I2I3I4I5I6I7I8I9I12I14Flat  boxerF2F4F6F8F10F12F16V  veeV2V3V4V5VR5V6VR6V8V10V12V14V16V18V20V24WW3W6W8W12W16W18W24W30DelticHRadialSplit-singleUX,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902932
-Volkswagen VR6 engine,base,Inline  straight,I1I2I3I4I5I6I7I8I9I12I14,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902933
-Volkswagen VR6 engine,base,Flat  boxer,F2F4F6F8F10F12F16,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902934
-Volkswagen VR6 engine,base,V  vee,V2V3V4V5VR5V6VR6V8V10V12V14V16V18V20V24,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902935
+Volkswagen VR6 engine,base,Cylinderlayout,Inline straightI1I2I3I4I5I6I7I8I9I12I14Flat boxerF2F4F6F8F10F12F16V veeV2V3V4V5VR5V6VR6V8V10V12V14V16V18V20V24WW3W6W8W12W16W18W24W30DelticHRadialSplit-singleUX,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902932
+Volkswagen VR6 engine,base,Inline straight,I1I2I3I4I5I6I7I8I9I12I14,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902933
+Volkswagen VR6 engine,base,Flat boxer,F2F4F6F8F10F12F16,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902934
+Volkswagen VR6 engine,base,V vee,V2V3V4V5VR5V6VR6V8V10V12V14V16V18V20V24,https://en.wikipedia.org/wiki/VR6_engine,2026-04-01T16:26:28.902935
 Ferrari F136 engine,4.5L,Manufacturer,Ferrari,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T16:26:29.333093
 Ferrari F136 engine,4.5L,Also called,Ferrari-Maserati V8,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T16:26:29.333101
 Ferrari F136 engine,4.5L,Configuration,"90V8; 180 flat-plane crankshaft (Ferrari) / 90 cross-plane crankshaft (Maserati, Alfa Romeo)",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T16:26:29.333104
@@ -1648,3 +1648,901 @@ Lamborghini V12 engine,478hp,V12,Diablo,https://en.wikipedia.org/wiki/Lamborghin
 Lamborghini V12 engine,478hp,CUV,V8,https://en.wikipedia.org/wiki/Lamborghini_V12,2026-04-01T16:26:30.384777
 Lamborghini V12 engine,3.5L,Displacement,3465cc,https://en.wikipedia.org/wiki/Lamborghini_V12,2026-04-01T16:26:30.384798
 Lamborghini V12 engine,631hp,Power output,631hp,https://en.wikipedia.org/wiki/Lamborghini_V12,2026-04-01T16:26:30.385231
+Toyota 2JZ-GTE,base,Manufacturer,Toyota,https://en.wikipedia.org/wiki/Toyota_JZ_engine#2JZ-GTE,2026-04-01T18:14:42.729190
+Toyota 2JZ-GTE,base,Configuration,Straight-6,https://en.wikipedia.org/wiki/Toyota_JZ_engine#2JZ-GTE,2026-04-01T18:14:42.729270
+Toyota 2JZ-GTE,base,Cylinder blockmaterial,Cast iron,https://en.wikipedia.org/wiki/Toyota_JZ_engine#2JZ-GTE,2026-04-01T18:14:42.729297
+Toyota 2JZ-GTE,base,Cylinder headmaterial,Aluminium,https://en.wikipedia.org/wiki/Toyota_JZ_engine#2JZ-GTE,2026-04-01T18:14:42.729324
+Toyota 2JZ-GTE,base,Cooling system,Water-cooled,https://en.wikipedia.org/wiki/Toyota_JZ_engine#2JZ-GTE,2026-04-01T18:14:42.729365
+Toyota 2JZ-GTE,base,Predecessor,Toyota M engine,https://en.wikipedia.org/wiki/Toyota_JZ_engine#2JZ-GTE,2026-04-01T18:14:42.729404
+Nissan RB26DETT,base,Manufacturer,Nissan(Nissan Machinery),https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883409
+Nissan RB26DETT,base,Production,198520042019present (new production; RB26),https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883450
+Nissan RB26DETT,base,Configuration,Straight-six,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883495
+Nissan RB26DETT,base,Displacement,"2.0 L; 121.9 cu in (1,998 cc)2.4 L; 148.2 cu in (2,428 cc)2.5 L; 152.4 cu in (2,498 cc)2.6 L; 156.7 cu in (2,568 cc)2.8 L; 169.0 cu in (2,770 cc)3.0 L; 180.8 cu in (2,962 cc)",https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883527
+Nissan RB26DETT,base,Cylinder bore,78 mm (3.07 in)86 mm (3.39 in)87 mm (3.43 in),https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883556
+Nissan RB26DETT,base,Piston stroke,69.7 mm (2.74 in)71.7 mm (2.82 in)73.7 mm (2.90 in)77.7 mm (3.06 in)85 mm (3.35 in),https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883589
+Nissan RB26DETT,base,Cylinder blockmaterial,Cast iron,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883615
+Nissan RB26DETT,base,Cylinder headmaterial,Aluminium,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883641
+Nissan RB26DETT,base,Valvetrain,SOHC2 valves x cyl.DOHC4 valves x cyl.withNVCS,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883671
+Nissan RB26DETT,base,Compression ratio,7.8:1-10:1,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883697
+Nissan RB26DETT,base,Turbocharger,SingleGarrettT3; Twin Garrett T28-type ceramic withintercooler(RB26DETT),https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883741
+Nissan RB26DETT,base,Fuelsystem,CarburetorElectronic Fuel injection,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883772
+Nissan RB26DETT,base,Management,"Hitachi, NICS, ECCS",https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883798
+Nissan RB26DETT,base,Fuel type,GasolineAutogasLPG,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883825
+Nissan RB26DETT,base,Cooling system,Water-cooled,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883849
+Nissan RB26DETT,base,Torque output,142392Nm(1440kgm; 105289lbft),https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883925
+Nissan RB26DETT,base,Predecessor,Nissan L engine,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883965
+Nissan RB26DETT,base,Successor,Nissan VQ engineNissan VR engine,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.883993
+Nissan RB26DETT,base,Camshaft,Intake,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884060
+Nissan RB26DETT,base,Marques,CurrentInfinitiNissanVenucia1Defunct/IntegratedPrinceKuroganeAichiShataiOhta JidoshaDatsunSoldNissan Diesel,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884359
+Nissan RB26DETT,base,"Divisions,subsidiaries",InfinitiNissan IrelandNissan KoreaNissan Manufacturing Rus(sold off)Nissan Motor AustraliaNissan Motor IbricaNissan Motor IndiaNissan Motor IndonesiaNissan Motor Manufacturing UKNissan Motorsports & CustomizingAutechNismoNissan New ZealandNissan North AmericaNissan PhilippinesNissan South Africa,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884422
+Nissan RB26DETT,base,Joint ventures,"Alfa Romeo Nissan Autoveicoli S.p.A.(defunct)COMPAS(50%)Dongfeng Nissan(50%)eGT New Energy Automotive(25%)Ghandhara NissanNMKV(50%)Renault Nissan Automotive IndiaRenaultNissanMitsubishi AllianceRN Bank(30%, sold off)Zhengzhou-Nissan(50%)",https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884473
+Nissan RB26DETT,base,Shareholdings,Jatco(75%)Mitsubishi Motors(24%)Renault(15%),https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884508
+Nissan RB26DETT,base,Currentvehicles,"CarsAlmera/V-Drive/Versa/SunnyAltima/TeanaMicra/MarchN6N7NoteSentra/SylphySkylineTiidaZSUVs,crossoversAriyaJukeKaitKicksLeafMagniteMuranoNX8PathfinderPatrol/ArmadaQashqaiTektonTerra/X-TerraX-Trail/RogueVans,minivansADCaravan/UrvanElgrandGraviteInterstarLivinaNV200PrimastarSerenaTownstarKeiDayzNT100 ClipperNV100 ClipperRooxSakuraTrucksPickupFrontierFrontier ProNavara/Frontier/NP300CommercialAtlas",https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884669
+Nissan RB26DETT,base,Cars,Almera/V-Drive/Versa/SunnyAltima/TeanaMicra/MarchN6N7NoteSentra/SylphySkylineTiidaZ,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884724
+Nissan RB26DETT,base,"SUVs,crossovers",AriyaJukeKaitKicksLeafMagniteMuranoNX8PathfinderPatrol/ArmadaQashqaiTektonTerra/X-TerraX-Trail/Rogue,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884783
+Nissan RB26DETT,base,"Vans,minivans",ADCaravan/UrvanElgrandGraviteInterstarLivinaNV200PrimastarSerenaTownstar,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884831
+Nissan RB26DETT,base,Kei,DayzNT100 ClipperNV100 ClipperRooxSakura,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884868
+Nissan RB26DETT,base,Trucks,PickupFrontierFrontier ProNavara/Frontier/NP300CommercialAtlas,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884913
+Nissan RB26DETT,base,Pickup,FrontierFrontier ProNavara/Frontier/NP300,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884945
+Nissan RB26DETT,base,Commercial,Atlas,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.884972
+Nissan RB26DETT,base,Discontinuedvehicles,100NX180SX200SX210240SX240Z280ZX300ZX310350Z370Z5108101200Almera TinoAltraAprioAtleonAusterAvenirBassaraBe-1BluebirdCaballCablightCedricCefiroCherryCimaCivilianCrewCrossCubeDC-3DualisEchoExpertEvaliaFairladyFigaroFugaGazelleGloriaGoGo+Grand Livina / Livina GenissGT-RHardbody truckHomyHyperminiJuniorKicks (India)KixKubistarLafestaLanniaLargoLatioLaurelLeopardLibertyMaximami-DoMistralMocoMultiMurano CrossCabrioletNP200NT400 CabstarNT500NV1500NV250NV2500 HDNV300NV350NV3500 HDNV400NXon-DoPaladinPaoPatrol (Y61)Patrol PickupPinoPintaraPixoPlatinaPrairiePresagePreseaPrimeraPrince RoyalPresidentPulsarEXAGTI-RQuestR390 GT1R'nessaRasheenredi-GoRoadster-Road StarRogue SportS-CargoSaurusSaurus JrSilviaSkyline CrossoverSkyline GT-RStageaStanzaTeanaTerranoTerrano IITerrano (India)TiidaTitanTradeTruckVanetteVersa NoteVioletWingroadXterra,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.885262
+Nissan RB26DETT,base,Conceptvehicles,126X216X240Z Concept270X300 Bambu300 Seta300XM315-aAA-XActicAD-1AD-2AL-XAlpha TAmenioAP-XAQ-XARC-XAriyaAXYAZEALBevelBladeGliderBogaC-NoteChapeauChappoCocoonCompact SportCONCEPT 2020 Vision Gran TurismoCQ-XCrossbowCUE-XCypactDenki CubeDatsun redi-GoDatsun GO-CrossDatsun GO LiveDuadDunehawkEffisEllureEsflowESVEV Guide IIEV TruckEvaliaExtremFEVFEV-IIForiaForumFriend-MEFusionGobiGR-1GR-2GripzGT-R50Hi-CrossideoIDSIDxIMkIMxIMqIMsIntimaInvitationJikooJudoJuraKicksKinoKYXXLand GliderLanniaLEAFLUC-2MagniteMID4Miximmm.eMocoNailsNCSNEO-XNew Mobility ConceptNRV-IINuvuNV2500NX-018NX-21PivoPivo 2Pivo 3QazanaResonanceRound BoxSaurusSerenitySport ConceptSport SedanStylish VISUTSwayTeRRATerranautToneTownpodTrailrunnerTRI-XURGEUV-XVmotion 2.0XmotionXIXXVLYanyaZ ConceptZaroot,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.885495
+Nissan RB26DETT,base,Engines,Straight-3HRUDStraight-4ABDCCACDCGCRDEFDFJG (Prince)G (Nissan)GAGBHHRJKAKRLLDMAMRNANRPRQDQGQRSDSRTDUDYDZZDStraight-6HLLDPRBRDS20SDTBTDUDVV6VEVGVQVRVRX30AV8UDVEJ30VHVKVRHW64YV12GRX-3UDVRT35,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.885680
+Nissan RB26DETT,base,Straight-3,HRUD,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.885713
+Nissan RB26DETT,base,Straight-4,ABDCCACDCGCRDEFDFJG (Prince)G (Nissan)GAGBHHRJKAKRLLDMAMRNANRPRQDQGQRSDSRTDUDYDZZD,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.885815
+Nissan RB26DETT,base,Straight-6,HLLDPRBRDS20SDTBTDUD,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.885864
+Nissan RB26DETT,base,Places,Nissan Engine MuseumNissan Proving GroundsNissan StadiumNissan Stadium (Yokohama),https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.885959
+Nissan RB26DETT,base,Other,ATTESACarWingsdCiHICASNAPSNissan Motors v. Nissan ComputerVVELVVLYokohama F. Marinos,https://en.wikipedia.org/wiki/Nissan_RB_engine#RB26DETT,2026-04-01T18:14:42.886004
+Honda K20A,base,Manufacturer,Honda,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131000
+Honda K20A,base,Production,2001present,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131031
+Honda K20A,base,Configuration,Inline-4,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131072
+Honda K20A,base,Displacement,"2.02.4 L; 121.9143.6 cu in (1,9982,354 cc)",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131096
+Honda K20A,base,Cylinder bore,86 mm (3.39 in)87 mm (3.43 in),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131121
+Honda K20A,base,Piston stroke,85.9 mm (3.38 in)86 mm (3.39 in)99 mm (3.90 in),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131150
+Honda K20A,base,Cylinder blockmaterial,Aluminum,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131198
+Honda K20A,base,Cylinder headmaterial,Aluminum,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131235
+Honda K20A,base,Valvetrain,"DOHC4 valves x cyl., withi-VTEC",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131262
+Honda K20A,base,Compression ratio,8.8:111.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131285
+Honda K20A,base,Max. engine speed,"6,5008,400",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131324
+Honda K20A,base,Turbocharger,MitsubishiTD03 or TD04 (some versions),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131363
+Honda K20A,base,Fuelsystem,Programmed fuel injectionDirect injection,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131389
+Honda K20A,base,Fuel type,Gasoline,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131413
+Honda K20A,base,Cooling system,Water-cooled,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131437
+Honda K20A,base,Torque output,18.1142.86kgm(178420Nm; 131310lbft),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131510
+Honda K20A,base,Predecessor,Honda B engine,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131549
+Honda K20A,base,Management,ECU,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.131913
+Honda K20A,base,Dry weight,"403 pounds (183 kg) (with gearbox), 275 pounds (125 kg) (without gearbox)",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132066
+Honda K20A,base,Engine,Application,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132577
+Honda K20A,base,K20A(High Performance),20012006Honda Civic Type R(JDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132615
+Honda K20A,base,20012006Honda Integra Type R(JDM),11.5:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132649
+Honda K20A,base,20022008Honda Accord Euro R(JDM),11.5:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132682
+Honda K20A,base,20072011Honda Civic Type R(JDM),11.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132716
+Honda K20A,base,K20A (Eco),"20002006Honda Stream(JDM) (RN3, FWD)",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132754
+Honda K20A,base,"20002006Honda Stream(JDM) (RN4, AWD)",9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132788
+Honda K20A,base,20012004Honda CR-V(JDM),9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132822
+Honda K20A,base,20012006Honda Integra Type S(JDM),9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132859
+Honda K20A,base,20012005Honda Stepwgn(JDM),9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132896
+Honda K20A,base,20012005Honda Stepwgn Spada(JDM),9.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132934
+Honda K20A,base,20052009Honda Stepwgn(JDM),9.6:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.132972
+Honda K20A,base,"20022008Honda Accord(JDM) (CL7-CM1, FWD)",9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133010
+Honda K20A,base,"20022008Honda Accord(JDM) (CL8, AWD)",9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133046
+Honda K20A,base,20042009Honda Edix(JDM),9.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133083
+Honda K20A,base,20052010Honda Civic(JDM),9.6:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133120
+Honda K20A,base,K20A1,"20012006Honda Stream(RN3,FWD)",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133186
+Honda K20A,base,"20012006Honda Stream(RN4,AWD)",9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133237
+Honda K20A,base,K20A2,20012006Honda Civic Type R(EDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133271
+Honda K20A,base,20022004Acura RSX Type S,11.0:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133302
+Honda K20A,base,20022004Honda Integra Type R(AUDM/NZDM),11.0:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133337
+Honda K20A,base,K20A3,20022006Acura RSX,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133373
+Honda K20A,base,20022005Honda Civic,9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133404
+Honda K20A,base,20022005Honda Civic SiUSDM,9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133436
+Honda K20A,base,20022005Honda Civic Type SEDM,9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133467
+Honda K20A,base,20032006Honda Civic 2.0 i-VTEC(SEA),9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133499
+Honda K20A,base,K20A4,20022006Honda CR-V,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133532
+Honda K20A,base,K20A6,20032006Honda Accord(EDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133567
+Honda K20A,base,20032006Honda Accord(ADM),9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133600
+Honda K20A,base,K20A7,20032007Honda Accord(SEA),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133633
+Honda K20A,base,K20A9,20042007Honda FR-V(EDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.133667
+Honda K20A,base,K20Z1,20052006Acura RSX Type S,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.134811
+Honda K20A,base,20052006Honda Integra Type S(AUDM/NZDM),11.0:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.134848
+Honda K20A,base,K20Z2,20062011Acura CSX,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.134882
+Honda K20A,base,20062008Honda Accord(EDM),9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.134916
+Honda K20A,base,20062010Honda Civic(SEA),9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.134948
+Honda K20A,base,K20Z3,20062011Honda Civic Si,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.134990
+Honda K20A,base,20072010Acura CSX Type S,11.0:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.135027
+Honda K20A,base,K20Z4,20072010Honda Civic Type R(EDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.135063
+Honda K20A,base,K20Z5,20072010Honda Civic Si(BDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.135099
+Honda K20A,base,K20C1,20152017Honda Civic Type R (EDM)20172021Honda Civic Type R (USDM)2018presentAriel Atom 42023presentHonda Civic Type R (USDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.136192
+Honda K20A,base,K20C3,2016presentHonda Avancier/UR-V(China),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.136228
+Honda K20A,base,K20C4,"20182022Honda Accord(Sport, EX-L & Touring 2.0T trims)",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.136262
+Honda K20A,base,2019presentAcura RDX,9.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.136295
+Honda K20A,base,K20C5,2019presentAcura RDX(China),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.136328
+Honda K20A,base,K20C6,20212025Acura TLX,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.136361
+Honda K20A,base,K20C8,2024presentAcura Integra Type S,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.136393
+Honda K20A,base,K20C2,"20162018Honda Civic (LX & EX)Sedan(USDM)20192024 Honda Civic (LX & Sport) Sedan (USDM)20162020 Honda Civic (LX, LX-P, Sport) Coupe (USDM)20222024 Honda Civic (LX, Sport) Hatchback (USDM)",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.137004
+Honda K20A,base,20162023Formula 4 United States Championship,10.8:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.137037
+Honda K20A,base,K20C9,2025presentHonda Civic(LX & Sport) (USDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.137070
+Honda K20A,base,K23A1,20072012Acura RDX,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.137759
+Honda K20A,base,K24A,"20022008Honda Accord 24T, 24TL, 24S and Type-S(JDM) (CL9/CM2, FWD)",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138429
+Honda K20A,base,"20022008Honda Accord 24T(JDM) (CM3, AWD)",10.5:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138472
+Honda K20A,base,"20082013Honda Accord 24E, 24IL, 24TL and Type-S(JDM) (CU2/CW2, FWD)",11:1 (R40),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138511
+Honda K20A,base,"20032008Honda Odyssey Absolute(JDM) (RB1, FWD)",10.5:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138552
+Honda K20A,base,"20032008Honda Odyssey Absolute(JDM) (RB2, AWD)",10.5:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138589
+Honda K20A,base,"20082013Honda Odyssey Absolute(JDM) (RB3, FWD) (K24A R40)",11:1 (R40),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138628
+Honda K20A,base,"20082013Honda Odyssey Absolute(JDM) (RB4, AWD) (K24A R40)",11:1 (R40),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138662
+Honda K20A,base,20032008Honda Odyssey(JDM),9.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138735
+Honda K20A,base,20082013Honda Odyssey(JDM),10:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138768
+Honda K20A,base,20032005Honda Stepwgn Spada 24T(JDM),9.6:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138807
+Honda K20A,base,20042013Honda Elysion(JDM),9.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138845
+Honda K20A,base,20062009Honda Edix 24S(JDM),9.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138882
+Honda K20A,base,20052006Honda CR-V(JDM),9.6:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138920
+Honda K20A,base,20062011Honda CR-V(JDM),9.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138958
+Honda K20A,base,20112016Honda CR-V(JDM),10:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.138996
+Honda K20A,base,K24A1,20022006Honda CR-V,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139030
+Honda K20A,base,K24A2,20042005Acura TSX,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139064
+Honda K20A,base,20062008Acura TSX,10.5:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139100
+Honda K20A,base,K24A3,20032007Honda Accord(EDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139136
+Honda K20A,base,20032007Honda Accord Euro(AUDM/NZDM),10.5:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139175
+Honda K20A,base,K24A4,20032005Honda Accord(USDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139257
+Honda K20A,base,20032008Honda Odyssey,9.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139289
+Honda K20A,base,20032006Honda Element,9.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139321
+Honda K20A,base,K24A8,20062007Honda Accord(USDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139359
+Honda K20A,base,20072011Honda Element,9.7:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139394
+Honda K20A,base,20082014Honda Odyssey(JDM),10.5:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139429
+Honda K20A,base,K24Z1,"20072009Honda CR-V(RE3, RE4)",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.139982
+Honda K20A,base,K24Z2,20082012Honda Accord LX/LX-P(USDM/CDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140019
+Honda K20A,base,20162020Proton Perdana,10.5:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140052
+Honda K20A,base,K24Z3,20082012Honda Accord LX-S/EX/EX-L(USDM/CDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140093
+Honda K20A,base,20092014Acura TSXandHonda Accord (Europe)(CU2/CW2),11.0:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140138
+Honda K20A,base,K24Z4,20082012Honda CR-V(RE7),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140178
+Honda K20A,base,K24Z5,20102015Honda Spirior,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140244
+Honda K20A,base,K24Z6,20102011Honda CR-V(USDM/CDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140303
+Honda K20A,base,K24Z7,20122013Honda Civic Si,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140338
+Honda K20A,base,20142015Honda Civic Si,11.0:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140370
+Honda K20A,base,20132015Acura ILX,11.0:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140403
+Honda K20A,base,20122014Honda CR-V(USDM/CDM),10.0:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140439
+Honda K20A,base,K24Y1,20122014Honda CR-V(Thailand),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140472
+Honda K20A,base,K24Y2,20122015Honda Crosstour,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.140505
+Honda K20A,base,Length,30cm,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141003
+Honda K20A,base,K24W,2013presentHonda Odyssey(JDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141121
+Honda K20A,base,K24W1,20132017Honda Accord(USDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141166
+Honda K20A,base,20132017Honda AccordSport (USDM),189 hp (141 kW) at 6400 rpm,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141225
+Honda K20A,base,K24W4,20132018Honda Accord(Thailand/Malaysia),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141275
+Honda K20A,base,2013presentHonda Odyssey(International model excl. Japan),10.1:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141306
+Honda K20A,base,K24W7,20152020Acura TLX,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141340
+Honda K20A,base,20152018Honda SpiriorSi,11.6:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141372
+Honda K20A,base,K24W9,20152019Honda CR-V(USDM),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141412
+Honda K20A,base,K24V5,20152016Honda CR-V(Thailand),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141445
+Honda K20A,base,20172022Honda CR-V(Thailand),10.1:1,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141485
+Honda K20A,base,K24V7,20162022Acura ILX,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141527
+Honda K20A,base,Divisions andsubsidiaries,AcuraAmerican HondaHonda AeroHonda MarineHonda AustraliaHonda CanadaCanada ManufacturingHonda AircraftHonda MobilitylandSuzuka CircuitMobility Resort MotegiHonda Performance DevelopmentHonda IndiaMotorcyclesHonda MexicoHonda RacingHonda Racing F1Honda TaiwanHonda UK,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141798
+Honda K20A,base,Joint venturesand shareholdings,Astemo(61%)Astra Honda Motor(50%)Atlas Honda(30%)Dongfeng Honda(50%)LingxiGE Honda Aero Engines(50%)GAC Honda(50%)EverusKeihinNissinShowaHonda Atlas Cars(51%)Honda China(65%)Honda Prospect Motor(51%)Honda Vietnam(42%)Sony Honda Mobility(50%),https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.141877
+Honda K20A,base,Automobiles,"CarsAccord/InspireAmazeBrioCityCivicCivic Type RIntegraFit/Jazz/LifeGTPreludePickup trucksRidgelineCrossovers/SUVsAvancier/UR-VBR-VCR-V/Breezee:NS2/e:N2/InsightElevate/WR-VHR-V/Vezel/XR-Ve:Ny1/e:N1P7/S7PassportPilotPrologueWR-VZR-V/HR-VVansFreedOdyssey/ElysionOdyssey (North America)StepwgnKei carsN-BoxN-OneN-VanN-WGNHistoric anddiscontinued1300AirwaveAscotBalladeBeatCapaCity/Jazz (AA)ClarityCR-XCR-X del SolCR-ZCrider/EnvixCrossroadCrosstourConcertoDomaniee:NP2ElementEV PlusFit AriaFit Shuttle/ShuttleFR-V/EdixGieniaGraceGreizHorizonIntegraJadeLaGreatLegendLifeLife DunkLogoMobilioMobilio SpikeN360/N600NSXOrthiaPartnerQuintRafagaS500S600S660S800S2000S-MXSpiriorStreamT360/T500That'sTodayTorneoTourmasterVamos/Vamos HobioZZestRacingCurtiss SpecialR800R1300RA270RA271RA272RA273RA300RA301RA302RC100RA099RA106RA107RA108Spirit 201201CWilliams FW09FW09BFW10FW11FW11BLotus 99T100TMcLaren MP4/4MP4/5MP4/5BMP4/6MP4/6BMP4/7AMP4-30MP4-31MCL32Tyrrell 020BAR 002003004005006007Jordan EJ11EJ12Super Aguri SA05SA06SA07SA08Toro Rosso STR13STR14Red Bull Racing RB15RB16RB16BAlphaTauri AT01AT02NSX GT2NSX GT500HSV-010 GTNSX Concept-GTNSX-GTNSX-GT ""Type S""Civic Type R-GTNSX GT3Acura ARX-01Acura ARX-02aHPD ARX-03HPD ARX-04bAcura ARX-05Acura ARX-06",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.142414
+Honda K20A,base,Cars,Accord/InspireAmazeBrioCityCivicCivic Type RIntegraFit/Jazz/LifeGTPrelude,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.142495
+Honda K20A,base,Pickup trucks,Ridgeline,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.142533
+Honda K20A,base,Crossovers/SUVs,Avancier/UR-VBR-VCR-V/Breezee:NS2/e:N2/InsightElevate/WR-VHR-V/Vezel/XR-Ve:Ny1/e:N1P7/S7PassportPilotPrologueWR-VZR-V/HR-V,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.142601
+Honda K20A,base,Vans,FreedOdyssey/ElysionOdyssey (North America)Stepwgn,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.142646
+Honda K20A,base,Kei cars,N-BoxN-OneN-VanN-WGN,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.142688
+Honda K20A,base,Historic anddiscontinued,1300AirwaveAscotBalladeBeatCapaCity/Jazz (AA)ClarityCR-XCR-X del SolCR-ZCrider/EnvixCrossroadCrosstourConcertoDomaniee:NP2ElementEV PlusFit AriaFit Shuttle/ShuttleFR-V/EdixGieniaGraceGreizHorizonIntegraJadeLaGreatLegendLifeLife DunkLogoMobilioMobilio SpikeN360/N600NSXOrthiaPartnerQuintRafagaS500S600S660S800S2000S-MXSpiriorStreamT360/T500That'sTodayTorneoTourmasterVamos/Vamos HobioZZest,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.142952
+Honda K20A,base,Racing,"Curtiss SpecialR800R1300RA270RA271RA272RA273RA300RA301RA302RC100RA099RA106RA107RA108Spirit 201201CWilliams FW09FW09BFW10FW11FW11BLotus 99T100TMcLaren MP4/4MP4/5MP4/5BMP4/6MP4/6BMP4/7AMP4-30MP4-31MCL32Tyrrell 020BAR 002003004005006007Jordan EJ11EJ12Super Aguri SA05SA06SA07SA08Toro Rosso STR13STR14Red Bull Racing RB15RB16RB16BAlphaTauri AT01AT02NSX GT2NSX GT500HSV-010 GTNSX Concept-GTNSX-GTNSX-GT ""Type S""Civic Type R-GTNSX GT3Acura ARX-01Acura ARX-02aHPD ARX-03HPD ARX-04bAcura ARX-05Acura ARX-06",https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.143318
+Honda K20A,base,Concept,0 Saloon0 SUVProject 2&4Argento VivoCR-Z ConceptCR-Z Concept 2009DualnoteEV-NFC SportFCEV Concept1999 FCX Concepts2006 FCX conceptHP-XHSCJ-VXN7XNew Small ConceptOSMQuiltRemixSmall RSSpocketSports EVSUT ConceptSUV e: PrototypeSUV RSU-3XUrban EVWICWOWZero,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.143440
+Honda K20A,base,Bikes,MotorcyclesCB seriesCBF seriesCBR seriesCG125CJ seriesCL seriesCM/CMX seriesCR seriesCRF seriesCTX seriesCX seriesDN-01FuryGL seriesNC700 seriesNR seriesNSR seriesRC seriesST seriesVF/VFR seriesVT seriesVTX seriesXR/XL seriesXRE300TransalpAfrica TwinDeauvilleBros/HawkGTNX250Pacific CoastTL Series (Reflex)ValkyrieX4ScootersActivaAeroBig RuckusDioEliteEM1ExpressHelixJunoCHF50MotocompoNH seriesPCXReflexRuckusSpreeRuckus/ZoomerSilver WingVisionOtherApeCT seriesCub FCub seriesGyroIntegraNM4MotraP50PA50PC50ST series/DaxZ series,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.143617
+Honda K20A,base,Motorcycles,CB seriesCBF seriesCBR seriesCG125CJ seriesCL seriesCM/CMX seriesCR seriesCRF seriesCTX seriesCX seriesDN-01FuryGL seriesNC700 seriesNR seriesNSR seriesRC seriesST seriesVF/VFR seriesVT seriesVTX seriesXR/XL seriesXRE300TransalpAfrica TwinDeauvilleBros/HawkGTNX250Pacific CoastTL Series (Reflex)ValkyrieX4,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.143714
+Honda K20A,base,Scooters,ActivaAeroBig RuckusDioEliteEM1ExpressHelixJunoCHF50MotocompoNH seriesPCXReflexRuckusSpreeRuckus/ZoomerSilver WingVision,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.143779
+Honda K20A,base,Other,ApeCT seriesCub FCub seriesGyroIntegraNM4MotraP50PA50PC50ST series/DaxZ series,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.143832
+Honda K20A,base,Engines,A-seriesB-seriesB20AC-seriesCVCCD-seriesE-seriesE07AF-seriesF20CG-seriesH-seriesJ-seriesJNC1K-seriesL-seriesCircle L DieselN-series DieselP-engineR-seriesVTECI-DSiHI3RHI4RHI5RHI6RHI7RHI8RHI9RHI10RHI11RHI12RTHI13RTHI14TTHI15TTHI16TTHI17TTHI18TTHR09EHR10EGHR-414EHR-417EHR-420EHPD LM-V8HR28TTHR35TTAR24e,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.143956
+Honda K20A,base,Robots,Honda E seriesHonda P seriesASIMO,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.143990
+Honda K20A,base,People,Soichiro HondaTakeo FujisawaTadashi KumeShoichiro IrimajiriNobuhiko KawamotoTakeo FukuiTadao BabaTakahiro HachigoKenichi Nagahiro,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.144035
+Honda K20A,base,Fuel TypeConfiguration2000s2010s2020s0123456789012345678901PetrolI3PE0ECA1SI4DRBKFHLDieselNCircle LPetrolV6CJIndy V6V8Indy V8 turboIndy V8,Fuel Type,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.145308
+Honda K20A,base,Fuel Type,Configuration,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.145341
+Honda K20A,base,Petrol,I3,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.145415
+Honda K20A,base,I4,D,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.145484
+Honda K20A,base,V8,Indy V8 turbo,https://en.wikipedia.org/wiki/Honda_K_engine#K20A,2026-04-01T18:14:43.145712
+Honda B18C,base,Manufacturer,Honda,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306324
+Honda B18C,base,Configuration,Naturally aspiratedinline-4,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306399
+Honda B18C,base,Displacement,"1.62.0 L (1,5951,973 cc; 97.3120.4 cu in)",https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306424
+Honda B18C,base,Cylinder bore,81 mm (3.19 in)84 mm (3.31 in),https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306452
+Honda B18C,base,Piston stroke,77.4 mm (3.05 in)81.4 mm (3.20 in)87.2 mm (3.43 in)89 mm (3.5 in),https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306484
+Honda B18C,base,Valvetrain,"DOHC,VTECin some models",https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306511
+Honda B18C,base,Compression ratio,8.8:111.1:1,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306536
+Honda B18C,base,Max. engine speed,"6,5008,400 rpm",https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306576
+Honda B18C,base,Fuelsystem,Programmed fuel injection,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306617
+Honda B18C,base,Fuel type,Gasoline,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306641
+Honda B18C,base,Cooling system,Water-cooled,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306665
+Honda B18C,base,Torque output,150190 Nm (111140 lbft),https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306731
+Honda B18C,base,Successor,Honda K engine,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.306772
+Honda B18C,base,Divisions andsubsidiaries,AcuraAmerican HondaHonda AeroHonda MarineHonda AustraliaHonda CanadaCanada ManufacturingHonda AircraftHonda MobilitylandSuzuka CircuitMobility Resort MotegiHonda Performance DevelopmentHonda IndiaMotorcyclesHonda MexicoHonda RacingHonda Racing F1Honda TaiwanHonda UK,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.307031
+Honda B18C,base,Joint venturesand shareholdings,Astemo(61%)Astra Honda Motor(50%)Atlas Honda(30%)Dongfeng Honda(50%)LingxiGE Honda Aero Engines(50%)GAC Honda(50%)EverusKeihinNissinShowaHonda Atlas Cars(51%)Honda China(65%)Honda Prospect Motor(51%)Honda Vietnam(42%)Sony Honda Mobility(50%),https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.307111
+Honda B18C,base,Automobiles,"CarsAccord/InspireAmazeBrioCityCivicCivic Type RIntegraFit/Jazz/LifeGTPreludePickup trucksRidgelineCrossovers/SUVsAvancier/UR-VBR-VCR-V/Breezee:NS2/e:N2/InsightElevate/WR-VHR-V/Vezel/XR-Ve:Ny1/e:N1P7/S7PassportPilotPrologueWR-VZR-V/HR-VVansFreedOdyssey/ElysionOdyssey (North America)StepwgnKei carsN-BoxN-OneN-VanN-WGNHistoric anddiscontinued1300AirwaveAscotBalladeBeatCapaCity/Jazz (AA)ClarityCR-XCR-X del SolCR-ZCrider/EnvixCrossroadCrosstourConcertoDomaniee:NP2ElementEV PlusFit AriaFit Shuttle/ShuttleFR-V/EdixGieniaGraceGreizHorizonIntegraJadeLaGreatLegendLifeLife DunkLogoMobilioMobilio SpikeN360/N600NSXOrthiaPartnerQuintRafagaS500S600S660S800S2000S-MXSpiriorStreamT360/T500That'sTodayTorneoTourmasterVamos/Vamos HobioZZestRacingCurtiss SpecialR800R1300RA270RA271RA272RA273RA300RA301RA302RC100RA099RA106RA107RA108Spirit 201201CWilliams FW09FW09BFW10FW11FW11BLotus 99T100TMcLaren MP4/4MP4/5MP4/5BMP4/6MP4/6BMP4/7AMP4-30MP4-31MCL32Tyrrell 020BAR 002003004005006007Jordan EJ11EJ12Super Aguri SA05SA06SA07SA08Toro Rosso STR13STR14Red Bull Racing RB15RB16RB16BAlphaTauri AT01AT02NSX GT2NSX GT500HSV-010 GTNSX Concept-GTNSX-GTNSX-GT ""Type S""Civic Type R-GTNSX GT3Acura ARX-01Acura ARX-02aHPD ARX-03HPD ARX-04bAcura ARX-05Acura ARX-06",https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.307506
+Honda B18C,base,Cars,Accord/InspireAmazeBrioCityCivicCivic Type RIntegraFit/Jazz/LifeGTPrelude,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.307573
+Honda B18C,base,Pickup trucks,Ridgeline,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.307610
+Honda B18C,base,Crossovers/SUVs,Avancier/UR-VBR-VCR-V/Breezee:NS2/e:N2/InsightElevate/WR-VHR-V/Vezel/XR-Ve:Ny1/e:N1P7/S7PassportPilotPrologueWR-VZR-V/HR-V,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.307665
+Honda B18C,base,Vans,FreedOdyssey/ElysionOdyssey (North America)Stepwgn,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.307702
+Honda B18C,base,Kei cars,N-BoxN-OneN-VanN-WGN,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.307736
+Honda B18C,base,Historic anddiscontinued,1300AirwaveAscotBalladeBeatCapaCity/Jazz (AA)ClarityCR-XCR-X del SolCR-ZCrider/EnvixCrossroadCrosstourConcertoDomaniee:NP2ElementEV PlusFit AriaFit Shuttle/ShuttleFR-V/EdixGieniaGraceGreizHorizonIntegraJadeLaGreatLegendLifeLife DunkLogoMobilioMobilio SpikeN360/N600NSXOrthiaPartnerQuintRafagaS500S600S660S800S2000S-MXSpiriorStreamT360/T500That'sTodayTorneoTourmasterVamos/Vamos HobioZZest,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.307883
+Honda B18C,base,Racing,"Curtiss SpecialR800R1300RA270RA271RA272RA273RA300RA301RA302RC100RA099RA106RA107RA108Spirit 201201CWilliams FW09FW09BFW10FW11FW11BLotus 99T100TMcLaren MP4/4MP4/5MP4/5BMP4/6MP4/6BMP4/7AMP4-30MP4-31MCL32Tyrrell 020BAR 002003004005006007Jordan EJ11EJ12Super Aguri SA05SA06SA07SA08Toro Rosso STR13STR14Red Bull Racing RB15RB16RB16BAlphaTauri AT01AT02NSX GT2NSX GT500HSV-010 GTNSX Concept-GTNSX-GTNSX-GT ""Type S""Civic Type R-GTNSX GT3Acura ARX-01Acura ARX-02aHPD ARX-03HPD ARX-04bAcura ARX-05Acura ARX-06",https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.308048
+Honda B18C,base,Concept,0 Saloon0 SUVProject 2&4Argento VivoCR-Z ConceptCR-Z Concept 2009DualnoteEV-NFC SportFCEV Concept1999 FCX Concepts2006 FCX conceptHP-XHSCJ-VXN7XNew Small ConceptOSMQuiltRemixSmall RSSpocketSports EVSUT ConceptSUV e: PrototypeSUV RSU-3XUrban EVWICWOWZero,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.308140
+Honda B18C,base,Bikes,MotorcyclesCB seriesCBF seriesCBR seriesCG125CJ seriesCL seriesCM/CMX seriesCR seriesCRF seriesCTX seriesCX seriesDN-01FuryGL seriesNC700 seriesNR seriesNSR seriesRC seriesST seriesVF/VFR seriesVT seriesVTX seriesXR/XL seriesXRE300TransalpAfrica TwinDeauvilleBros/HawkGTNX250Pacific CoastTL Series (Reflex)ValkyrieX4ScootersActivaAeroBig RuckusDioEliteEM1ExpressHelixJunoCHF50MotocompoNH seriesPCXReflexRuckusSpreeRuckus/ZoomerSilver WingVisionOtherApeCT seriesCub FCub seriesGyroIntegraNM4MotraP50PA50PC50ST series/DaxZ series,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.308320
+Honda B18C,base,Motorcycles,CB seriesCBF seriesCBR seriesCG125CJ seriesCL seriesCM/CMX seriesCR seriesCRF seriesCTX seriesCX seriesDN-01FuryGL seriesNC700 seriesNR seriesNSR seriesRC seriesST seriesVF/VFR seriesVT seriesVTX seriesXR/XL seriesXRE300TransalpAfrica TwinDeauvilleBros/HawkGTNX250Pacific CoastTL Series (Reflex)ValkyrieX4,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.308416
+Honda B18C,base,Scooters,ActivaAeroBig RuckusDioEliteEM1ExpressHelixJunoCHF50MotocompoNH seriesPCXReflexRuckusSpreeRuckus/ZoomerSilver WingVision,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.308482
+Honda B18C,base,Other,ApeCT seriesCub FCub seriesGyroIntegraNM4MotraP50PA50PC50ST series/DaxZ series,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.308535
+Honda B18C,base,Engines,A-seriesB-seriesB20AC-seriesCVCCD-seriesE-seriesE07AF-seriesF20CG-seriesH-seriesJ-seriesJNC1K-seriesL-seriesCircle L DieselN-series DieselP-engineR-seriesVTECI-DSiHI3RHI4RHI5RHI6RHI7RHI8RHI9RHI10RHI11RHI12RTHI13RTHI14TTHI15TTHI16TTHI17TTHI18TTHR09EHR10EGHR-414EHR-417EHR-420EHPD LM-V8HR28TTHR35TTAR24e,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.308658
+Honda B18C,base,Robots,Honda E seriesHonda P seriesASIMO,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.308691
+Honda B18C,base,People,Soichiro HondaTakeo FujisawaTadashi KumeShoichiro IrimajiriNobuhiko KawamotoTakeo FukuiTadao BabaTakahiro HachigoKenichi Nagahiro,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.308736
+Honda B18C,base,Configuration1970s1980s1990s12345678901234567890123456789I2EEI3E0I4FAHZABEDI5GV6CJ,Configuration,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.310349
+Honda B18C,base,I2,E,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.310464
+Honda B18C,base,I4,F,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.310515
+Honda B18C,base,Fuel TypeConfiguration2000s2010s2020s0123456789012345678901PetrolI3PE0ECA1SI4DRBKFHLDieselNCircle LPetrolV6CJIndy V6V8Indy V8 turboIndy V8,Fuel Type,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.311258
+Honda B18C,base,Fuel Type,Configuration,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.311291
+Honda B18C,base,Petrol,I3,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.311367
+Honda B18C,base,V8,Indy V8 turbo,https://en.wikipedia.org/wiki/Honda_B_engine#B18C,2026-04-01T18:14:43.311668
+Mitsubishi 4G63T,base,Manufacturer,Mitsubishi Motors,https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462655
+Mitsubishi 4G63T,base,Also called,4G6/4D6,https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462701
+Mitsubishi 4G63T,base,Production,19802013 (4G6 & 4D6 Series)1980present (4K Series: China),https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462738
+Mitsubishi 4G63T,base,Configuration,Inline-four,https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462780
+Mitsubishi 4G63T,base,Displacement,"1.6 L; 97.3 cu in (1,595 cc)1.8 L; 109.5 cu in (1,795 cc)1.8 L; 112.0 cu in (1,836 cc)2.0 L; 121.9 cu in (1,997 cc)2.0 L; 121.9 cu in (1,998 cc)2.4 L; 143.5 cu in (2,351 cc)2.4 L; 145.1 cu in (2,378 cc)",https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462811
+Mitsubishi 4G63T,base,Cylinder bore,80.6 mm (3.17 in)81.5 mm (3.21 in)82.3 mm (3.24 in)82.7 mm (3.26 in)85 mm (3.35 in)86.5 mm (3.41 in)87 mm (3.43 in),https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462843
+Mitsubishi 4G63T,base,Piston stroke,75 mm (2.95 in)88 mm (3.46 in)93 mm (3.66 in)100 mm (3.94 in),https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462870
+Mitsubishi 4G63T,base,Cylinder blockmaterial,Cast iron,https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462896
+Mitsubishi 4G63T,base,Cylinder headmaterial,Aluminium,https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462921
+Mitsubishi 4G63T,base,Valvetrain,"SOHC&DOHC, 2 &4 valvesx cyl. withMIVECon some versions",https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462951
+Mitsubishi 4G63T,base,Turbocharger,Some versions,https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.462990
+Mitsubishi 4G63T,base,Fuelsystem,"Carburetor,Fuel injection",https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.463016
+Mitsubishi 4G63T,base,Fuel type,"Gasoline,Diesel",https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.463041
+Mitsubishi 4G63T,base,Cooling system,Water-cooled,https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.463065
+Mitsubishi 4G63T,base,Successor,Mitsubishi 4B1 engine(4G6 Gasoline engine)Mitsubishi 4N1 engine(4D6 Diesel engine),https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.463107
+Mitsubishi 4G63T,base,Engines,List of engines2G12G23B23G83A94A34A94B14B44J14D54D64G14G34G44G54G64G84G94K14K24M44N16A16B36G36G78A8KEAstronCyclone V6GEMANeptuneOrionSaturnSaturn 6SiriusVulcan,https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.463279
+Mitsubishi 4G63T,base,Platforms,GS platformMR platformPS platformZ platform,https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.463315
+Mitsubishi 4G63T,base,Technologies,ACDActive-TracAWCAYCGDIINVECSM-ASTCMATTMIEVMIVECModulated DisplacementRISES-AWCSilent ShaftSmart IdlingSuper SelectTwin Clutch SSTVertical Vortex (MVV),https://en.wikipedia.org/wiki/Mitsubishi_Sirius_engine#4G63,2026-04-01T18:14:43.463378
+Subaru EJ257,base,Manufacturer,Subaru,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629330
+Subaru EJ257,base,Production,19882021 (EJ20),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629383
+Subaru EJ257,base,Configuration,Flat-four,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629444
+Subaru EJ257,base,Displacement,"1.5 L (1,493 cc; 91.1 cu in)1.6 L (1,597 cc; 97.5 cu in)1.8 L (1,820 cc; 111.1 cu in)2.0 L (1,994 cc; 121.7 cu in)2.2 L (2,212 cc; 135.0 cu in)2.5 L (2,457 cc; 149.9 cu in)",https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629480
+Subaru EJ257,base,Cylinder bore,85 mm (3.35 in)87.9 mm (3.46 in)92 mm (3.62 in)96.9 mm (3.81 in)99.5 mm (3.92 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629514
+Subaru EJ257,base,Piston stroke,65.8 mm (2.59 in)75 mm (2.95 in)79 mm (3.11 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629544
+Subaru EJ257,base,Valvetrain,DOHC/SOHC4 valvesx cyl. withAVCSorAVLS(some versions),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629577
+Subaru EJ257,base,Compression ratio,"8.0:1, 8.5:1, 9.0:1, 9.4:1, 9.5:1, 9.7:1, 10.0:1",https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629602
+Subaru EJ257,base,Turbocharger,Optional,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629641
+Subaru EJ257,base,Fuelsystem,"Carburetor,Fuel injection",https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629669
+Subaru EJ257,base,Fuel type,Gasoline,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629693
+Subaru EJ257,base,Cooling system,Water cooled,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629717
+Subaru EJ257,base,Power output,94 to 341 hp (70 to 254 kW; 95 to 346 PS),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629758
+Subaru EJ257,base,Torque output,129 to 407 Nm (95 to 300 lbft),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629781
+Subaru EJ257,base,Predecessor,Subaru EA engine,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629821
+Subaru EJ257,base,Successor,Subaru FB engine,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629845
+Subaru EJ257,base,Block,EJ205,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629908
+Subaru EJ257,base,Head Type,US WRX,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629937
+Subaru EJ257,base,Bore,92 mm (3.62 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629961
+Subaru EJ257,base,Crank Stroke,75 mm (2.95 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.629986
+Subaru EJ257,base,Rod Length,130.43 mm (5.135 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630009
+Subaru EJ257,base,Piston Pin Offset,.3289 mm (0.01295 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630034
+Subaru EJ257,base,Deck Height,201 mm (7.9 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630057
+Subaru EJ257,base,Gasket Thickness,0.8 mm (0.031 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630081
+Subaru EJ257,base,Head Volume,51 cc (3.1 cu in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630108
+Subaru EJ257,base,Piston Dish,12 cc (0.73 cu in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630135
+Subaru EJ257,base,Piston Deck,0.38 mm (0.015 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630170
+Subaru EJ257,base,Total Quench Height,0.98 mm (0.039 in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630198
+Subaru EJ257,base,Total Quench Volume,8.51 cc (0.519 cu in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630223
+Subaru EJ257,base,Total Deck Volume,18.51,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630249
+Subaru EJ257,base,Swept Volume,498.57 cc (30.425 cu in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630274
+Subaru EJ257,base,Compresses Volume,89.51 cc (5.462 cu in),https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630302
+Subaru EJ257,base,Static Compression Ratio,8.17:1,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630329
+Subaru EJ257,base,Rod to Stroke Ratio,1.74,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630354
+Subaru EJ257,base,Engine Displacement,"2.0 L (1,994 cc)",https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630378
+Subaru EJ257,base,Current,Kei carsChiffonPleo PlusStellaSambar TruckSambar VanCarsBRZImprezaJustyLevorg/WRX Wagon/WRX Sportswagon/WRX GTWRXSUVs/CrossoversAscent/EvoltisCrosstrekForesterGetawayOutbackRexSolterraTrailseeker/E-OutbackUncharted,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630540
+Subaru EJ257,base,Kei cars,ChiffonPleo PlusStellaSambar TruckSambar Van,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630578
+Subaru EJ257,base,Cars,BRZImprezaJustyLevorg/WRX Wagon/WRX Sportswagon/WRX GTWRX,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630614
+Subaru EJ257,base,SUVs/Crossovers,Ascent/EvoltisCrosstrekForesterGetawayOutbackRexSolterraTrailseeker/E-OutbackUncharted,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630658
+Subaru EJ257,base,Discontinued,360/45010001500Alcyone SVXBajaBRATDexFF-1/StarExigaLegacyLeoneLucraOutback SportPleoR-2R1R2Rex (kei car)Sumo/Domingo/LiberoTraviqTreziaTribecaVivioXT,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630733
+Subaru EJ257,base,Concept vehicles,"SRD-1 (1990)Suiren (1993)Elten (1997)Fleet-X (1999)B11S (2003)B9 Scrambler (2003)R1e (2003)B5 TPH (2005)G4e (2007)Hybrid & Advanced Tourer (2009, 2011)VIZIV (20132019)STI E-RA (2022)Sport Mobility Concept",https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630787
+Subaru EJ257,base,Engines,Mini/kei carsEKENEFBoxerGen 1EAERGen 2EJEGELGen 2.5EZEEGen 3FBFAGen 4CBTechnologiesAVCSi-AVLS,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630868
+Subaru EJ257,base,Mini/kei cars,EKENEF,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630901
+Subaru EJ257,base,Boxer,Gen 1EAERGen 2EJEGELGen 2.5EZEEGen 3FBFAGen 4CB,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630956
+Subaru EJ257,base,Technologies,AVCSi-AVLS,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.630986
+Subaru EJ257,base,History / Structure,Nakajima Aircraft CompanySubaru CorporationSubaru of America,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.631018
+Subaru EJ257,base,Motor sport,Subaru Tecnica InternationalSubaru Rally Team USASubaru Road Racing TeamSubaru World Rally Team,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.631051
+Subaru EJ257,base,Platforms,SI chassisSubaru Global Platform,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.631080
+Subaru EJ257,base,People,"Atsushi Osaki (President & CEO)Tomomi Nakamura (Chairman)Tomohiro Kubota (Chairman, President & CEO, Subaru Canada)Tadashi Yoshida (Chairman & CEO, Subaru USA)Glenn Tan (Deputy Chairman & Managing Director, Tan Chong International)",https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.631114
+Subaru EJ257,base,See also,Subaru enginesSubaru of Indiana AutomotiveSubaru Industrial Power ProductsTan Chong MotorToyota,https://en.wikipedia.org/wiki/Subaru_EJ_engine#EJ257,2026-04-01T18:14:43.631152
+GM LS3,base,Manufacturer,General Motors,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929684
+GM LS3,base,Designer,Tom StephensEd Koerner,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929724
+GM LS3,base,Production,1997present,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929749
+GM LS3,base,Configuration,"90V8, 90V6",https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929793
+GM LS3,base,Displacement,260511cu in(4.38.4L),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929822
+GM LS3,base,Cylinder bore,3.784.185in(96.0106.3mm),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929851
+GM LS3,base,Piston stroke,3.34.125in(83.8104.8mm),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929882
+GM LS3,base,Cylinder blockmaterial,AluminumCast iron,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929911
+GM LS3,base,Cylinder headmaterial,AluminumCast iron,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929938
+GM LS3,base,Valvetrain,"16-valve,OHV(2 valves per cyl.)",https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929968
+GM LS3,base,Compression ratio,9.08:113.1:1,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.929991
+GM LS3,base,Fuelsystem,"Fuel injection,carburetors",https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930039
+GM LS3,base,Fuel type,"Gasoline,E85",https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930065
+GM LS3,base,Oil system,"Wet sump,Dry sump",https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930092
+GM LS3,base,Cooling system,Water-cooled,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930118
+GM LS3,base,Torque output,285715lbft(386969Nm),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930199
+GM LS3,base,Dry weight,402464 lb (182210 kg),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930248
+GM LS3,base,Predecessor,Chevrolet small-block engine (first and second generation),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930289
+GM LS3,base,Successor,Chevrolet Gemini small-block engine,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930314
+GM LS3,base,Also called,Vortec,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930443
+GM LS3,base,Year(s),Model,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.930983
+GM LS3,base,19972004,Chevrolet Corvette C5,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931010
+GM LS3,base,19992006,Chevrolet Caprice,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931042
+GM LS3,base,19982002,"Pontiac FirebirdFormula, Trans Am",https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931070
+GM LS3,base,19992000,Holden VT II Commodore,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931155
+GM LS3,base,20002003,Holden VX CommodoreHolden VU Ute,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931188
+GM LS3,base,20022004,Holden VY Commodore,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931244
+GM LS3,base,20042005,Holden VZ Commodore,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931299
+GM LS3,base,2004,Pontiac GTO,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931325
+GM LS3,base,20012004,HSV GTO,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931353
+GM LS3,base,19992005,Holden Statesman,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931381
+GM LS3,base,20012005,Holden Monaro,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931409
+GM LS3,base,2005,HSV Z series Avalanche,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931438
+GM LS3,base,20072008,SSC Ultimate Aero TT(modified),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931561
+GM LS3,base,20002006,Chevrolet Tahoe/GMC Yukon,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931628
+GM LS3,base,19992007,Chevrolet Silverado/GMC Sierra 1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931656
+GM LS3,base,20032007,Chevrolet Express/GMC Savana 2500/3500,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931683
+GM LS3,base,20022005,Cadillac Escalade2WD,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931756
+GM LS3,base,20022006,Chevrolet Avalanche1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.931782
+GM LS3,base,20052006,Chevrolet Avalanche1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.932025
+GM LS3,base,20022007,Chevrolet Silverado/GMC Sierra 1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.932052
+GM LS3,base,20032004,Isuzu Ascender,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.932120
+GM LS3,base,20032005,Chevrolet TrailBlazerEXT,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.932252
+GM LS3,base,20052007,Chevrolet Silverado 1500 4WD/GMC Sierra 1500 4WD,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.932317
+GM LS3,base,2001,GMC Sierra C3,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.932417
+GM LS3,base,20032008,Chevrolet W-Series/GMC W-Series/Isuzu NPR,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.932581
+GM LS3,base,20032006,Cadillac Escalade ESV,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.932728
+GM LS3,base,20062007,Chevrolet Silverado Classic VortecMAX/GMC Sierra Classic VortecMAX,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.932799
+GM LS3,base,Supercharger,Eaton four-lobe Roots type (LS9 & LSA),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.933208
+GM LS3,base,20142019,Chevrolet Corvette C7,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934078
+GM LS3,base,460 hp (343 kW) at 6000 rpm (performance exhaust),465 lbft (630 Nm) at 4600 rpm (performance exhaust),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934101
+GM LS3,base,20162024,Chevrolet Camaro SS,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934128
+GM LS3,base,20202024,Chevrolet Camaro LT1,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934166
+GM LS3,base,2020present,Chevrolet Corvette C8,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934232
+GM LS3,base,495 hp (369 kW) at 6450 rpm (performance exhaust),470 lbft (637 Nm) at 5150 rpm (performance exhaust),https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934256
+GM LS3,base,2014present,Chevrolet Silverado/GMC Sierra,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934322
+GM LS3,base,2015present,Chevrolet Tahoe/GMC Yukon,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934346
+GM LS3,base,20152019,Chevrolet Corvette Z06,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934453
+GM LS3,base,20162019,Cadillac CTS-V,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934480
+GM LS3,base,20172024,Chevrolet Camaro ZL1,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934520
+GM LS3,base,2022present,Cadillac CT5-V Blackwing,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934546
+GM LS3,base,2023present,Cadillac Escalade-V,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934574
+GM LS3,base,2019,Chevrolet Corvette ZR1,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934638
+GM LS3,base,2021present,Chevrolet Express/GMC Savana2500/3500/4500,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934726
+GM LS3,base,376 hp (280 kW) at 5600 rpmE85,416 lbft (564 Nm) at 4000 rpmE85,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934827
+GM LS3,base,20152020,Chevrolet Tahoe/GMC Yukon,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934853
+GM LS3,base,20162018,Chevrolet Silverado/GMC Sierra1500 Hybrid,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.934999
+GM LS3,base,20192021,Chevrolet Silverado/GMC Sierra,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935083
+GM LS3,base,2019present,Chevrolet Silverado/GMC Sierra,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935124
+GM LS3,base,Chevrolet Suburban/GMC Yukon XL,355 hp (265 kW) at 5600 rpm,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935184
+GM LS3,base,20142021,Chevrolet Silverado/GMC Sierra1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935251
+GM LS3,base,297 hp (221 kW) at 5300 rpmE85,330 lbft (447 Nm) at 3900 rpmE85,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935279
+GM LS3,base,2018present,Chevrolet Express/GMC Savana2500/3500,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935345
+GM LS3,base,2027present,Chevrolet Corvette C8,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935408
+GM LS3,base,Years,RPO,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935592
+GM LS3,base,19972005,LS1,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935639
+GM LS3,base,19992008,LQ4,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935730
+GM LS3,base,20052009,LS2,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.935928
+GM LS3,base,20062010,L76,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936020
+GM LS3,base,20062015,LS7,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936082
+GM LS3,base,20072009,LY2,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936145
+GM LS3,base,20072013,LY6,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936207
+GM LS3,base,20072014,LC9,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936237
+GM LS3,base,20082009,LH8,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936298
+GM LS3,base,20082014,LMF,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936358
+GM LS3,base,20082017,LS3,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936388
+GM LS3,base,20092017,LSA,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936419
+GM LS3,base,20092013,L9H,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936449
+GM LS3,base,"20092013, 2017",LS9,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936480
+GM LS3,base,20102012,LH9,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936510
+GM LS3,base,20102013,LZ1,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936540
+GM LS3,base,20102015,L99,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936602
+GM LS3,base,20102017,L20,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936632
+GM LS3,base,20102020,L96,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936692
+GM LS3,base,20142024,LT1,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936769
+GM LS3,base,20142020,L83,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936800
+GM LS3,base,20142018,L86,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.936829
+GM LS3,base,2025present,L8P,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.937103
+GM LS3,base,Type1980s1990s2000s2010s2020s012345678901234567890123456789012345678901234GasolineFlat4EJInline3GS-TECFamily 0SGEE-Turbo4Opel OHV engineGM EcotecIron DukeFamily 0Opel CIHSaab HAZGQuad 4ZZZRVauxhall Slant-4AS-TECHolden StarfireSaturnAtlasMGEFamily IISGEFamily 1122GM L3BXGJ5Atlas6Chevrolet Turbo-ThriftRedBlueBlackRB30AtlasOpel CIHE-TECVBuick/3800Chevrolet 90GM 60Gen V 90ShortstarHigh ValueOpel 54High FeatureHJ8BuickCadillac OHVNorthstarBlackwingHigh TechnologyBig BlockSmall BlockGeminiLS/LTHoldenOldsmobilePontiacDieselDetroitOldsmobileDuramax6OldsmobileDMAXInlineM51DuramaxDetroit 606H4JTDRAFamily ZECircle LFamily IIFamily BAMDEType1980s1990s2000s2010s2020sLegendItalicized engines manufactured bySubaruToyotaIsuzuSuzukiNissanHondaBMWVM Motori,Type,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.938044
+GM LS3,base,Type,1980s,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.938078
+GM LS3,base,Gasoline,Flat,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.938184
+GM LS3,base,Vauxhall Slant-4,A,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.938408
+GM LS3,base,Family II,SGE,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.938461
+GM LS3,base,Red,Blue,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.938633
+GM LS3,base,RA,Family Z,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.939187
+GM LS3,base,Legend,Italicized engines manufactured bySubaruToyotaIsuzuSuzukiNissanHondaBMWVM Motori,https://en.wikipedia.org/wiki/GM_LS_engine#LS3,2026-04-01T18:14:43.939362
+GM LS7,base,Manufacturer,General Motors,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279365
+GM LS7,base,Designer,Tom StephensEd Koerner,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279406
+GM LS7,base,Production,1997present,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279431
+GM LS7,base,Configuration,"90V8, 90V6",https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279476
+GM LS7,base,Displacement,260511cu in(4.38.4L),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279504
+GM LS7,base,Cylinder bore,3.784.185in(96.0106.3mm),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279532
+GM LS7,base,Piston stroke,3.34.125in(83.8104.8mm),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279560
+GM LS7,base,Cylinder blockmaterial,AluminumCast iron,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279588
+GM LS7,base,Cylinder headmaterial,AluminumCast iron,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279616
+GM LS7,base,Valvetrain,"16-valve,OHV(2 valves per cyl.)",https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279645
+GM LS7,base,Compression ratio,9.08:113.1:1,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279670
+GM LS7,base,Fuelsystem,"Fuel injection,carburetors",https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279718
+GM LS7,base,Fuel type,"Gasoline,E85",https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279747
+GM LS7,base,Oil system,"Wet sump,Dry sump",https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279774
+GM LS7,base,Cooling system,Water-cooled,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279799
+GM LS7,base,Torque output,285715lbft(386969Nm),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279871
+GM LS7,base,Dry weight,402464 lb (182210 kg),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279920
+GM LS7,base,Predecessor,Chevrolet small-block engine (first and second generation),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279963
+GM LS7,base,Successor,Chevrolet Gemini small-block engine,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.279987
+GM LS7,base,Also called,Vortec,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280114
+GM LS7,base,Year(s),Model,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280656
+GM LS7,base,19972004,Chevrolet Corvette C5,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280684
+GM LS7,base,19992006,Chevrolet Caprice,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280716
+GM LS7,base,19982002,"Pontiac FirebirdFormula, Trans Am",https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280743
+GM LS7,base,19992000,Holden VT II Commodore,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280825
+GM LS7,base,20002003,Holden VX CommodoreHolden VU Ute,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280854
+GM LS7,base,20022004,Holden VY Commodore,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280909
+GM LS7,base,20042005,Holden VZ Commodore,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280964
+GM LS7,base,2004,Pontiac GTO,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.280991
+GM LS7,base,20012004,HSV GTO,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281018
+GM LS7,base,19992005,Holden Statesman,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281046
+GM LS7,base,20012005,Holden Monaro,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281074
+GM LS7,base,2005,HSV Z series Avalanche,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281104
+GM LS7,base,20072008,SSC Ultimate Aero TT(modified),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281283
+GM LS7,base,20002006,Chevrolet Tahoe/GMC Yukon,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281354
+GM LS7,base,19992007,Chevrolet Silverado/GMC Sierra 1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281381
+GM LS7,base,20032007,Chevrolet Express/GMC Savana 2500/3500,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281409
+GM LS7,base,20022005,Cadillac Escalade2WD,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281480
+GM LS7,base,20022006,Chevrolet Avalanche1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281508
+GM LS7,base,20052006,Chevrolet Avalanche1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281747
+GM LS7,base,20022007,Chevrolet Silverado/GMC Sierra 1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281774
+GM LS7,base,20032004,Isuzu Ascender,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281842
+GM LS7,base,20032005,Chevrolet TrailBlazerEXT,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.281970
+GM LS7,base,20052007,Chevrolet Silverado 1500 4WD/GMC Sierra 1500 4WD,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.282035
+GM LS7,base,2001,GMC Sierra C3,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.282137
+GM LS7,base,20032008,Chevrolet W-Series/GMC W-Series/Isuzu NPR,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.282347
+GM LS7,base,20032006,Cadillac Escalade ESV,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.282485
+GM LS7,base,20062007,Chevrolet Silverado Classic VortecMAX/GMC Sierra Classic VortecMAX,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.282559
+GM LS7,base,Supercharger,Eaton four-lobe Roots type (LS9 & LSA),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.282961
+GM LS7,base,20142019,Chevrolet Corvette C7,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.283845
+GM LS7,base,460 hp (343 kW) at 6000 rpm (performance exhaust),465 lbft (630 Nm) at 4600 rpm (performance exhaust),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.283869
+GM LS7,base,20162024,Chevrolet Camaro SS,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.283895
+GM LS7,base,20202024,Chevrolet Camaro LT1,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.283922
+GM LS7,base,2020present,Chevrolet Corvette C8,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.283986
+GM LS7,base,495 hp (369 kW) at 6450 rpm (performance exhaust),470 lbft (637 Nm) at 5150 rpm (performance exhaust),https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284009
+GM LS7,base,2014present,Chevrolet Silverado/GMC Sierra,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284076
+GM LS7,base,2015present,Chevrolet Tahoe/GMC Yukon,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284101
+GM LS7,base,20152019,Chevrolet Corvette Z06,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284208
+GM LS7,base,20162019,Cadillac CTS-V,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284235
+GM LS7,base,20172024,Chevrolet Camaro ZL1,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284263
+GM LS7,base,2022present,Cadillac CT5-V Blackwing,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284290
+GM LS7,base,2023present,Cadillac Escalade-V,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284317
+GM LS7,base,2019,Chevrolet Corvette ZR1,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284382
+GM LS7,base,2021present,Chevrolet Express/GMC Savana2500/3500/4500,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284473
+GM LS7,base,376 hp (280 kW) at 5600 rpmE85,416 lbft (564 Nm) at 4000 rpmE85,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284574
+GM LS7,base,20152020,Chevrolet Tahoe/GMC Yukon,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284604
+GM LS7,base,20162018,Chevrolet Silverado/GMC Sierra1500 Hybrid,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284757
+GM LS7,base,20192021,Chevrolet Silverado/GMC Sierra,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284843
+GM LS7,base,2019present,Chevrolet Silverado/GMC Sierra,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284885
+GM LS7,base,Chevrolet Suburban/GMC Yukon XL,355 hp (265 kW) at 5600 rpm,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.284937
+GM LS7,base,20142021,Chevrolet Silverado/GMC Sierra1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285001
+GM LS7,base,297 hp (221 kW) at 5300 rpmE85,330 lbft (447 Nm) at 3900 rpmE85,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285029
+GM LS7,base,2018present,Chevrolet Express/GMC Savana2500/3500,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285095
+GM LS7,base,2027present,Chevrolet Corvette C8,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285163
+GM LS7,base,Years,RPO,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285346
+GM LS7,base,19972005,LS1,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285395
+GM LS7,base,19992008,LQ4,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285492
+GM LS7,base,20052009,LS2,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285695
+GM LS7,base,20062010,L76,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285787
+GM LS7,base,20062015,LS7,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285849
+GM LS7,base,20072009,LY2,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285914
+GM LS7,base,20072013,LY6,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.285977
+GM LS7,base,20072014,LC9,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286008
+GM LS7,base,20082009,LH8,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286069
+GM LS7,base,20082014,LMF,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286132
+GM LS7,base,20082017,LS3,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286166
+GM LS7,base,20092017,LSA,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286198
+GM LS7,base,20092013,L9H,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286231
+GM LS7,base,"20092013, 2017",LS9,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286263
+GM LS7,base,20102012,LH9,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286295
+GM LS7,base,20102013,LZ1,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286326
+GM LS7,base,20102015,L99,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286388
+GM LS7,base,20102017,L20,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286419
+GM LS7,base,20102020,L96,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286481
+GM LS7,base,20142024,LT1,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286561
+GM LS7,base,20142020,L83,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286592
+GM LS7,base,20142018,L86,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286623
+GM LS7,base,2025present,L8P,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.286909
+GM LS7,base,Type1980s1990s2000s2010s2020s012345678901234567890123456789012345678901234GasolineFlat4EJInline3GS-TECFamily 0SGEE-Turbo4Opel OHV engineGM EcotecIron DukeFamily 0Opel CIHSaab HAZGQuad 4ZZZRVauxhall Slant-4AS-TECHolden StarfireSaturnAtlasMGEFamily IISGEFamily 1122GM L3BXGJ5Atlas6Chevrolet Turbo-ThriftRedBlueBlackRB30AtlasOpel CIHE-TECVBuick/3800Chevrolet 90GM 60Gen V 90ShortstarHigh ValueOpel 54High FeatureHJ8BuickCadillac OHVNorthstarBlackwingHigh TechnologyBig BlockSmall BlockGeminiLS/LTHoldenOldsmobilePontiacDieselDetroitOldsmobileDuramax6OldsmobileDMAXInlineM51DuramaxDetroit 606H4JTDRAFamily ZECircle LFamily IIFamily BAMDEType1980s1990s2000s2010s2020sLegendItalicized engines manufactured bySubaruToyotaIsuzuSuzukiNissanHondaBMWVM Motori,Type,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.287885
+GM LS7,base,Type,1980s,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.287921
+GM LS7,base,Gasoline,Flat,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.288029
+GM LS7,base,Vauxhall Slant-4,A,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.288309
+GM LS7,base,Family II,SGE,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.288363
+GM LS7,base,Red,Blue,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.288542
+GM LS7,base,RA,Family Z,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.289121
+GM LS7,base,Legend,Italicized engines manufactured bySubaruToyotaIsuzuSuzukiNissanHondaBMWVM Motori,https://en.wikipedia.org/wiki/GM_LS_engine#LS7,2026-04-01T18:14:44.289357
+Ford 5.0 Coyote,base,Manufacturer,Ford Motor Company,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518579
+Ford 5.0 Coyote,base,Also called,Ford TritonLincoln InTech,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518618
+Ford 5.0 Coyote,base,Production,1990presentMY: 1991present,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518648
+Ford 5.0 Coyote,base,Configuration,90V8andV10,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518698
+Ford 5.0 Coyote,base,Displacement,"V84.6 L (4,601 cc; 280.8 cu in)5.0 L (4,951 cc; 302.1 cu in)5.2 L (5,163 cc; 315.1 cu in)5.3 L (5,288 cc; 322.7 cu in)5.4 L (5,408 cc; 330.0 cu in)5.8 L (5,812 cc; 354.7 cu in)V106.8 L (6,760 cc; 412.5 cu in)",https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518737
+Ford 5.0 Coyote,base,Cylinder bore,3.552 in (90.2 mm)3.629 in (92.2 mm)3.681 in (93.5 mm)3.7 in (94 mm),https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518768
+Ford 5.0 Coyote,base,Piston stroke,3.543 in (90.0 mm)3.649 in (92.7 mm)3.661 in (93.0 mm)3.75 in (95.3 mm)4.165 in (105.8 mm),https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518801
+Ford 5.0 Coyote,base,Valvetrain,SOHC2- or3 valves per cylwithVCT(some versions)DOHC4 valves per cylwith VCT/Ti-VCT (some versions),https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518837
+Ford 5.0 Coyote,base,Valvetrain drive system,Chain,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518863
+Ford 5.0 Coyote,base,Supercharger,Eaton M-112roots-typein DOHC and 5.4 SOHC versions,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518905
+Ford 5.0 Coyote,base,Torque output,260679 lbft (353921 Nm),https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.518970
+Ford 5.0 Coyote,base,Predecessor,Ford small block V8Ford 385 V8,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.519015
+Ford 5.0 Coyote,base,Vehicle Name,Production Years,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.519106
+Ford 5.0 Coyote,base,Ford Mustang Dark Horse,2024present,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.521129
+Ford 5.0 Coyote,base,Puritalia Berlinetta,2019present,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.521466
+Ford 5.0 Coyote,base,De Tomaso P72,2023present,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.521494
+Ford 5.0 Coyote,base,Vehicle name,Production years,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.522734
+Ford 5.0 Coyote,base,Variant,Power,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.523182
+Ford 5.0 Coyote,base,Boss 260,349 hp (260 kW) at 5250 rpm,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.523207
+Ford 5.0 Coyote,base,Boss 290,389 hp (290 kW) at 5500 rpm,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.523231
+Ford 5.0 Coyote,base,Boss 302,405 hp (302 kW) at 6000 rpm,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.523255
+Ford 5.0 Coyote,base,Boss 315,422 hp (315 kW) at 6500 rpm,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.523303
+Ford 5.0 Coyote,base,Turbocharger,Quad-turbocharged,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.523601
+Ford 5.0 Coyote,base,Fuelsystem,Fuel injection,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.523628
+Ford 5.0 Coyote,base,Fuel type,Gasoline,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.523652
+Ford 5.0 Coyote,base,Oil system,Dry sump,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.523677
+Ford 5.0 Coyote,base,"Type1980s1990s2000s2010s2020s01234567890123456789012345678901234567890123Gasoline enginesI3EcoBoost I3I4Crossflow I4CVH I4Lima/OHC I4HSC I4Zetec I4Duratec 2.0/2.3/2.5 I4(Mazda L)EcoBoost 2.0L I4(Mazda L)EcoBoost 2.0L I4(twin-scroll)I6Thriftpower Six I6300/4.9LTruck SixV6Cologne V6(2.8/2.9)Cologne V6(4.0 SOHC)Cologne V6(4.0)Essex V6(3.8L/3.9L/4.2L)3.0L Vulcan V6SHO V6(3.0L/3.2L DOHC)Duratec (Mondeo) V6(2.5/3.0L DOHC)Cyclone/Duratec/Ti-VCT/EcoBoost V6(3.3/3.5/3.7L DOHC)Nano V6(2.7/3.0L DOHC twin-turbo)Small-block V8Windsor V8(4.2/4.9/5.8L OHV)Modular V8(4.6/5.0/5.2/5.4/5.8L SOHC/DOHC)SHO V8(3.4L DOHC)Medium-block V8Cleveland V8(5.8/6.6L OHV)Boss V8(6.2L SOHC)Big-block V8Super Duty V8(6.6/7.8/8.8L OHV)Godzilla V8(6.8/7.3L OHV)Ford 385 engine(6.1/7.0/7.5L OHV)V10Modular V10(6.8L SOHC)Diesel enginesI4Ford DuratorqEcoBlueI5Ford 3.2LDuratorqV63.0L V6(Ford Powerstroke)V86.9L/7.3L V8 (International Harvester IDI)7.3L V8 (Navistar T444E)6.0L V8 (Navistar VT365)6.7L V8(Ford ""Scorpion"")6.4L V8 (Navistar MaxxForce 7)",Type,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.524340
+Ford 5.0 Coyote,base,Type,1980s,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.524376
+Ford 5.0 Coyote,base,Gasoline engines,I3,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.524480
+Ford 5.0 Coyote,base,I4,Crossflow I4,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.524512
+Ford 5.0 Coyote,base,I6,Thriftpower Six I6,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.524672
+Ford 5.0 Coyote,base,Small-block V8,Windsor V8(4.2/4.9/5.8L OHV),https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.524929
+Ford 5.0 Coyote,base,Medium-block V8,Cleveland V8(5.8/6.6L OHV),https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.525009
+Ford 5.0 Coyote,base,Big-block V8,Super Duty V8(6.6/7.8/8.8L OHV),https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.525042
+Ford 5.0 Coyote,base,Diesel engines,I4,https://en.wikipedia.org/wiki/Ford_Modular_engine#5.0L_Coyote,2026-04-01T18:14:44.525125
+Chrysler 6.4 Hemi,base,Manufacturer,Chrysler,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700422
+Chrysler 6.4 Hemi,base,Also called,"""hemi"" engine",https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700453
+Chrysler 6.4 Hemi,base,Configuration,Naturally aspiratedV8,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700520
+Chrysler 6.4 Hemi,base,Displacement,"6,391 cc (390 cu in)",https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700548
+Chrysler 6.4 Hemi,base,Cylinder bore,4.05in(102.9mm),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700576
+Chrysler 6.4 Hemi,base,Piston stroke,3.785 in (96.1 mm),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700601
+Chrysler 6.4 Hemi,base,Cylinder blockmaterial,Cast iron,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700626
+Chrysler 6.4 Hemi,base,Cylinder headmaterial,AluminumCast iron,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700655
+Chrysler 6.4 Hemi,base,Valvetrain,OHV2valvespercylinder,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700684
+Chrysler 6.4 Hemi,base,Compression ratio,initially 7.5:1 (in 1951 Chrysler),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700712
+Chrysler 6.4 Hemi,base,Fuelsystem,2X4 barrelCarter AFBCarburetor,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700755
+Chrysler 6.4 Hemi,base,Fuel type,Gasoline,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700780
+Chrysler 6.4 Hemi,base,Oil system,Wet sumpDry sump,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700809
+Chrysler 6.4 Hemi,base,Cooling system,Liquid-cooled,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700834
+Chrysler 6.4 Hemi,base,Power output,320hp(239kW) (Gross)350 bhp (261 kW) (Net),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700884
+Chrysler 6.4 Hemi,base,Specific power,60.9 hp (45 kW) per liter,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700908
+Chrysler 6.4 Hemi,base,Torque output,490lbft(664Nm),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700935
+Chrysler 6.4 Hemi,base,Dry weight,650lb(295kg),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.700982
+Chrysler 6.4 Hemi,base,Successor,426 Wedge,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.701022
+Chrysler 6.4 Hemi,base,Predecessor,426 Wedge,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.4L,2026-04-01T18:14:44.701774
+BMW S54B32,base,Configuration,Straight-6,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295668
+BMW S54B32,base,Displacement,"2,171cc(132cu in)2,494cc(152cu in)2,979cc(182cu in)",https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295712
+BMW S54B32,base,Cylinder bore,80 mm (3.1 in)84 mm (3.3 in),https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295744
+BMW S54B32,base,Piston stroke,72 mm (2.8 in)75 mm (3.0 in)89.6 mm (3.53 in),https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295772
+BMW S54B32,base,Cylinder blockmaterial,Aluminium,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295802
+BMW S54B32,base,Cylinder headmaterial,Aluminium,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295828
+BMW S54B32,base,Valvetrain,DOHCw/VVT,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295855
+BMW S54B32,base,Fuel type,Petrol,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295900
+BMW S54B32,base,Predecessor,BMW M52,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295942
+BMW S54B32,base,Successor,BMW N52,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.295965
+BMW S54B32,base,Version,Displacement,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.296012
+BMW S54B32,base,M54B22,"2.2 L (2,171 cc)",https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.296042
+BMW S54B32,base,M54B25,"2.5 L (2,494 cc)",https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.296071
+BMW S54B32,base,M54B30,"3.0 L (2,979 cc)",https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.296101
+BMW S54B32,base,S54B32,"3.2 L (3,246 cc)",https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.296186
+BMW S54B32,base,Straight-4,<<M10,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.297026
+BMW S54B32,base,M12/13,M42,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.297056
+BMW S54B32,base,Straight-6,<<M20,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.297110
+BMW S54B32,base,<<M88 / M90,S38,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.297172
+BMW S54B32,base,Straight-6turbo,M102,https://en.wikipedia.org/wiki/BMW_S54,2026-04-01T18:14:45.297230
+BMW N54B30,base,Configuration,Straight-6,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426119
+BMW N54B30,base,Displacement,"3.0 L (2,979 cc)",https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426150
+BMW N54B30,base,Cylinder bore,84 mm (3.3 in),https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426181
+BMW N54B30,base,Piston stroke,89.6 mm (3.5 in),https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426206
+BMW N54B30,base,Cylinder blockmaterial,Aluminium,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426231
+BMW N54B30,base,Cylinder headmaterial,Aluminium,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426256
+BMW N54B30,base,Valvetrain,"DOHC, withVVT",https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426287
+BMW N54B30,base,Valvetrain drive system,Chain,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426311
+BMW N54B30,base,Max. engine speed,"7,000 rpm",https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426351
+BMW N54B30,base,Turbocharger,Twin-turbo,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426390
+BMW N54B30,base,Fuel type,Petrol,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426413
+BMW N54B30,base,Predecessor,BMW M54,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426456
+BMW N54B30,base,Successor,BMW N55,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426480
+BMW N54B30,base,Version,Displacement,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426527
+BMW N54B30,base,N54B30,"2,979 cc (181.8 cu in)",https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426557
+BMW N54B30,base,"240 kW (322 bhp)at 5,800 rpm","450 Nm (332 lbft)at 1,500-4,500 rpm",https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426585
+BMW N54B30,base,"250 kW (335 bhp)at 5,900 rpm",2011-2016,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426611
+BMW N54B30,base,Alpina,"265 kW (355 bhp)at 5,500-6,000 rpm",https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426638
+BMW N54B30,base,"294 kW (394 bhp)at 6,000 rpm","540 Nm (398 lbft)at 4,500 rpm",https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426668
+BMW N54B30,base,"300 kW (402 bhp)at 6,000 rpm",2012-2013,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.426694
+BMW N54B30,base,Straight-4,<<M43,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.427172
+BMW N54B30,base,N20/N26,B46/B48>>,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.427256
+BMW N54B30,base,Straight-6,M54,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.427286
+BMW N54B30,base,V8,<<M62,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.427429
+BMW N54B30,base,V12,<<M73,https://en.wikipedia.org/wiki/BMW_N54,2026-04-01T18:14:45.427551
+BMW S65B40,base,Manufacturer,BMW,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545117
+BMW S65B40,base,Configuration,90V8,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545207
+BMW S65B40,base,Displacement,"4.0 L (3,999 cc)4.4 L (4,361 cc)",https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545233
+BMW S65B40,base,Cylinder bore,92 mm (3.62 in),https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545258
+BMW S65B40,base,Piston stroke,75.2 mm (2.96 in)82 mm (3.2 in),https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545283
+BMW S65B40,base,Cylinder blockmaterial,Aluminium,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545308
+BMW S65B40,base,Cylinder headmaterial,Aluminium,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545333
+BMW S65B40,base,Valvetrain,DOHCw/VVT,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545362
+BMW S65B40,base,Fuelsystem,Electronic multi-point fuel injection,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545404
+BMW S65B40,base,Fuel type,Petrol,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545431
+BMW S65B40,base,Oil system,Wet sump,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545456
+BMW S65B40,base,Predecessor,BMW S62,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545496
+BMW S65B40,base,Successor,BMW S63,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545519
+BMW S65B40,base,Engine,Displacement,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545561
+BMW S65B40,base,S65B40,"3,999 cc (244.0 cu in)",https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545594
+BMW S65B40,base,S65B44,"4,361 cc (266.1 cu in)",https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.545624
+BMW S65B40,base,Straight-4,<<M43,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.546100
+BMW S65B40,base,N20/N26,B46/B48>>,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.546193
+BMW S65B40,base,Straight-6,M54,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.546224
+BMW S65B40,base,V8,<<M62,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.546372
+BMW S65B40,base,V12,<<M73,https://en.wikipedia.org/wiki/BMW_S65,2026-04-01T18:14:45.546498
+Mercedes M156,base,Manufacturer,Mercedes-AMG,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.133856
+Mercedes M156,base,Production,20052015 (M156)2009present (M159),https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.133887
+Mercedes M156,base,Configuration,Naturally aspirated90V8,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.133931
+Mercedes M156,base,Displacement,"6.2 L (6,208 cc)",https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.133955
+Mercedes M156,base,Cylinder bore,102.2 mm (4.02 in),https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.133978
+Mercedes M156,base,Piston stroke,94.6 mm (3.72 in),https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134001
+Mercedes M156,base,Valvetrain,DOHC4 valvesx cyl.,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134027
+Mercedes M156,base,Compression ratio,11.3:1,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134050
+Mercedes M156,base,Max. engine speed,"7,2508,000",https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134090
+Mercedes M156,base,Fuelsystem,Sequential port injection,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134129
+Mercedes M156,base,Fuel type,Gasoline,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134185
+Mercedes M156,base,Oil system,M156:Wet sumpM159:Dry sump,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134233
+Mercedes M156,base,Cooling system,Water-cooled,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134257
+Mercedes M156,base,Torque output,630650 Nm (465479 lbft),https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134320
+Mercedes M156,base,Predecessor,Mercedes-Benz M113 engine,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134358
+Mercedes M156,base,Successor,Mercedes-Benz M157 engine(5.5L)Mercedes-Benz M176/M177/M178 engine(4.0L),https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134384
+Mercedes M156,base,Engine code,Years,https://en.wikipedia.org/wiki/Mercedes-Benz_M156_engine,2026-04-01T18:14:46.134481
+Lamborghini V12 6.5,base,Manufacturer,Lamborghini,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029264
+Lamborghini V12 6.5,base,Production,1963present,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029295
+Lamborghini V12 6.5,base,Configuration,60V12petrol engine,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029340
+Lamborghini V12 6.5,base,Displacement,"3.5: 3,465cc(211.4cu in)3.9: 3,929 cc (239.8 cu in)4.8: 4,754 cc (290.1 cu in)5.2: 5,167 cc (315.3 cu in)5.7: 5,707 cc (348.3 cu in)6.0: 5,992 cc (365.7 cu in)6.2: 6,192 cc (377.9 cu in)6.5: 6,496 cc (396.4 cu in)2nd gen 6.5: 6,498 cc (396.5 cu in)","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029391
+Lamborghini V12 6.5,base,Cylinder bore,3.5: 77.0 mm (3.03 in)6.2: 87.0 mm (3.43 in)6.5: 88.0 mm (3.46 in)2nd gen 6.5: 95.0 mm (3.74 in),"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029428
+Lamborghini V12 6.5,base,Piston stroke,3.5: 62.0 mm (2.44 in)6.2: 86.8 mm (3.42 in)6.5: 89.0 mm (3.50 in)2nd gen 6.5: 76.4 mm (3.01 in),"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029463
+Lamborghini V12 6.5,base,Cylinder blockmaterial,Cast aluminium alloy,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029489
+Lamborghini V12 6.5,base,Cylinder headmaterial,Cast aluminium alloy,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029513
+Lamborghini V12 6.5,base,Valvetrain,"double overhead camshaft,3.5/4.0/4.8: 2-valves percyl,5.2/5.7/6.0/6.2/6.5:4-valves per cyl","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029546
+Lamborghini V12 6.5,base,Compression ratio,6.2: 11.6:16.5: 11.1:12nd gen 6.5: 11.8:1,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029579
+Lamborghini V12 6.5,base,Fuelsystem,"3.5/3.9/4.8/5.2: 6Webercarburettors,5.7/6.0/6.2/6.5: electronicmulti-pointsequentialfuel injection","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029629
+Lamborghini V12 6.5,base,Fuel type,Petrol/Gasoline,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029654
+Lamborghini V12 6.5,base,Oil system,"3.5/3.9:wet sump,6.2/6.5:dry sump","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029684
+Lamborghini V12 6.5,base,Cooling system,Water-cooled,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029709
+Lamborghini V12 6.5,base,Power output,"3.5: 273.7PS(201.3kW; 270.0bhp)6.2: 580 PS (427 kW; 572 bhp) at 7,500 rpm6.5: 640 PS (471 kW; 631 bhp) at 7,500 rpm2nd gen 6.5: 700 PS (515 kW; 690 bhp) at 8250 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029764
+Lamborghini V12 6.5,base,Specific power,3.5: 79.1 PS (58.2 kW; 78.0 bhp) per litre6.2: 93.7 PS (68.9 kW; 92.4 bhp) per litre6.5: 98.5 PS (72.4 kW; 97.2 bhp) per litre2nd gen 6.5: 107.7 PS (79.2 kW; 106.2 bhp) per litre,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029799
+Lamborghini V12 6.5,base,Torque output,"6.2: 650Nm(479lbfft) at 5,500 rpm6.5: 660 Nm (487 lbfft) at 5,200 rpm2nd gen 6.5: 690 Nm (509 lbfft) at 5,500 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029836
+Lamborghini V12 6.5,base,Dry weight,253 kg (6.5 litres)/235 kg (2nd gen 6.5),"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029877
+Lamborghini V12 6.5,base,Successor,Lamborghini V12 L539,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.029915
+Lamborghini V12 6.5,base,3.5,"284 PS (209 kW; 280 bhp) at 6,500 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030009
+Lamborghini V12 6.5,base,3.9,"385 PS (283 kW; 380 bhp) at 7,850 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030069
+Lamborghini V12 6.5,base,4.8,"375 PS (276 kW; 370 bhp) at 7,000 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030099
+Lamborghini V12 6.5,base,5.2,"455 PS (335 kW; 449 bhp) at 7,000 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030130
+Lamborghini V12 6.5,base,5.7,"From 485 PS (357 kW; 478 bhp) to 603 PS (444 kW; 595 bhp) at 7,300 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030170
+Lamborghini V12 6.5,base,6.0,"575 PS (423 kW; 567 bhp) at 7,300 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030203
+Lamborghini V12 6.5,base,6.2,"580 PS (427 kW; 572 bhp) at 7,500 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030232
+Lamborghini V12 6.5,base,6.5,"640 PS (471 kW; 631 bhp) at 8,000 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030262
+Lamborghini V12 6.5,base,"650 PS (478 kW; 641 bhp) at 8,000 rpm",Reventnand Murcilago LP 650-4 Roadster,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030291
+Lamborghini V12 6.5,base,"670 PS (493 kW; 661 bhp) at 8,000 rpm","660 Nm (487 lbfft) at 6,500 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030320
+Lamborghini V12 6.5,base,"720 PS (530 kW; 710 bhp) at 8,250 rpm",Aventador LP 720-4 50 Anniversario,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030424
+Lamborghini V12 6.5,base,"740 PS (544 kW; 730 bhp) at 8,400 rpm",Aventador S,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030449
+Lamborghini V12 6.5,base,"750 PS (552 kW; 740 bhp) at 8,400 rpm",Aventador LP 750-4 SuperVeloceandVeneno,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030476
+Lamborghini V12 6.5,base,"770 PS (566 kW; 759 bhp) at 8,500 rpm","720 Nm (531 lbfft) at 6,720 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030503
+Lamborghini V12 6.5,base,"780 PS (574 kW; 769 bhp) at 8,500 rpm","Aventador LP780-4 Ultimae,Countach LPI 800-4","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030530
+Lamborghini V12 6.5,base,"780 PS (574 kW; 769 bhp) at 6,750 rpm",Invencible,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030577
+Lamborghini V12 6.5,base,"785 PS (577 kW; 774 bhp) at 8,500 rpm",Sin FKP 37,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030601
+Lamborghini V12 6.5,base,"830 PS (610 kW; 819 bhp) at 8,500 rpm","760 Nm (561 lbfft) at 7,000 rpm","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030627
+Lamborghini V12 6.5,base,"835 PS (614 kW; 824 bhp) at 9,250 rpm",Fenomeno,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030718
+Lamborghini V12 6.5,base,Current production vehicles,RevueltoTemerarioUrus,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030828
+Lamborghini V12 6.5,base,Production engines,V8V10V12L411LE3512,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030865
+Lamborghini V12 6.5,base,Past production vehicles,350 GT400 GTAventadorCentenarioCountachCountach LPI 800-4DiabloEspadaEssenza SCV12GallardoHuracnIsleroJalpaJaramaLM002MiuraMurcilagoReventnSesto ElementoSin FKP 37SilhouetteUrracoVeneno,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.030939
+Lamborghini V12 6.5,base,Concept vehicles,Bertone Genesis5-95 Zagato350 GTV400 GT MonzaAcostaAlarAsterionAthonBravoCalCantoCheetahConcept SEstoqueEgoistaFaenaFlying Star IIHuracan Sterrato ConceptLambo V12 Vision Gran TurismoLanzadorLM001LMA002LM003LM004Marco PoloMarzalMiura conceptP140PortofinoTerzo MillennioUrusRaptor,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.031032
+Lamborghini V12 6.5,base,Motorsport,Lamborghini Countach QVXLamborghini Super TrofeoSC63,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.031066
+Lamborghini V12 6.5,base,People,"Ferruccio Lamborghini(founder)Giampaolo Dallara(technical director 19631968)Paolo Stanzani(technical director 19681975)Giotto Bizzarrini(engine designer 1960s)Bob Wallace(test driver 19631975)Valentino Balboni(test driver 19682008)Marcello Gandinifrom Bertone, car designer from Miura to DiabloStephan Winkelmann, from 2020 to present, CEO","https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.031113
+Lamborghini V12 6.5,base,Other,History of LamborghiniLamborghini: The Man Behind the LegendLamborghini(video game)Automobili Lamborghini(video game)Lamborghini American Challenge(video game)Museo Ferruccio LamborghiniMuseo LamborghiniItaldesign GiugiaroLamborghini TrattoriForged composite,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.031168
+Lamborghini V12 6.5,base,Owner,Ferruccio Lamborghini,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.031531
+Lamborghini V12 6.5,base,Grand Tourer,V12,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.031561
+Lamborghini V12 6.5,base,Sports car,V8,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.031644
+Lamborghini V12 6.5,base,SUV,V12,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.031720
+Lamborghini V12 6.5,base,V12,Diablo,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.032622
+Lamborghini V12 6.5,base,CUV,V8,"https://en.wikipedia.org/wiki/Lamborghini_V12#6.5_L_(6,498_cc)_LP_series",2026-04-01T18:14:47.032711
+Ferrari F136 4.5,base,Manufacturer,Ferrari,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160151
+Ferrari F136 4.5,base,Also called,Ferrari-Maserati V8,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160194
+Ferrari F136 4.5,base,Configuration,"90V8; 180 flat-plane crankshaft (Ferrari) / 90 cross-plane crankshaft (Maserati, Alfa Romeo)",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160286
+Ferrari F136 4.5,base,Displacement,"4.2 L (4,244 cc)4.3 L (4,297 cc)4.3 L (4,308 cc)4.5 L (4,497 cc)4.7 L (4,691 cc)",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160328
+Ferrari F136 4.5,base,Cylinder bore,92 mm (3.6 in)94 mm (3.7 in),https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160360
+Ferrari F136 4.5,base,Piston stroke,79.8 mm (3.1 in)77.4 mm (3.0 in)81 mm (3.2 in)84.5 mm (3.3 in),https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160398
+Ferrari F136 4.5,base,Valvetrain,"DOHC, 32-valve",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160431
+Ferrari F136 4.5,base,Fuelsystem,Direct injectionMulti-port injection,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160510
+Ferrari F136 4.5,base,Fuel type,Petrol,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160545
+Ferrari F136 4.5,base,Oil system,Dry sump/Wet sump,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160578
+Ferrari F136 4.5,base,Cooling system,Water cooled,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160604
+Ferrari F136 4.5,base,Torque output,333397 lbft (451538 Nm),https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160668
+Ferrari F136 4.5,base,Predecessor,Ferrari F131 engineMaserati 3.2L V8,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160709
+Ferrari F136 4.5,base,Successor,Ferrari F154 engine,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160733
+Ferrari F136 4.5,base,Engine,Displacement,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160815
+Ferrari F136 4.5,base,F136 R,"4,244 cc (259 cu in)92 x 79.8 mm",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160852
+Ferrari F136 4.5,base,F136 U,F136 UC,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.160936
+Ferrari F136 4.5,base,F136 Y,"4,691 cc (286 cu in)94 x 84.5 mm",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161045
+Ferrari F136 4.5,base,F136 YH,2008-2010,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161120
+Ferrari F136 4.5,base,F136 YI,Maserati GranCabrio,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161260
+Ferrari F136 4.5,base,F136 YK,2010-2011,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161321
+Ferrari F136 4.5,base,F136,"4,244 cc (259 cu in)92 x 79.8 mm",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161493
+Ferrari F136 4.5,base,2004,Trofeo Light,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161519
+Ferrari F136 4.5,base,2013,GranTurismo MC GT3,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161605
+Ferrari F136 4.5,base,F136 E,"4,308 cc (263 cu in)92 x 81 mm",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161724
+Ferrari F136 4.5,base,F136 I,"4,297 cc (262 cu in)94 x 77.4 mm",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161788
+Ferrari F136 4.5,base,F136 F,"4,497 cc (274 cu in)94 x 81 mm",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161851
+Ferrari F136 4.5,base,F136 E & EA,"4,308 cc (263 cu in)92 x 81 mm",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.161958
+Ferrari F136 4.5,base,F136 GT,"3,997 cc (244 cu in)92 x 75.15 mm",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.162019
+Ferrari F136 4.5,base,F136 YC,"4,691 cc (286 cu in)",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.162158
+Ferrari F136 4.5,base,Cars,CurrentRomaSF90 XX Stradale / Spider296Daytona SP3Purosangue12CilindriF80PastAuto Avio Costruzioni 815125 C125 S159 S166 S/SC166 MM166 Inter195 S195 Inter212 Export212 InterAmerica225 S375 MM250250 S250 MM250 Monza250 GT Coup250 GT California Spyder250 GT Lusso250 GTOP275330365365 GT 2+2Dino 206 GT/246 GT/246 GTSDaytona365 GTC/4GT4Berlinetta Boxer308 GTB/GTSMondial288 GTOTestarossa328F40348333 SPF355F50360400/412456550Enzo Ferrari575M MaranelloF430612 Scaglietti599California458FFF12berlinettaLaFerrariCalifornia T488GTC4LussoPortofinoPortofino M812Monza SP1Monza SP2SF90 Stradale / SpiderF8FutureAmalfi849 TestarossaLuceConcepts365 P BerlinettaSigma512 S Berlinetta408 4RMModuloMythosPininFZ93RossaGG50MillechiliVision Gran TurismoAscariPininfarina SergioRelatedFiat DinoLancia LC2Lancia StratosMaserati MC12,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.162750
+Ferrari F136 4.5,base,Current,RomaSF90 XX Stradale / Spider296Daytona SP3Purosangue12CilindriF80,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.162794
+Ferrari F136 4.5,base,Past,Auto Avio Costruzioni 815125 C125 S159 S166 S/SC166 MM166 Inter195 S195 Inter212 Export212 InterAmerica225 S375 MM250250 S250 MM250 Monza250 GT Coup250 GT California Spyder250 GT Lusso250 GTOP275330365365 GT 2+2Dino 206 GT/246 GT/246 GTSDaytona365 GTC/4GT4Berlinetta Boxer308 GTB/GTSMondial288 GTOTestarossa328F40348333 SPF355F50360400/412456550Enzo Ferrari575M MaranelloF430612 Scaglietti599California458FFF12berlinettaLaFerrariCalifornia T488GTC4LussoPortofinoPortofino M812Monza SP1Monza SP2SF90 Stradale / SpiderF8,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.162958
+Ferrari F136 4.5,base,Future,Amalfi849 TestarossaLuce,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.162993
+Ferrari F136 4.5,base,Concepts,365 P BerlinettaSigma512 S Berlinetta408 4RMModuloMythosPininFZ93RossaGG50MillechiliVision Gran TurismoAscariPininfarina Sergio,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163048
+Ferrari F136 4.5,base,Related,Fiat DinoLancia LC2Lancia StratosMaserati MC12,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163083
+Ferrari F136 4.5,base,Engines,CurrentF140F154F160F163PastColomboLamprediJanoDinoFlat-12F116/F133F136,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163159
+Ferrari F136 4.5,base,Personnel,"CurrentJohn Elkann(president)Benedetto Vigna(chief executive officer)Piero Ferrari(vice chairman)Flavio ManzoniFormerEnzo Ferrari(founder)Mario AlmondoDany BaharVittorio BellentaniMarcello GandiniGiotto BizzarriniAldo BrovaroneGiuseppe BussoLouis C. CamilleriJason CastriotaLuigi ChinettiDonato CocoGiampaolo DallaraMarco FainelloBattista FarinaAmedeo FelisaAlfredo ""Dino"" FerrariLeonardo FioravantiPier Ugo GobbatoAurelio LamprediSergio MarchionnePaolo MartinAlberto MassiminoNicola MaterazziMarco MattiacciTom MeadeGiovanni MichelottiLuca di MontezemoloKen OkuyamaGerald RoushFrank Stephenson",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163354
+Ferrari F136 4.5,base,Former,"Enzo Ferrari(founder)Mario AlmondoDany BaharVittorio BellentaniMarcello GandiniGiotto BizzarriniAldo BrovaroneGiuseppe BussoLouis C. CamilleriJason CastriotaLuigi ChinettiDonato CocoGiampaolo DallaraMarco FainelloBattista FarinaAmedeo FelisaAlfredo ""Dino"" FerrariLeonardo FioravantiPier Ugo GobbatoAurelio LamprediSergio MarchionnePaolo MartinAlberto MassiminoNicola MaterazziMarco MattiacciTom MeadeGiovanni MichelottiLuca di MontezemoloKen OkuyamaGerald RoushFrank Stephenson",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163484
+Ferrari F136 4.5,base,Locations,MuseumsMuseo FerrariMuseo Casa Enzo FerrariAmusement parksFerrari World Abu DhabiFerrari LandInfrastructureFerrari factoryFiorano CircuitMugello Circuit,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163546
+Ferrari F136 4.5,base,Museums,Museo FerrariMuseo Casa Enzo Ferrari,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163583
+Ferrari F136 4.5,base,Amusement parks,Ferrari World Abu DhabiFerrari Land,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163614
+Ferrari F136 4.5,base,Infrastructure,Ferrari factoryFiorano CircuitMugello Circuit,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163646
+Ferrari F136 4.5,base,Media,"FilmsLa Passione(1996)The Snake and the Stallion(2002)Ferrari(2003)Ford v Ferrari(2019)soundtrackFerrari(2023)soundtrackTelevisionMagnum, P.I.(1980)Miami Vice(1984)Magnum P. I.(2018)Video gamesFerrari Formula One(1988)Ferrari Grand Prix Challenge(1992)F355 Challenge(1999)Ferrari Challenge: Trofeo Pirelli(2008)Ferrari GT: Evolution(2008)Ferrari Virtual Race(2009)Ferrari Virtual Academy(2010)Ferrari: The Race Experience(2010)Ferrari GT 3: World Track(2012)Test Drive: Ferrari Racing Legends(2012)",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163749
+Ferrari F136 4.5,base,Films,La Passione(1996)The Snake and the Stallion(2002)Ferrari(2003)Ford v Ferrari(2019)soundtrackFerrari(2023)soundtrack,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163795
+Ferrari F136 4.5,base,Television,"Magnum, P.I.(1980)Miami Vice(1984)Magnum P. I.(2018)",https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163830
+Ferrari F136 4.5,base,Video games,Ferrari Formula One(1988)Ferrari Grand Prix Challenge(1992)F355 Challenge(1999)Ferrari Challenge: Trofeo Pirelli(2008)Ferrari GT: Evolution(2008)Ferrari Virtual Race(2009)Ferrari Virtual Academy(2010)Ferrari: The Race Experience(2010)Ferrari GT 3: World Track(2012)Test Drive: Ferrari Racing Legends(2012),https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163888
+Ferrari F136 4.5,base,Motorsport,Racing teamsAF CorseNorth American Racing TeamRisi CompetizioneScuderia FerrariChassis buildersCarrozzeria ScagliettiDallaraMichelotto AutomobiliChampionshipsFerrari ChallengeFlorida Winter Series,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163950
+Ferrari F136 4.5,base,Racing teams,AF CorseNorth American Racing TeamRisi CompetizioneScuderia Ferrari,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.163985
+Ferrari F136 4.5,base,Chassis builders,Carrozzeria ScagliettiDallaraMichelotto Automobili,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.164019
+Ferrari F136 4.5,base,Championships,Ferrari ChallengeFlorida Winter Series,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.164048
+Ferrari F136 4.5,base,Fandom,CavallinoPalm Beach Cavallino Classic,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.164131
+Ferrari F136 4.5,base,Others,Arno XIThe Kiss of DeathManettino dialPininfarinaPrancing HorseXX Programmes,https://en.wikipedia.org/wiki/Ferrari_F136_engine,2026-04-01T18:14:47.164177
+Ford GT500 5.8,base,Manufacturer,Ford PerformanceShelby AmericanSVT,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898302
+Ford GT500 5.8,base,Also called,Ford Mustang ShelbyFord Shelby MustangMustang ShelbyMustang GT500Mustang GT350Shelby GT500 CobraShelby GT350 Cobra,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898342
+Ford GT500 5.8,base,Production,196519712005present,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898371
+Ford GT500 5.8,base,Assembly,"19651967, 19691971:United States:Los Angeles, California1968:United States:Ionia, Michigan2005present:United States:Flat Rock, Michigan(Flat Rock Assembly Plant);Enterprise, Nevada(Shelby American)",https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898415
+Ford GT500 5.8,base,Designer,John Chun,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898445
+Ford GT500 5.8,base,Class,Sports carMuscle carPony car,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898493
+Ford GT500 5.8,base,Layout,FR layout,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898518
+Ford GT500 5.8,base,Platform,Ford D2C platform:(2nd generation /5th generation Ford Mustang)Ford S550 platform:(3rd generation / 6th generation Ford Mustang),https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898553
+Ford GT500 5.8,base,Related,"Ford Mustang(1st,5thand6th generation)",https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898583
+Ford GT500 5.8,base,Body style,2-doorfastback2-doorconvertible2-doorhardtop,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898753
+Ford GT500 5.8,base,Engine,289 cu in (4.7 L)Windsor K-CodeV84-barrelcarb.,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898801
+Ford GT500 5.8,base,Transmission,3-speedautomatic4-speedmanual,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898832
+Ford GT500 5.8,base,Wheelbase,"108.0 in (2,743 mm)",https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898872
+Ford GT500 5.8,base,Length,"181.6 in (4,613 mm)",https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898895
+Ford GT500 5.8,base,Successor,"Standard:1967 Shelby G.T.350 and 1968 Shelby Cobra GT3502015 Ford Shelby GT350,GT350RGT350H:20062007 Ford Shelby GT-H",https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.898945
+Ford GT500 5.8,base,Curb weight,"1,470 kg (3,241 lb)",https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.899518
+Ford GT500 5.8,base,Predecessor,1966 Shelby G.T.350-H,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.900227
+Ford GT500 5.8,base,Width,"73.9 in (1,877 mm)",https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.901474
+Ford GT500 5.8,base,Height,"55.8 in (1,417 mm)",https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.901497
+Ford GT500 5.8,base,Ford in-house variants,Boss 302Boss 351Boss 429BullittCalifornia SpecialFR500GiugiaroGT500GT350/GT EcoboostRouchMach 1McLaren M81Mustang ISpecial Service PackageSVOSVT Cobra,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.906220
+Ford GT500 5.8,base,Third-party models,Shelby MustangRoush MustangSteeda MustangSaleen MustangIacocca MustangRTR MustangHennessey MustangGalpin Rocket MustangVLF Rocket V8,https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.906264
+Ford GT500 5.8,base,Other related vehicles,Ford Mustang Mach-EMercury Cougar(19671973)Ford PintoMercury Capri(19791986)Ford Probe(19891997),https://en.wikipedia.org/wiki/Ford_Shelby_GT500#2013,2026-04-01T18:14:47.906303
+Dodge Hellcat 6.2,base,Manufacturer,Chrysler,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079397
+Dodge Hellcat 6.2,base,Also called,"""hemi"" engine",https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079427
+Dodge Hellcat 6.2,base,Configuration,Naturally aspiratedV8,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079490
+Dodge Hellcat 6.2,base,Displacement,"6,391 cc (390 cu in)",https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079517
+Dodge Hellcat 6.2,base,Cylinder bore,4.05in(102.9mm),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079544
+Dodge Hellcat 6.2,base,Piston stroke,3.785 in (96.1 mm),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079567
+Dodge Hellcat 6.2,base,Cylinder blockmaterial,Cast iron,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079591
+Dodge Hellcat 6.2,base,Cylinder headmaterial,AluminumCast iron,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079618
+Dodge Hellcat 6.2,base,Valvetrain,OHV2valvespercylinder,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079645
+Dodge Hellcat 6.2,base,Compression ratio,initially 7.5:1 (in 1951 Chrysler),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079673
+Dodge Hellcat 6.2,base,Fuelsystem,2X4 barrelCarter AFBCarburetor,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079714
+Dodge Hellcat 6.2,base,Fuel type,Gasoline,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079737
+Dodge Hellcat 6.2,base,Oil system,Wet sumpDry sump,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079798
+Dodge Hellcat 6.2,base,Cooling system,Liquid-cooled,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079820
+Dodge Hellcat 6.2,base,Power output,320hp(239kW) (Gross)350 bhp (261 kW) (Net),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079869
+Dodge Hellcat 6.2,base,Specific power,60.9 hp (45 kW) per liter,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079892
+Dodge Hellcat 6.2,base,Torque output,490lbft(664Nm),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079919
+Dodge Hellcat 6.2,base,Dry weight,650lb(295kg),https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.079964
+Dodge Hellcat 6.2,base,Successor,426 Wedge,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.080003
+Dodge Hellcat 6.2,base,Predecessor,426 Wedge,https://en.wikipedia.org/wiki/Chrysler_Hemi_engine#6.2L_Hellcat,2026-04-01T18:14:48.080684
+Chevrolet LS9,base,Manufacturer,General Motors,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.388924
+Chevrolet LS9,base,Designer,Tom StephensEd Koerner,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.388964
+Chevrolet LS9,base,Production,1997present,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.388990
+Chevrolet LS9,base,Configuration,"90V8, 90V6",https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389036
+Chevrolet LS9,base,Displacement,260511cu in(4.38.4L),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389065
+Chevrolet LS9,base,Cylinder bore,3.784.185in(96.0106.3mm),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389094
+Chevrolet LS9,base,Piston stroke,3.34.125in(83.8104.8mm),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389122
+Chevrolet LS9,base,Cylinder blockmaterial,AluminumCast iron,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389154
+Chevrolet LS9,base,Cylinder headmaterial,AluminumCast iron,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389182
+Chevrolet LS9,base,Valvetrain,"16-valve,OHV(2 valves per cyl.)",https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389212
+Chevrolet LS9,base,Compression ratio,9.08:113.1:1,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389236
+Chevrolet LS9,base,Fuelsystem,"Fuel injection,carburetors",https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389285
+Chevrolet LS9,base,Fuel type,"Gasoline,E85",https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389311
+Chevrolet LS9,base,Oil system,"Wet sump,Dry sump",https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389337
+Chevrolet LS9,base,Cooling system,Water-cooled,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389362
+Chevrolet LS9,base,Torque output,285715lbft(386969Nm),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389437
+Chevrolet LS9,base,Dry weight,402464 lb (182210 kg),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389486
+Chevrolet LS9,base,Predecessor,Chevrolet small-block engine (first and second generation),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389527
+Chevrolet LS9,base,Successor,Chevrolet Gemini small-block engine,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389553
+Chevrolet LS9,base,Also called,Vortec,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.389680
+Chevrolet LS9,base,Year(s),Model,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390211
+Chevrolet LS9,base,19972004,Chevrolet Corvette C5,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390239
+Chevrolet LS9,base,19992006,Chevrolet Caprice,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390271
+Chevrolet LS9,base,19982002,"Pontiac FirebirdFormula, Trans Am",https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390298
+Chevrolet LS9,base,19992000,Holden VT II Commodore,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390378
+Chevrolet LS9,base,20002003,Holden VX CommodoreHolden VU Ute,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390407
+Chevrolet LS9,base,20022004,Holden VY Commodore,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390464
+Chevrolet LS9,base,20042005,Holden VZ Commodore,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390520
+Chevrolet LS9,base,2004,Pontiac GTO,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390546
+Chevrolet LS9,base,20012004,HSV GTO,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390573
+Chevrolet LS9,base,19992005,Holden Statesman,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390603
+Chevrolet LS9,base,20012005,Holden Monaro,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390632
+Chevrolet LS9,base,2005,HSV Z series Avalanche,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390659
+Chevrolet LS9,base,20072008,SSC Ultimate Aero TT(modified),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390779
+Chevrolet LS9,base,20002006,Chevrolet Tahoe/GMC Yukon,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390846
+Chevrolet LS9,base,19992007,Chevrolet Silverado/GMC Sierra 1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390873
+Chevrolet LS9,base,20032007,Chevrolet Express/GMC Savana 2500/3500,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390900
+Chevrolet LS9,base,20022005,Cadillac Escalade2WD,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.390973
+Chevrolet LS9,base,20022006,Chevrolet Avalanche1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.391002
+Chevrolet LS9,base,20052006,Chevrolet Avalanche1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.391251
+Chevrolet LS9,base,20022007,Chevrolet Silverado/GMC Sierra 1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.391278
+Chevrolet LS9,base,20032004,Isuzu Ascender,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.391349
+Chevrolet LS9,base,20032005,Chevrolet TrailBlazerEXT,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.391473
+Chevrolet LS9,base,20052007,Chevrolet Silverado 1500 4WD/GMC Sierra 1500 4WD,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.391537
+Chevrolet LS9,base,2001,GMC Sierra C3,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.391641
+Chevrolet LS9,base,20032008,Chevrolet W-Series/GMC W-Series/Isuzu NPR,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.391804
+Chevrolet LS9,base,20032006,Cadillac Escalade ESV,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.391946
+Chevrolet LS9,base,20062007,Chevrolet Silverado Classic VortecMAX/GMC Sierra Classic VortecMAX,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.392018
+Chevrolet LS9,base,Supercharger,Eaton four-lobe Roots type (LS9 & LSA),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.392429
+Chevrolet LS9,base,20142019,Chevrolet Corvette C7,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393412
+Chevrolet LS9,base,460 hp (343 kW) at 6000 rpm (performance exhaust),465 lbft (630 Nm) at 4600 rpm (performance exhaust),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393435
+Chevrolet LS9,base,20162024,Chevrolet Camaro SS,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393463
+Chevrolet LS9,base,20202024,Chevrolet Camaro LT1,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393490
+Chevrolet LS9,base,2020present,Chevrolet Corvette C8,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393556
+Chevrolet LS9,base,495 hp (369 kW) at 6450 rpm (performance exhaust),470 lbft (637 Nm) at 5150 rpm (performance exhaust),https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393582
+Chevrolet LS9,base,2014present,Chevrolet Silverado/GMC Sierra,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393651
+Chevrolet LS9,base,2015present,Chevrolet Tahoe/GMC Yukon,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393676
+Chevrolet LS9,base,20152019,Chevrolet Corvette Z06,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393782
+Chevrolet LS9,base,20162019,Cadillac CTS-V,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393809
+Chevrolet LS9,base,20172024,Chevrolet Camaro ZL1,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393836
+Chevrolet LS9,base,2022present,Cadillac CT5-V Blackwing,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393864
+Chevrolet LS9,base,2023present,Cadillac Escalade-V,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393891
+Chevrolet LS9,base,2019,Chevrolet Corvette ZR1,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.393955
+Chevrolet LS9,base,2021present,Chevrolet Express/GMC Savana2500/3500/4500,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394045
+Chevrolet LS9,base,376 hp (280 kW) at 5600 rpmE85,416 lbft (564 Nm) at 4000 rpmE85,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394150
+Chevrolet LS9,base,20152020,Chevrolet Tahoe/GMC Yukon,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394179
+Chevrolet LS9,base,20162018,Chevrolet Silverado/GMC Sierra1500 Hybrid,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394328
+Chevrolet LS9,base,20192021,Chevrolet Silverado/GMC Sierra,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394413
+Chevrolet LS9,base,2019present,Chevrolet Silverado/GMC Sierra,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394454
+Chevrolet LS9,base,Chevrolet Suburban/GMC Yukon XL,355 hp (265 kW) at 5600 rpm,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394507
+Chevrolet LS9,base,20142021,Chevrolet Silverado/GMC Sierra1500,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394573
+Chevrolet LS9,base,297 hp (221 kW) at 5300 rpmE85,330 lbft (447 Nm) at 3900 rpmE85,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394604
+Chevrolet LS9,base,2018present,Chevrolet Express/GMC Savana2500/3500,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394668
+Chevrolet LS9,base,2027present,Chevrolet Corvette C8,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394733
+Chevrolet LS9,base,Years,RPO,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394928
+Chevrolet LS9,base,19972005,LS1,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.394976
+Chevrolet LS9,base,19992008,LQ4,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395071
+Chevrolet LS9,base,20052009,LS2,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395279
+Chevrolet LS9,base,20062010,L76,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395371
+Chevrolet LS9,base,20062015,LS7,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395433
+Chevrolet LS9,base,20072009,LY2,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395494
+Chevrolet LS9,base,20072013,LY6,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395555
+Chevrolet LS9,base,20072014,LC9,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395586
+Chevrolet LS9,base,20082009,LH8,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395649
+Chevrolet LS9,base,20082014,LMF,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395714
+Chevrolet LS9,base,20082017,LS3,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395744
+Chevrolet LS9,base,20092017,LSA,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395778
+Chevrolet LS9,base,20092013,L9H,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395809
+Chevrolet LS9,base,"20092013, 2017",LS9,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395840
+Chevrolet LS9,base,20102012,LH9,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395871
+Chevrolet LS9,base,20102013,LZ1,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395902
+Chevrolet LS9,base,20102015,L99,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395964
+Chevrolet LS9,base,20102017,L20,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.395995
+Chevrolet LS9,base,20102020,L96,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.396059
+Chevrolet LS9,base,20142024,LT1,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.396138
+Chevrolet LS9,base,20142020,L83,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.396173
+Chevrolet LS9,base,20142018,L86,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.396204
+Chevrolet LS9,base,2025present,L8P,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.396488
+Chevrolet LS9,base,Type1980s1990s2000s2010s2020s012345678901234567890123456789012345678901234GasolineFlat4EJInline3GS-TECFamily 0SGEE-Turbo4Opel OHV engineGM EcotecIron DukeFamily 0Opel CIHSaab HAZGQuad 4ZZZRVauxhall Slant-4AS-TECHolden StarfireSaturnAtlasMGEFamily IISGEFamily 1122GM L3BXGJ5Atlas6Chevrolet Turbo-ThriftRedBlueBlackRB30AtlasOpel CIHE-TECVBuick/3800Chevrolet 90GM 60Gen V 90ShortstarHigh ValueOpel 54High FeatureHJ8BuickCadillac OHVNorthstarBlackwingHigh TechnologyBig BlockSmall BlockGeminiLS/LTHoldenOldsmobilePontiacDieselDetroitOldsmobileDuramax6OldsmobileDMAXInlineM51DuramaxDetroit 606H4JTDRAFamily ZECircle LFamily IIFamily BAMDEType1980s1990s2000s2010s2020sLegendItalicized engines manufactured bySubaruToyotaIsuzuSuzukiNissanHondaBMWVM Motori,Type,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.397476
+Chevrolet LS9,base,Type,1980s,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.397512
+Chevrolet LS9,base,Gasoline,Flat,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.397616
+Chevrolet LS9,base,Vauxhall Slant-4,A,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.397845
+Chevrolet LS9,base,Family II,SGE,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.397899
+Chevrolet LS9,base,Red,Blue,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.398074
+Chevrolet LS9,base,RA,Family Z,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.398650
+Chevrolet LS9,base,Legend,Italicized engines manufactured bySubaruToyotaIsuzuSuzukiNissanHondaBMWVM Motori,https://en.wikipedia.org/wiki/GM_LS_engine#LS9,2026-04-01T18:14:48.398831

@@ -1,0 +1,31 @@
+engine,variant,displacement,power_hp,torque_nm,bore_mm,stroke_mm,compression_ratio,block_material,head_material,configuration,source
+Toyota 2JZ-GTE,base,2998,276,379,86,86,8.5,Cast iron,Aluminum,Straight-6,verified_manual
+Toyota 2JZ-GE,base,2998,220,294,86,86,10.5,Cast iron,Aluminum,Straight-6,verified_manual
+Nissan RB26DETT,base,2568,276,353,86,73.7,8.5,Cast iron,Aluminum,Straight-6,verified_manual
+Nissan SR20DET,base,1998,205,275,86,86,8.5,Cast iron,Aluminum,Straight-4,verified_manual
+Honda K20A,base,1998,221,206,86,86,11.7,Aluminum,Aluminum,Straight-4,verified_manual
+Honda B18C,base,1797,197,178,81,87.2,10.6,Aluminum,Aluminum,Straight-4,verified_manual
+Mitsubishi 4G63T,base,1997,276,422,85,88,8.5,Cast iron,Aluminum,Straight-4,verified_manual
+Subaru EJ257,base,2457,300,407,99.5,79.0,8.4,Aluminum,Aluminum,Flat-4,verified_manual
+GM LS3,base,6162,430,569,103.25,92,10.7,Aluminum,Aluminum,V8,verified_manual
+GM LS7,base,7011,505,637,104.8,101.6,11.0,Aluminum,Aluminum,V8,verified_manual
+GM LS9,base,6162,638,819,103.25,92,9.1,Aluminum,Aluminum,V8,verified_manual
+Ford 5.0 Coyote,base,4951,412,529,92.2,92.7,11.0,Aluminum,Aluminum,V8,verified_manual
+Ford 5.2 Voodoo,base,5163,526,582,94,93,12.0,Aluminum,Aluminum,V8,verified_manual
+Ford 5.8 Trinity,base,5856,662,847,92.2,110,9.0,Aluminum,Aluminum,V8,verified_manual
+Chrysler 6.4 Hemi,base,6417,470,644,103,96.01,10.9,Cast iron,Aluminum,V8,verified_manual
+Chrysler 6.2 Hellcat,base,6166,707,881,103.9,90.9,9.5,Cast iron,Aluminum,V8,verified_manual
+BMW S54B32,base,3246,338,365,87,91,11.5,Cast iron,Aluminum,Straight-6,verified_manual
+BMW S65B40,base,3999,414,400,92,75.2,12.0,Aluminum,Aluminum,V8,verified_manual
+BMW N54B30,base,2979,306,400,84,89.6,10.2,Aluminum,Aluminum,Straight-6,verified_manual
+BMW N55B30,base,2979,300,400,84,89.6,10.2,Aluminum,Aluminum,Straight-6,verified_manual
+BMW S55B30,base,2979,425,550,84,89.6,10.2,Aluminum,Aluminum,Straight-6,verified_manual
+Mercedes M156,base,6208,457,630,102.2,94.6,11.3,Aluminum,Aluminum,V8,verified_manual
+Porsche M96 3.6,base,3596,316,370,96,82.8,11.3,Aluminum,Aluminum,Flat-6,verified_manual
+Audi 2.5 TFSI,base,2480,394,480,82.5,92.8,10.0,Aluminum,Aluminum,Straight-5,verified_manual
+Lamborghini V12 6.5,base,6498,700,690,95,88.6,12.5,Aluminum,Aluminum,V12,verified_manual
+Ferrari F136 4.5,base,4499,562,540,92,84.4,12.5,Aluminum,Aluminum,V8,verified_manual
+Nissan VQ35DE,base,3498,306,363,95.5,81.4,10.3,Aluminum,Aluminum,V6,verified_manual
+Honda F20C,base,1997,240,208,87,83.6,11.7,Aluminum,Aluminum,Straight-4,verified_manual
+Subaru FA20,base,1998,197,205,86,86,12.5,Aluminum,Aluminum,Flat-4,verified_manual
+Toyota 1UR-FE,base,4969,381,530,94,83,10.9,Aluminum,Aluminum,V8,verified_manual
