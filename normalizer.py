@@ -3,6 +3,7 @@ import re
 import os
 import logging
 from dotenv import load_dotenv
+from engine_code_parser import parse_displacement_from_code
 
 load_dotenv()
 
@@ -338,7 +339,17 @@ def run_normalizer():
             else:
                 unmapped.add(str(spec_row["spec"]))
 
-        # Use displacement hint to correct family page range values
+        # Engine code parser — most reliable, runs first
+        code_cc = parse_displacement_from_code(engine_name)
+        if code_cc:
+            current_disp = row.get("displacement")
+            if current_disp is None or pd.isna(current_disp):
+                row["displacement"] = code_cc
+            elif abs(float(current_disp) - code_cc) > 500:
+                print(f"  Code override: {engine_name} {current_disp} -> {code_cc}cc")
+                row["displacement"] = code_cc
+
+        # Displacement hint from car discovery — secondary
         hint_rows = group[group["spec"] == "displacement_hint"]
         if not hint_rows.empty:
             hint_val = hint_rows.iloc[0]["value"]
@@ -348,25 +359,34 @@ def run_normalizer():
                 current_disp = row.get("displacement")
                 if current_disp is None or pd.isna(current_disp):
                     row["displacement"] = hint_cc
-                    print(f"  Hint set: {engine_name} displacement -> {hint_cc}cc")
                 else:
                     try:
-                        if abs(float(current_disp) - hint_cc) > 500:
-                            print(f"  Hint override: {engine_name} displacement {current_disp} -> {hint_cc}cc")
+                        # Only use hint if code parser didn't already set it
+                        if not code_cc and abs(float(current_disp) - hint_cc) > 500:
+                            print(f"  Hint override: {engine_name} {current_disp} -> {hint_cc}cc")
                             row["displacement"] = hint_cc
                     except:
                         pass
 
         if "power_hp" in row and row["power_hp"] is not None:
-            if not (30 < float(row["power_hp"]) < 2000):
+            try:
+                if not (30 < float(row["power_hp"]) < 2000):
+                    row["power_hp"] = None
+            except:
                 row["power_hp"] = None
 
         if "displacement" in row and row["displacement"] is not None:
-            if not (50 < float(row["displacement"]) < 100000):
+            try:
+                if not (50 < float(row["displacement"]) < 100000):
+                    row["displacement"] = None
+            except:
                 row["displacement"] = None
 
         if "torque_nm" in row and row["torque_nm"] is not None:
-            if not (10 < float(row["torque_nm"]) < 5000):
+            try:
+                if not (10 < float(row["torque_nm"]) < 5000):
+                    row["torque_nm"] = None
+            except:
                 row["torque_nm"] = None
 
         normalized_rows.append(row)
