@@ -4,208 +4,230 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aveltura — Vel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
   <style>
+    :root {
+      --bg:       #070a0d;
+      --surface:  #0c1015;
+      --surface2: #121820;
+      --border:   #1c2530;
+      --accent:   #00d4aa;
+      --accent2:  #ff6b35;
+      --text:     #dce8f0;
+      --muted:    #5a7080;
+      --dim:      #2a3a48;
+    }
+
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      background: #0a0a0a;
-      color: #e0e0e0;
-      font-family: 'Courier New', monospace;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'JetBrains Mono', monospace;
       overflow-x: hidden;
     }
 
-    /* Animated grid background */
+    /* Subtle scanline texture */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,212,170,0.012) 2px,
+        rgba(0,212,170,0.012) 4px
+      );
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    /* Grid background */
     body::before {
       content: '';
       position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background-image: 
-        linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);
-      background-size: 50px 50px;
+      inset: 0;
+      background-image:
+        linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+      background-size: 60px 60px;
+      opacity: 0.4;
       z-index: 0;
-      animation: gridMove 20s linear infinite;
+      animation: drift 30s linear infinite;
     }
 
-    @keyframes gridMove {
-      0% { transform: translate(0, 0); }
-      100% { transform: translate(50px, 50px); }
+    @keyframes drift {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(60px, 60px); }
     }
 
     .container {
       position: relative;
       z-index: 1;
-      max-width: 900px;
+      max-width: 860px;
       margin: 0 auto;
-      padding: 40px 20px;
+      padding: 40px 24px;
     }
 
-    /* Hero */
+    /* ── Hero ── */
     .hero {
+      padding: 100px 0 70px;
       text-align: center;
-      padding: 80px 0 60px;
     }
 
     .logo {
-      font-size: 72px;
-      font-weight: 900;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 88px;
+      font-weight: 700;
       letter-spacing: -2px;
-      background: linear-gradient(135deg, #00ff88, #00aaff);
+      line-height: 1;
+      background: linear-gradient(135deg, var(--accent) 0%, #00a0ff 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
 
     .tagline {
-      font-size: 18px;
-      color: #888;
-      margin-top: 16px;
-      letter-spacing: 2px;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 15px;
+      color: var(--muted);
+      margin-top: 14px;
+      letter-spacing: 5px;
       text-transform: uppercase;
     }
 
     .subtitle {
-      font-size: 14px;
-      color: #555;
-      margin-top: 8px;
-      font-style: italic;
+      font-size: 12px;
+      color: var(--dim);
+      margin-top: 10px;
+      letter-spacing: 1px;
     }
 
-    /* Terminal card */
+    /* ── Terminal ── */
     .terminal {
-      background: #111;
-      border: 1px solid #222;
-      border-radius: 8px;
-      padding: 24px;
-      margin: 40px 0;
-      font-size: 13px;
-      line-height: 1.8;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin: 44px 0;
+      font-size: 12.5px;
+      line-height: 1.9;
+      box-shadow: 0 0 60px rgba(0,212,170,0.06);
     }
 
     .terminal-header {
       display: flex;
       gap: 8px;
-      margin-bottom: 16px;
+      margin-bottom: 20px;
+      align-items: center;
     }
 
     .dot {
-      width: 12px;
-      height: 12px;
+      width: 11px; height: 11px;
       border-radius: 50%;
     }
-
-    .dot-red { background: #ff5f57; }
+    .dot-red    { background: #ff5f57; }
     .dot-yellow { background: #ffbd2e; }
-    .dot-green { background: #28ca41; }
+    .dot-green  { background: #28ca41; }
 
-    .terminal p { color: #888; }
-    .terminal .prompt { color: #00ff88; }
-    .terminal .response { color: #e0e0e0; margin-left: 16px; }
-    .terminal .comment { color: #555; }
-
-    /* What is this */
-    .section {
-      margin: 60px 0;
+    .term-label {
+      font-size: 10px;
+      color: var(--muted);
+      letter-spacing: 2px;
+      margin-left: 8px;
+      text-transform: uppercase;
     }
 
-    .section-title {
-      font-size: 11px;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-      color: #00ff88;
+    .prompt { color: var(--accent); }
+    .response {
+      color: #a0b8c8;
+      margin-left: 0;
+      padding-left: 18px;
+      border-left: 2px solid var(--border);
+      margin-top: 4px;
       margin-bottom: 16px;
+    }
+    .comment { color: var(--dim); font-style: italic; }
+
+    .cursor {
+      display: inline-block;
+      width: 7px; height: 13px;
+      background: var(--accent);
+      animation: blink 1s step-end infinite;
+      vertical-align: middle;
+      margin-left: 2px;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    /* ── Sections ── */
+    .section { margin: 64px 0; }
+
+    .section-title {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 11px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
     }
 
     .section-body {
-      font-size: 15px;
-      line-height: 1.8;
-      color: #aaa;
+      font-size: 13.5px;
+      line-height: 1.9;
+      color: #7a9aaa;
     }
 
-    .section-body strong {
-      color: #e0e0e0;
-    }
+    .section-body strong { color: var(--text); }
 
-    /* Cards */
+    /* ── Cards ── */
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 16px;
-      margin: 24px 0;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin: 20px 0;
     }
 
     .card {
-      background: #111;
-      border: 1px solid #1a1a1a;
+      background: var(--surface);
+      border: 1px solid var(--border);
       border-radius: 8px;
       padding: 20px;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
 
     .card:hover {
-      border-color: #00ff88;
+      border-color: var(--accent);
+      box-shadow: 0 0 20px rgba(0,212,170,0.08);
     }
 
     .card-title {
-      font-size: 13px;
-      font-weight: bold;
-      color: #00ff88;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--accent);
       margin-bottom: 8px;
+      letter-spacing: 1px;
     }
 
     .card-body {
-      font-size: 12px;
-      color: #666;
-      line-height: 1.6;
+      font-size: 11.5px;
+      color: var(--muted);
+      line-height: 1.7;
     }
 
-    /* Roadmap */
-    .roadmap {
-      margin: 24px 0;
-    }
-
-    .phase {
-      display: flex;
-      gap: 16px;
-      padding: 12px 0;
-      border-bottom: 1px solid #1a1a1a;
-      align-items: flex-start;
-    }
-
-    .phase-num {
-      font-size: 11px;
-      color: #555;
-      min-width: 60px;
-      padding-top: 2px;
-    }
-
-    .phase-name {
-      font-size: 13px;
-      color: #aaa;
-    }
-
-    .phase-name.done {
-      color: #00ff88;
-    }
-
-    .phase-name.done::after {
-      content: ' ✓';
-      color: #00ff88;
-    }
-
-    .badge {
-      font-size: 10px;
-      padding: 2px 8px;
-      border-radius: 4px;
-      margin-left: 8px;
-    }
-
-    .badge-done { background: #00ff8820; color: #00ff88; }
-    .badge-soon { background: #00aaff20; color: #00aaff; }
-    .badge-planned { background: #ffffff10; color: #555; }
-
-    /* Stack */
+    /* ── Stack tags ── */
     .stack {
       display: flex;
       flex-wrap: wrap;
@@ -217,206 +239,288 @@
       font-size: 11px;
       padding: 4px 12px;
       border-radius: 4px;
-      background: #1a1a1a;
-      color: #888;
-      border: 1px solid #222;
+      background: var(--surface2);
+      color: var(--muted);
+      border: 1px solid var(--border);
+      transition: border-color 0.15s, color 0.15s;
     }
 
-    /* Products */
+    .tag:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .tag.new {
+      border-color: rgba(0,212,170,0.3);
+      color: var(--accent);
+    }
+
+    /* ── Roadmap ── */
+    .roadmap { margin: 20px 0; }
+
+    .phase {
+      display: grid;
+      grid-template-columns: 90px 1fr auto;
+      gap: 16px;
+      padding: 13px 0;
+      border-bottom: 1px solid var(--border);
+      align-items: center;
+    }
+
+    .phase:last-child { border-bottom: none; }
+
+    .phase-num {
+      font-size: 10px;
+      color: var(--dim);
+      letter-spacing: 1px;
+    }
+
+    .phase-name {
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+
+    .phase-name.done { color: var(--text); }
+
+    .badge {
+      font-size: 9px;
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .badge-done    { background: rgba(0,212,170,0.12); color: var(--accent); border: 1px solid rgba(0,212,170,0.2); }
+    .badge-soon    { background: rgba(0,160,255,0.1);  color: #00a0ff;       border: 1px solid rgba(0,160,255,0.2); }
+    .badge-planned { background: rgba(255,255,255,0.04); color: var(--dim);  border: 1px solid var(--border); }
+
+    /* ── Products ── */
     .products {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 16px;
-      margin: 24px 0;
+      gap: 14px;
+      margin: 20px 0;
     }
 
     .product {
-      background: #111;
-      border: 1px solid #1a1a1a;
+      background: var(--surface);
+      border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 20px;
+      padding: 22px;
+      transition: border-color 0.2s;
+    }
+
+    .product.active {
+      border-color: rgba(0,212,170,0.25);
+      box-shadow: 0 0 30px rgba(0,212,170,0.05);
     }
 
     .product-name {
-      font-size: 16px;
-      font-weight: bold;
-      color: #e0e0e0;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
       margin-bottom: 4px;
     }
 
     .product-status {
-      font-size: 10px;
-      letter-spacing: 2px;
+      font-size: 9px;
+      letter-spacing: 3px;
       text-transform: uppercase;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
 
-    .status-active { color: #00ff88; }
-    .status-planned { color: #555; }
+    .status-active  { color: var(--accent); }
+    .status-planned { color: var(--dim); }
 
     .product-desc {
-      font-size: 12px;
-      color: #555;
-      line-height: 1.6;
+      font-size: 11.5px;
+      color: var(--muted);
+      line-height: 1.7;
     }
 
-    /* Footer */
+    /* ── Footer ── */
     .footer {
       text-align: center;
-      padding: 60px 0 40px;
-      color: #333;
-      font-size: 12px;
+      padding: 70px 0 50px;
+      color: var(--dim);
+      font-size: 11px;
+      letter-spacing: 1px;
     }
 
     .footer a {
-      color: #00ff88;
+      color: var(--accent);
       text-decoration: none;
+      transition: opacity 0.15s;
     }
 
-    /* Cursor blink */
-    .cursor {
-      display: inline-block;
-      width: 8px;
-      height: 14px;
-      background: #00ff88;
-      animation: blink 1s step-end infinite;
-      vertical-align: middle;
+    .footer a:hover { opacity: 0.7; }
+
+    .footer-sig {
+      margin-top: 16px;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 13px;
+      letter-spacing: 3px;
+      color: var(--border);
     }
 
-    @keyframes blink {
-      50% { opacity: 0; }
+    /* Fade-in on load */
+    .container > * {
+      opacity: 0;
+      transform: translateY(16px);
+      animation: fadeUp 0.5s ease forwards;
+    }
+
+    .hero          { animation-delay: 0.0s; }
+    .terminal      { animation-delay: 0.15s; }
+    .section:nth-child(3)  { animation-delay: 0.25s; }
+    .section:nth-child(4)  { animation-delay: 0.32s; }
+    .section:nth-child(5)  { animation-delay: 0.38s; }
+    .section:nth-child(6)  { animation-delay: 0.44s; }
+    .section:nth-child(7)  { animation-delay: 0.50s; }
+    .footer        { animation-delay: 0.56s; }
+
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
-  <div class="container">
+<div class="container">
 
-    <!-- Hero -->
-    <div class="hero">
-      <div class="logo">Aveltura</div>
-      <div class="tagline">Mathematical Optimization Engine</div>
-      <div class="subtitle">drop in data. get answers. know why.</div>
-    </div>
-
-    <!-- Terminal demo -->
-    <div class="terminal">
-      <div class="terminal-header">
-        <div class="dot dot-red"></div>
-        <div class="dot dot-yellow"></div>
-        <div class="dot dot-green"></div>
-      </div>
-      <p><span class="prompt">vel ›</span> compare 2JZ-GTE and LS3 for forced induction potential</p>
-      <p class="response">The 2JZ-GTE runs a twin-turbo inline-6 with cast iron block — handles boost pressure up to 800hp+ on stock internals. The LS3 is a 6.2L V8 with aluminum block, naturally aspirated by design but responds well to supercharger kits. For high boost builds the 2JZ has the edge on bottom end durability. The LS3 wins on displacement and peak power ceiling with proper forced induction setup.</p>
-      <br>
-      <p><span class="prompt">vel ›</span> what block material handles sustained boost better and why</p>
-      <p class="response">Cast iron. Higher density means better thermal mass — it absorbs and distributes heat more evenly under sustained boost. Aluminum expands faster under heat which can cause seal failures at high boost over time. Cast iron blocks like the 2JZ and RB26 are why those engines have a reputation for surviving big power numbers on stock blocks.</p>
-      <br>
-      <p class="comment"># running on local hardware. no cloud. no subscription. yours.</p>
-      <span class="cursor"></span>
-    </div>
-
-    <!-- What is this -->
-    <div class="section">
-      <div class="section-title">What is this</div>
-      <div class="section-body">
-        You drop in data. Vel scans it, figures out what can be better, tells you <strong>how and why</strong>, and backs it up with graphs, tables, and full reports. No cloud. No subscription. <strong>Runs on hardware you own.</strong>
-        <br><br>
-        Started as a way to optimize an SC300 build. Turned into a universal optimization engine. Every night at midnight it scrapes fresh data, discovers new entries, cleans garbage, and rebuilds its knowledge base automatically. <strong>It gets smarter while you sleep.</strong>
-      </div>
-    </div>
-
-    <!-- How it works -->
-    <div class="section">
-      <div class="section-title">How it works</div>
-      <div class="cards">
-        <div class="card">
-          <div class="card-title">RAG Pipeline</div>
-          <div class="card-body">Reads your data first, then answers questions using that data as context. Not vibes from the internet — your actual dataset.</div>
-        </div>
-        <div class="card">
-          <div class="card-title">Self Growing</div>
-          <div class="card-body">Midnight pipeline scrapes, discovers, cleans, and rebuilds automatically. New data every night without touching anything.</div>
-        </div>
-        <div class="card">
-          <div class="card-title">Fully Local</div>
-          <div class="card-body">Runs on your hardware. Mistral 7B via Ollama. No API calls to OpenAI. No data leaves your machine.</div>
-        </div>
-        <div class="card">
-          <div class="card-title">Velframe</div>
-          <div class="card-body">TUI control panel. SSH in, type velframe, see everything. Live logs, restart buttons, scraper controls, query history.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Tech stack -->
-    <div class="section">
-      <div class="section-title">Stack</div>
-      <div class="stack">
-        <span class="tag">Mistral 7B</span>
-        <span class="tag">Ollama</span>
-        <span class="tag">LlamaIndex</span>
-        <span class="tag">FastAPI</span>
-        <span class="tag">Open WebUI</span>
-        <span class="tag">Textual</span>
-        <span class="tag">Tailscale</span>
-        <span class="tag">Python</span>
-        <span class="tag">systemd</span>
-        <span class="tag">Docker</span>
-        <span class="tag">btrfs</span>
-        <span class="tag">CachyOS</span>
-      </div>
-      <div class="section-body" style="margin-top: 12px; font-size: 13px;">
-        Running on a repurposed HP ZBook — i7-9850H, 23GB RAM, Quadro T2000, 990 Pro SSD. Started as a "what do I do with this laptop." Now it's a homelab server running a full AI stack 24/7.
-      </div>
-    </div>
-
-    <!-- Roadmap -->
-    <div class="section">
-      <div class="section-title">Roadmap</div>
-      <div class="roadmap">
-        <div class="phase"><span class="phase-num">Phase 1-6</span><span class="phase-name done">Foundation, Velframe, Scraper, Intelligence, Security</span><span class="badge badge-done">done</span></div>
-        <div class="phase"><span class="phase-num">Phase 7</span><span class="phase-name">Hardware ready — GPU auto detection, Docker Compose</span><span class="badge badge-soon">soon</span></div>
-        <div class="phase"><span class="phase-num">Phase 8</span><span class="phase-name">Expand knowledge — mods database, file upload ingestion</span><span class="badge badge-soon">soon</span></div>
-        <div class="phase"><span class="phase-num">Phase 8.5</span><span class="phase-name">Velframe web UI — browser based control panel</span><span class="badge badge-planned">planned</span></div>
-        <div class="phase"><span class="phase-num">Phase 9</span><span class="phase-name">Vel Chat in Velframe — query without a browser</span><span class="badge badge-planned">planned</span></div>
-        <div class="phase"><span class="phase-num">Phase 10</span><span class="phase-name">Math layer — scipy, statsmodels, correlation engine</span><span class="badge badge-planned">planned</span></div>
-        <div class="phase"><span class="phase-num">Phase 11</span><span class="phase-name">Visualization — plotly charts, optimization curves</span><span class="badge badge-planned">planned</span></div>
-        <div class="phase"><span class="phase-num">Phase 12</span><span class="phase-name">Tableau export — .twbx workbooks, pre-built dashboards</span><span class="badge badge-planned">planned</span></div>
-        <div class="phase"><span class="phase-num">Phase 13</span><span class="phase-name">Report generation — PDF engineering reports</span><span class="badge badge-planned">planned</span></div>
-        <div class="phase"><span class="phase-num">Phase 14</span><span class="phase-name">Universal datasets — optimize anything not just engines</span><span class="badge badge-planned">planned</span></div>
-        <div class="phase"><span class="phase-num">Phase 15</span><span class="phase-name">Autonomous learning — feedback loops, self improvement</span><span class="badge badge-planned">planned</span></div>
-      </div>
-    </div>
-
-    <!-- Products -->
-    <div class="section">
-      <div class="section-title">The Suite</div>
-      <div class="products">
-        <div class="product">
-          <div class="product-name">Vel</div>
-          <div class="product-status status-active">Active</div>
-          <div class="product-desc">Universal mathematical optimizer. Engineering grade. Drop in any dataset, get optimization recommendations, graphs, and reports.</div>
-        </div>
-        <div class="product">
-          <div class="product-name">FieldTech</div>
-          <div class="product-status status-planned">Planned</div>
-          <div class="product-desc">For HVAC techs and appliance installers. Pull manuals, diagnose installs, safety checks. Makes junior techs as effective as senior ones.</div>
-        </div>
-        <div class="product">
-          <div class="product-name">MechAI</div>
-          <div class="product-status status-planned">Planned</div>
-          <div class="product-desc">Car diagnostics with OBD2 integration. Listens to your engine, reads error codes, tracks maintenance by GPS odometer. Knows your exact car.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-      <a href="https://github.com/steviehp/aveltura">github.com/steviehp/aveltura</a>
-      <br><br>
-      built different
-    </div>
-
+  <!-- Hero -->
+  <div class="hero">
+    <div class="logo">Aveltura</div>
+    <div class="tagline">Mathematical Optimization Engine</div>
+    <div class="subtitle">drop in data. get answers. know why.</div>
   </div>
+
+  <!-- Terminal demo -->
+  <div class="terminal">
+    <div class="terminal-header">
+      <div class="dot dot-red"></div>
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-green"></div>
+      <span class="term-label">vel — engine analysis</span>
+    </div>
+
+    <p><span class="prompt">vel ›</span> what cars came with the 2JZ-GTE and what power did they make</p>
+    <p class="response">The Toyota Supra A80 (1993–1998) and Toyota Aristo (1991–2004) both used the 2JZ-GTE — a twin-turbo inline-6 producing 276hp and 379Nm in JDM tune. Data: verified_manual.</p>
+
+    <p><span class="prompt">vel ›</span> compare the Ford Mustang GT350 and GT500</p>
+    <p class="response">GT350 — Ford Voodoo 5.2L flat-plane V8, 526hp, 582Nm. GT500 — Ford Trinity 5.8L supercharged V8, 662hp, 847Nm. The GT500 has a 136hp advantage. Both verified_manual.</p>
+
+    <p><span class="prompt">vel ›</span> what is the displacement and power of the GM LS7</p>
+    <p class="response">The GM LS7 displaces 7011cc (7.0L) and produces 505hp. Data: verified_manual.</p>
+
+    <p class="comment"># running on local hardware. no cloud. no subscription. yours.</p>
+    <span class="cursor"></span>
+  </div>
+
+  <!-- What is this -->
+  <div class="section">
+    <div class="section-title">What is this</div>
+    <div class="section-body">
+      You drop in data. Vel scans it, figures out what can be better, tells you <strong>how and why</strong>, and backs it up with graphs, tables, and full reports. No cloud. No subscription. <strong>Runs on hardware you own.</strong>
+      <br><br>
+      Started as a way to optimize an SC300 build. Turned into a universal engine analysis platform — and eventually a universal optimization engine for any dataset. Every night at midnight it scrapes fresh data, discovers new vehicles and engines, cleans garbage, and rebuilds its knowledge base automatically. <strong>It gets smarter while you sleep.</strong>
+    </div>
+  </div>
+
+  <!-- How it works -->
+  <div class="section">
+    <div class="section-title">How it works</div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-title">Hybrid RAG</div>
+        <div class="card-body">BM25 keyword search + vector semantic search fused together. Exact engine names are found precisely. Conceptual queries still work. Verified data always wins.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Vehicle-First Data</div>
+        <div class="card-body">Every car is scraped by generation and trim. Supra MK4, M3 E46, GT350 — each gets its own entry with engine, power, years, and confidence score.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Self Growing</div>
+        <div class="card-body">Midnight pipeline scrapes manufacturers, discovers new models by generation, cleans duplicates with confidence scoring, and rebuilds the index automatically.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Fully Local</div>
+        <div class="card-body">Mistral 7B via Ollama. nomic-embed-text for embeddings. No API calls to OpenAI. No data leaves your machine. OpenAI-compatible API endpoint included.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stack -->
+  <div class="section">
+    <div class="section-title">Stack</div>
+    <div class="stack">
+      <span class="tag">Mistral 7B</span>
+      <span class="tag">Ollama</span>
+      <span class="tag new">nomic-embed-text</span>
+      <span class="tag">LlamaIndex</span>
+      <span class="tag new">BM25 Hybrid Retriever</span>
+      <span class="tag">FastAPI</span>
+      <span class="tag new">Plotly Dash</span>
+      <span class="tag">Open WebUI</span>
+      <span class="tag">Textual</span>
+      <span class="tag">Tailscale</span>
+      <span class="tag">Python</span>
+      <span class="tag">systemd</span>
+      <span class="tag">Docker</span>
+      <span class="tag">CachyOS</span>
+    </div>
+    <div class="section-body" style="margin-top: 14px; font-size: 12.5px;">
+      Running on a repurposed HP ZBook — i7-9850H, 23GB RAM, Quadro T2000, 990 Pro SSD. Started as a "what do I do with this laptop." Now it's a homelab server running a full AI stack 24/7.
+    </div>
+  </div>
+
+  <!-- Roadmap -->
+  <div class="section">
+    <div class="section-title">Roadmap</div>
+    <div class="roadmap">
+      <div class="phase"><span class="phase-num">Phase 1–6</span><span class="phase-name done">Foundation, Velframe, Scraper, RAG pipeline, Security</span><span class="badge badge-done">done</span></div>
+      <div class="phase"><span class="phase-num">Phase 7</span><span class="phase-name done">Hardware ready — GPU acceleration, Docker Compose</span><span class="badge badge-done">done</span></div>
+      <div class="phase"><span class="phase-num">Phase 8</span><span class="phase-name done">Expand knowledge — mods database, file upload ingestion</span><span class="badge badge-done">done</span></div>
+      <div class="phase"><span class="phase-num">Phase 8.5</span><span class="phase-name done">Velframe web UI — browser based control panel</span><span class="badge badge-done">done</span></div>
+      <div class="phase"><span class="phase-num">Phase 9</span><span class="phase-name done">Vel Chat — query without a browser, Open WebUI integration</span><span class="badge badge-done">done</span></div>
+      <div class="phase"><span class="phase-num">Phase 10</span><span class="phase-name done">Math layer — scipy, statsmodels, correlation engine</span><span class="badge badge-done">done</span></div>
+      <div class="phase"><span class="phase-num">Phase 11</span><span class="phase-name done">Visualization — Plotly Dash dashboard, interactive charts</span><span class="badge badge-done">done</span></div>
+      <div class="phase"><span class="phase-num">Phase 12</span><span class="phase-name done">BI export — vehicle-first CSV exports, Tableau/Power BI ready</span><span class="badge badge-done">done</span></div>
+      <div class="phase"><span class="phase-num">Phase 13</span><span class="phase-name">Report generation — PDF engineering reports</span><span class="badge badge-soon">soon</span></div>
+      <div class="phase"><span class="phase-num">Phase 14</span><span class="phase-name">Universal datasets — optimize anything, not just engines</span><span class="badge badge-planned">planned</span></div>
+      <div class="phase"><span class="phase-num">Phase 15</span><span class="phase-name">Autonomous learning — discovery queue, self-improving pipeline</span><span class="badge badge-planned">planned</span></div>
+    </div>
+  </div>
+
+  <!-- Products -->
+  <div class="section">
+    <div class="section-title">The Suite</div>
+    <div class="products">
+      <div class="product active">
+        <div class="product-name">Vel</div>
+        <div class="product-status status-active">Active</div>
+        <div class="product-desc">Universal mathematical optimizer. Engineering grade. Drop in any dataset, get optimization recommendations, graphs, and reports.</div>
+      </div>
+      <div class="product">
+        <div class="product-name">FieldTech</div>
+        <div class="product-status status-planned">Planned</div>
+        <div class="product-desc">For HVAC techs and appliance installers. Pull manuals, diagnose installs, safety checks. Makes junior techs as effective as senior ones.</div>
+      </div>
+      <div class="product">
+        <div class="product-name">MechAI</div>
+        <div class="product-status status-planned">Planned</div>
+        <div class="product-desc">Car diagnostics with OBD2 integration. Listens to your engine, reads error codes, tracks maintenance by GPS odometer. Knows your exact car.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <a href="https://github.com/steviehp/aveltura">github.com/steviehp/aveltura</a>
+    <div class="footer-sig">built different</div>
+  </div>
+
+</div>
 </body>
 </html>
