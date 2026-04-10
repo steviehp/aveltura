@@ -1,0 +1,74 @@
+3.5
+3.9
+330 cu in (5.4 L)
+332 cu in (5.4 L)
+352 cu in (5.8 L)
+359 cu in (5.9 L)
+360 cu in (5.9 L)
+389 cu in (6.4 L)
+390 cu in (6.4 L)
+391 cu in (6.4 L)
+4.38 in (111 mm)
+4.8
+406 cu in (6.7 L)
+410 cu in (6.7 L)
+427 cu in (7.0 L)
+428 cu in (7.0 L)
+5.2
+5.7
+6.0
+6.2
+6.5
+911 "40 Jahre"
+911 Carrera
+911 Carrera 4
+911 Carrera 4 Cabriolet
+911 Carrera 4S
+911 Carrera 4S Cabriolet
+911 Carrera Cabriolet
+911 GT2
+911 GT3
+911 GT3 RS
+911 Targa
+Alpina
+Alpina F3
+Alpina F4
+Alpina F5
+Assembly
+Body style
+Boss 260
+Boss 290
+Boss 302
+Boss 315
+Class
+Combustion Chamber:
+Compresses Volume
+Crankpin diameter:
+Crankshaft journal diameter:
+De Tomaso P72
+Emissions control systems
+FirstYear
+Ford F-150
+Ford Mustang Dark Horse
+Ford Mustang GT
+Ford Mustang SVT Cobra
+Gasket Thickness
+Head Volume
+K20A (Eco)
+K20A(High Performance)
+Lincoln Blackwood
+Management
+Model
+Nissan
+Piston Deck
+Piston Dish
+Piston Pin Offset
+Puritalia Berlinetta
+Racing Dynamics R52
+Related
+Total
+Total Deck Volume
+Total Quench Volume
+Vehicle Name
+Vehicle name
+produces PS

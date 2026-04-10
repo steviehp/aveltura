@@ -18,7 +18,7 @@ def check_vel():
 
 def restart_vel():
     print("Vel is down, restarting...")
-    subprocess.run(["sudo", "systemctl", "restart", "vel"])
+    subprocess.run(["sudo", "systemctl", "restart", "vel.service"])
 
 while True:
     if not check_vel():

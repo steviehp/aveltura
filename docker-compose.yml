@@ -8,6 +8,9 @@ services:
     restart: always
     environment:
       - WEBUI_SECRET_KEY=changethis
-
+      - OPENAI_API_BASE_URL=http://localhost:8001/v1
+      - OPENAI_API_KEY=${VEL_API_KEY}
+      - OPENAI_API_BASE_URLS=http://localhost:8001/v1
+      - OPENAI_API_KEYS=${VEL_API_KEY}
 volumes:
   open-webui:

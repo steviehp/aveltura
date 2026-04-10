@@ -1,0 +1,881 @@
+2026-04-05T23:24:05.810712 | What cars used the Nissan RB26DETT and what power did they make?
+2026-04-05T23:29:27.363121 | What is the displacement of the 2JZ-GTE and what cars used it?
+2026-04-05T23:30:38.007517 | Compare the LS7 and LS9 — displacement, power, and what cars they came in
+2026-04-10T10:07:26.772875 | Toyota | Toyota Corolla | standard | tier2
+2026-04-10T10:07:26.772883 | Toyota | Toyota RAV4 | standard | tier2
+2026-04-10T10:07:26.772885 | Toyota | Toyota Camry | standard | tier2
+2026-04-10T10:07:26.772886 | Toyota | Toyota Hilux | standard | tier2
+2026-04-10T10:07:26.772888 | Toyota | Toyota Tacoma | standard | tier2
+2026-04-10T10:07:26.772889 | Toyota | Pixis Van | standard | tier2
+2026-04-10T10:07:26.772890 | Toyota | Camry | standard | tier2
+2026-04-10T10:07:26.772891 | Toyota | Corolla | standard | tier2
+2026-04-10T10:07:26.772892 | Toyota | GR Corolla | standard | tier2
+2026-04-10T10:07:26.772913 | Toyota | Crossover | standard | tier2
+2026-04-10T10:07:26.772916 | Toyota | Sedan | standard | tier2
+2026-04-10T10:07:26.772918 | Toyota | Prius | standard | tier2
+2026-04-10T10:07:26.772919 | Toyota | Hilux | standard | tier2
+2026-04-10T10:07:26.772920 | Toyota | Hilux Champ, Rangga, Stout | standard | tier2
+2026-04-10T10:07:26.772921 | Toyota | Land Cruiser 79 series | standard | tier2
+2026-04-10T10:07:26.772922 | Toyota | Tacoma | standard | tier2
+2026-04-10T10:07:26.772924 | Toyota | Tundra | standard | tier2
+2026-04-10T10:07:26.772925 | Toyota | Century (SUV) | standard | tier2
+2026-04-10T10:07:26.772926 | Toyota | Corolla Cross, Frontlander | standard | tier2
+2026-04-10T10:07:26.772927 | Toyota | Crown Estate, Signia | standard | tier2
+2026-04-10T10:07:26.772928 | Toyota | Land Cruiser | standard | tier2
+2026-04-10T10:07:26.772930 | Toyota | RAV4, Wildlander | standard | tier2
+2026-04-10T10:07:26.772931 | Toyota | Avanza, Veloz | standard | tier2
+2026-04-10T10:07:26.772932 | Toyota | Auris, Corolla iM | standard | tier2
+2026-04-10T10:07:26.772933 | Toyota | Camry Coupe | standard | tier2
+2026-04-10T10:07:26.772935 | Toyota | Camry Solara | standard | tier2
+2026-04-10T10:07:26.772936 | Toyota | Corolla Ceres | standard | tier2
+2026-04-10T10:07:26.772937 | Toyota | Corolla II | standard | tier2
+2026-04-10T10:07:26.772938 | Toyota | Corolla Levin | standard | tier2
+2026-04-10T10:07:26.772939 | Toyota | Corolla Rumion | standard | tier2
+2026-04-10T10:07:26.772940 | Toyota | Corolla Spacio | standard | tier2
+2026-04-10T10:07:26.772957 | Toyota | Corolla Sprinter | standard | tier2
+2026-04-10T10:07:26.772958 | Toyota | Corolla SR5 | standard | tier2
+2026-04-10T10:07:26.772959 | Toyota | Corolla Verso | standard | tier2
+2026-04-10T10:07:26.772961 | Toyota | Hilux Surf | standard | tier2
+2026-04-10T10:07:26.772962 | Toyota | Prius c | standard | tier2
+2026-04-10T10:07:26.772963 | Toyota | Prius v, +, α | standard | tier2
+2026-04-10T10:07:26.772965 | Toyota | SportsVan | standard | tier2
+2026-04-10T10:07:26.772966 | Toyota | Sprinter | standard | tier2
+2026-04-10T10:07:26.772967 | Toyota | Sprinter Carib | standard | tier2
+2026-04-10T10:07:26.772968 | Toyota | Sprinter Cielo | standard | tier2
+2026-04-10T10:07:26.772969 | Toyota | Sprinter Marino | standard | tier2
+2026-04-10T10:07:26.772970 | Toyota | Sprinter Trueno | standard | tier2
+2026-04-10T10:07:26.772990 | Toyota | Van | standard | tier2
+2026-04-10T10:07:26.772992 | Toyota | VanWagon | standard | tier2
+2026-04-10T10:07:26.772993 | Toyota | Camry TS-01 | standard | tier2
+2026-04-10T10:07:26.772994 | Toyota | Corona 1900S Sporty Sedan | standard | tier2
+2026-04-10T10:07:26.772995 | Toyota | Prius c Concept | standard | tier2
+2026-04-10T10:07:26.772996 | Toyota | Prius Custom Plus Concept | standard | tier2
+2026-04-10T10:07:26.772997 | Toyota | Belta/Vios/Yaris sedanXP90 | standard | tier2
+2026-04-10T10:07:26.772998 | Toyota | Tercel/Corolla II/CorsaL20 | standard | tier2
+2026-04-10T10:07:26.773000 | Toyota | Tercel/Corolla II/CorsaL30 | standard | tier2
+2026-04-10T10:07:26.773001 | Toyota | Tercel/Corolla II/CorsaL40 | standard | tier2
+2026-04-10T10:07:26.773002 | Toyota | Tercel/Corolla II/CorsaL50 | standard | tier2
+2026-04-10T10:07:26.773003 | Toyota | Sprinter CaribL20 | standard | tier2
+2026-04-10T10:07:26.773005 | Toyota | Corolla Rumion/RukusE150 | standard | tier2
+2026-04-10T10:07:26.773006 | Toyota | SprinterE80 | standard | tier2
+2026-04-10T10:07:26.773020 | Toyota | SprinterE90 | standard | tier2
+2026-04-10T10:07:26.773021 | Toyota | SprinterE100 | standard | tier2
+2026-04-10T10:07:26.773022 | Toyota | SprinterE110 | standard | tier2
+2026-04-10T10:07:26.773023 | Toyota | CorollaE120/E130 | standard | tier2
+2026-04-10T10:07:26.773025 | Toyota | CorollaE140/E150 | standard | tier2
+2026-04-10T10:07:26.773026 | Toyota | CorollaE170/E180 | standard | tier2
+2026-04-10T10:07:26.773027 | Toyota | Corolla AxioE140 | standard | tier2
+2026-04-10T10:07:26.773028 | Toyota | Corolla AxioE160 | standard | tier2
+2026-04-10T10:07:26.773029 | Toyota | Corolla FXE80 | standard | tier2
+2026-04-10T10:07:26.773049 | Toyota | Corolla FXE90 | standard | tier2
+2026-04-10T10:07:26.773050 | Toyota | Corolla FXE100 | standard | tier2
+2026-04-10T10:07:26.773051 | Toyota | Corolla RunXE120 | standard | tier2
+2026-04-10T10:07:26.773052 | Toyota | PriusXW10 | standard | tier2
+2026-04-10T10:07:26.773054 | Toyota | PriusXW11 | standard | tier2
+2026-04-10T10:07:26.773055 | Toyota | PriusXW20 | standard | tier2
+2026-04-10T10:07:26.773056 | Toyota | PriusXW30 | standard | tier2
+2026-04-10T10:07:26.773057 | Toyota | Compact wagon | standard | tier2
+2026-04-10T10:07:26.773058 | Toyota | Corolla Van (wagon)E70 | standard | tier2
+2026-04-10T10:07:26.773059 | Toyota | Corolla Van (wagon)E90 | standard | tier2
+2026-04-10T10:07:26.773060 | Toyota | Corolla Van (wagon)E100 | standard | tier2
+2026-04-10T10:07:26.773062 | Toyota | Corolla FielderE120 | standard | tier2
+2026-04-10T10:07:26.773064 | Toyota | Corolla FielderE140 | standard | tier2
+2026-04-10T10:07:26.773065 | Toyota | Corolla FielderE160 | standard | tier2
+2026-04-10T10:07:26.773066 | Toyota | Sprinter CaribE90 | standard | tier2
+2026-04-10T10:07:26.773067 | Toyota | Sprinter CaribE110 | standard | tier2
+2026-04-10T10:07:26.773068 | Toyota | Camry SolaraXV20 | standard | tier2
+2026-04-10T10:07:26.773069 | Toyota | Camry SolaraXV30 | standard | tier2
+2026-04-10T10:07:26.773070 | Toyota | Camry/VistaV10 | standard | tier2
+2026-04-10T10:07:26.773071 | Toyota | Camry/VistaV20 | standard | tier2
+2026-04-10T10:07:26.773072 | Toyota | Camry/VistaV30 | standard | tier2
+2026-04-10T10:07:26.773074 | Toyota | Camry/VistaV40 | standard | tier2
+2026-04-10T10:07:26.773075 | Toyota | Camry/VistaV50 | standard | tier2
+2026-04-10T10:07:26.773076 | Toyota | Scepter/CamryXV10 | standard | tier2
+2026-04-10T10:07:26.773077 | Toyota | CamryXV20 | standard | tier2
+2026-04-10T10:07:26.773078 | Toyota | CamryXV30 | standard | tier2
+2026-04-10T10:07:26.773079 | Toyota | CamryXV40 | standard | tier2
+2026-04-10T10:07:26.773080 | Toyota | CamryXV50 | standard | tier2
+2026-04-10T10:07:26.773081 | Toyota | Mid-size wagon | standard | tier2
+2026-04-10T10:07:26.773082 | Toyota | Mark II WagonX70 | standard | tier2
+2026-04-10T10:07:26.773083 | Toyota | Camry GraciaXV20 | standard | tier2
+2026-04-10T10:07:26.773084 | Toyota | Yaris Sedan | standard | tier2
+2026-04-10T10:07:26.773086 | Toyota | Yaris Sedan(M) | standard | tier2
+2026-04-10T10:07:26.773087 | Toyota | Yaris Hatchback(C+US) | standard | tier2
+2026-04-10T10:07:26.773088 | Toyota | Yaris iA/R/Sedan | standard | tier2
+2026-04-10T10:07:26.773089 | Toyota | Prius c(M) | standard | tier2
+2026-04-10T10:07:26.773090 | Toyota | Corolla iM | standard | tier2
+2026-04-10T10:07:26.773091 | Toyota | Corolla Hatchback | standard | tier2
+2026-04-10T10:07:26.773092 | Toyota | Prius Plug-in Hybrid | standard | tier2
+2026-04-10T10:07:26.773093 | Toyota | Prius Prime | standard | tier2
+2026-04-10T10:07:26.773094 | Toyota | Prius v | standard | tier2
+2026-04-10T10:07:26.773095 | Toyota | Prius v(C) | standard | tier2
+2026-04-10T10:07:26.773096 | Toyota | GR Corolla(C+US) | standard | tier2
+2026-04-10T10:07:26.773098 | Toyota | Subcompact crossover | standard | tier2
+2026-04-10T10:07:26.773099 | Toyota | Compact crossover | standard | tier2
+2026-04-10T10:07:26.773100 | Toyota | Corolla Cross(XG10) | standard | tier2
+2026-04-10T10:07:26.773101 | Toyota | RAV4(XA10) | standard | tier2
+2026-04-10T10:07:26.773102 | Toyota | RAV4(XA20) | standard | tier2
+2026-04-10T10:07:26.773107 | Toyota | RAV4(XA30) | standard | tier2
+2026-04-10T10:07:26.773108 | Toyota | RAV4(XA40) | standard | tier2
+2026-04-10T10:07:26.773109 | Toyota | RAV4(XA50) | standard | tier2
+2026-04-10T10:07:26.773110 | Toyota | RAV4(XA60) | standard | tier2
+2026-04-10T10:07:26.773111 | Toyota | Mid-size crossover | standard | tier2
+2026-04-10T10:07:26.773113 | Toyota | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773127 | Toyota | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773128 | Toyota | Land Cruiser(J250) | standard | tier2
+2026-04-10T10:07:26.773129 | Toyota | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773131 | Toyota | Land Cruiser(J60) | standard | tier2
+2026-04-10T10:07:26.773132 | Toyota | Land Cruiser(J80) | standard | tier2
+2026-04-10T10:07:26.773133 | Toyota | Land Cruiser(J100) | standard | tier2
+2026-04-10T10:07:26.773134 | Toyota | Land Cruiser(J200) | standard | tier2
+2026-04-10T10:07:26.773135 | Toyota | Minivan | standard | tier2
+2026-04-10T10:07:26.773159 | Toyota | Van(R20/R30) | standard | tier2
+2026-04-10T10:07:26.773160 | Toyota | Pickup | standard | tier2
+2026-04-10T10:07:26.773161 | Toyota | Pickup(N30/N40) | standard | tier2
+2026-04-10T10:07:26.773162 | Toyota | Pickup(N50/N60/N70) | standard | tier2
+2026-04-10T10:07:26.773188 | Toyota | Pickup(N80/N90/N100/N110) | standard | tier2
+2026-04-10T10:07:26.773189 | Toyota | Tacoma(N140/N150/N160/N170/N190) | standard | tier2
+2026-04-10T10:07:26.773190 | Toyota | Tacoma(N220/N240/N250/N260/N270) | standard | tier2
+2026-04-10T10:07:26.773191 | Toyota | Tacoma(N300) | standard | tier2
+2026-04-10T10:07:26.773192 | Toyota | Tacoma(N400) | standard | tier2
+2026-04-10T10:07:26.773194 | Toyota | Tundra(XK30/XK40) | standard | tier2
+2026-04-10T10:07:26.773195 | Toyota | Tundra(XK50) | standard | tier2
+2026-04-10T10:07:26.773196 | Toyota | Tundra(XK70) | standard | tier2
+2026-04-10T10:07:26.773197 | Toyota | A-segment crossover SUV | standard | tier2
+2026-04-10T10:07:26.773198 | Toyota | B-segment crossover SUV | standard | tier2
+2026-04-10T10:07:26.773199 | Toyota | RAV4 | standard | tier2
+2026-04-10T10:07:26.773200 | Toyota | C-segment crossover SUV | standard | tier2
+2026-04-10T10:07:26.773201 | Toyota | Corolla Cross | standard | tier2
+2026-04-10T10:07:26.773202 | Toyota | D-segment crossover SUV | standard | tier2
+2026-04-10T10:07:26.773203 | Toyota | F-segment SUV | standard | tier2
+2026-04-10T10:07:26.773204 | Toyota | Land Cruiser Amazon | standard | tier2
+2026-04-10T10:07:26.773206 | Toyota | Land Cruiser V8 | standard | tier2
+2026-04-10T10:07:26.773207 | Toyota | Mini MPV | standard | tier2
+2026-04-10T10:07:26.773208 | Toyota | Compact MPV | standard | tier2
+2026-04-10T10:07:26.773209 | Toyota | Prius+ | standard | tier2
+2026-04-10T10:07:26.773210 | Toyota | Large MPV | standard | tier2
+2026-04-10T10:07:26.773224 | Toyota | Compact van | standard | tier2
+2026-04-10T10:07:26.773225 | Toyota | Medium van | standard | tier2
+2026-04-10T10:07:26.773226 | Toyota | Vios/Yaris sedan/Yaris AtivAC100 | standard | tier2
+2026-04-10T10:07:26.773228 | Toyota | Corolla/Levin/AllionE210 | standard | tier2
+2026-04-10T10:07:26.773229 | Toyota | GR CorollaE210 | standard | tier2
+2026-04-10T10:07:26.773230 | Toyota | PriusXW50 | standard | tier2
+2026-04-10T10:07:26.773231 | Toyota | PriusXW60 | standard | tier2
+2026-04-10T10:07:26.773232 | Toyota | Corolla TouringE210 | standard | tier2
+2026-04-10T10:07:26.773249 | Toyota | CamryXV70 | standard | tier2
+2026-04-10T10:07:26.773250 | Toyota | CamryXV80 | standard | tier2
+2026-04-10T10:07:26.773251 | Toyota | Crown CrossoverS235 | standard | tier2
+2026-04-10T10:07:26.773252 | Toyota | Crown SedanS230 | standard | tier2
+2026-04-10T10:07:26.773253 | Toyota | SUV | standard | tier2
+2026-04-10T10:07:26.773254 | Toyota | TOM'S Corolla G5 | standard | tier2
+2026-04-10T10:07:26.773256 | Toyota | Tata Marcopolo | standard | tier2
+2026-04-10T10:07:26.773257 | Toyota | Advantest | standard | tier2
+2026-04-10T10:07:26.773258 | Toyota | Mitsubishi Estate | standard | tier2
+2026-04-10T10:07:26.773259 | Nissan | Qashqai | standard | tier2
+2026-04-10T10:07:26.773260 | Nissan | Caravan/Urvan | standard | tier2
+2026-04-10T10:07:26.773261 | Nissan | Patrol Pickup | standard | tier2
+2026-04-10T10:07:26.773263 | Nissan | Versa (hatchback) | standard | tier2
+2026-04-10T10:07:26.773264 | Nissan | Versa (sedan) | standard | tier2
+2026-04-10T10:07:26.773265 | Nissan | Mini MPV | standard | tier2
+2026-04-10T10:07:26.773266 | Nissan | Compact minivan | standard | tier2
+2026-04-10T10:07:26.773267 | Nissan | Stanza Wagon/Multi | standard | tier2
+2026-04-10T10:07:26.773268 | Nissan | Subcompact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773269 | Nissan | Compact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773270 | Nissan | Rogue Sport / Qashqai | standard | tier2
+2026-04-10T10:07:26.773272 | Nissan | Mid-size crossover SUV | standard | tier2
+2026-04-10T10:07:26.773273 | Nissan | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773274 | Nissan | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773275 | Nissan | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773276 | Nissan | Minivan | standard | tier2
+2026-04-10T10:07:26.773277 | Nissan | Van | standard | tier2
+2026-04-10T10:07:26.773278 | Nissan | Compact MPV | standard | tier2
+2026-04-10T10:07:26.773279 | Nissan | Large MPV | standard | tier2
+2026-04-10T10:07:26.773280 | Nissan | Crossover | standard | tier2
+2026-04-10T10:07:26.773281 | Nissan | Qashqai J10 | standard | tier2
+2026-04-10T10:07:26.773282 | Nissan | Qashqai J11 | standard | tier2
+2026-04-10T10:07:26.773283 | Nissan | Qashqai+2 NJ10 | standard | tier2
+2026-04-10T10:07:26.773284 | Nissan | Pickup D / W21 | standard | tier2
+2026-04-10T10:07:26.773285 | Nissan | Pickup D22 | standard | tier2
+2026-04-10T10:07:26.773287 | Nissan | Datsun Urvan | standard | tier2
+2026-04-10T10:07:26.773288 | Nissan | Urvan | standard | tier2
+2026-04-10T10:07:26.773289 | Nissan | crossover SUV | standard | tier2
+2026-04-10T10:07:26.773290 | Nissan | SUV | standard | tier2
+2026-04-10T10:07:26.773291 | Nissan | Tata Marcopolo | standard | tier2
+2026-04-10T10:07:26.773292 | Nissan | Mitsubishi Estate | standard | tier2
+2026-04-10T10:07:26.773293 | Nissan | Advantest | standard | tier2
+2026-04-10T10:07:26.773295 | Honda | Accord | standard | tier2
+2026-04-10T10:07:26.773296 | Honda | Civic | standard | tier2
+2026-04-10T10:07:26.773297 | Honda | Avancier/UR-V | standard | tier2
+2026-04-10T10:07:26.773298 | Honda | CR-V/Breeze | standard | tier2
+2026-04-10T10:07:26.773299 | Honda | HR-V/Vezel/XR-V | standard | tier2
+2026-04-10T10:07:26.773300 | Honda | ZR-V/HR-V | standard | tier2
+2026-04-10T10:07:26.773301 | Honda | N-Van | standard | tier2
+2026-04-10T10:07:26.773303 | Honda | 0 Saloon | standard | tier2
+2026-04-10T10:07:26.773304 | Honda | 0 SUV | standard | tier2
+2026-04-10T10:07:26.773305 | Honda | SUV RS | standard | tier2
+2026-04-10T10:07:26.773306 | Honda | Civic Type R | standard | tier2
+2026-04-10T10:07:26.773308 | Honda | Crossover | standard | tier2
+2026-04-10T10:07:26.773309 | Honda | HR-V | standard | tier2
+2026-04-10T10:07:26.773310 | Honda | CR-V | standard | tier2
+2026-04-10T10:07:26.773311 | Honda | Minivan | standard | tier2
+2026-04-10T10:07:26.773312 | Honda | Mitsubishi Estate | standard | tier2
+2026-04-10T10:07:26.773313 | Honda | Advantest | standard | tier2
+2026-04-10T10:07:26.773314 | Honda | Elevance Health | standard | tier2
+2026-04-10T10:07:26.773316 | Honda | Advanced Info Service | standard | tier2
+2026-04-10T10:07:26.773317 | Honda | Link Real Estate Investment Trust | standard | tier2
+2026-04-10T10:07:26.773318 | Honda | Vanguard International Semiconductor Corporation | standard | tier2
+2026-04-10T10:07:26.773319 | Subaru | Sambar Van | standard | tier2
+2026-04-10T10:07:26.773320 | Subaru | Hybrid & Advanced Tourer (2009, 2011) | standard | tier2
+2026-04-10T10:07:26.773322 | Subaru | Microvan | standard | tier2
+2026-04-10T10:07:26.773323 | Subaru | MPV | standard | tier2
+2026-04-10T10:07:26.773324 | Subaru | Crossover SUV | standard | tier2
+2026-04-10T10:07:26.773325 | Subaru | Crossover/SUV | standard | tier2
+2026-04-10T10:07:26.773330 | Mitsubishi | Super Height K-Wagon | standard | tier2
+2026-04-10T10:07:26.773331 | Mitsubishi | Kei sedan | standard | tier2
+2026-04-10T10:07:26.773332 | Mitsubishi | Microvan | standard | tier2
+2026-04-10T10:07:26.773334 | Mitsubishi | 360 Van/Pickup | standard | tier2
+2026-04-10T10:07:26.773335 | Mitsubishi | Minica Van | standard | tier2
+2026-04-10T10:07:26.773336 | Mitsubishi | Minica 5 Van | standard | tier2
+2026-04-10T10:07:26.773337 | Mitsubishi | Minica 55 Van | standard | tier2
+2026-04-10T10:07:26.773338 | Mitsubishi | Van | standard | tier2
+2026-04-10T10:07:26.773339 | Mitsubishi | Lancer Van A140 | standard | tier2
+2026-04-10T10:07:26.773340 | Mitsubishi | Mirage/Lancer Wagon C10/C30 | standard | tier2
+2026-04-10T10:07:26.773342 | Mitsubishi | Lancer Wagon/Libero CB/CD | standard | tier2
+2026-04-10T10:07:26.773343 | Mitsubishi | Lancer/Cedia Wagon | standard | tier2
+2026-04-10T10:07:26.773344 | Mitsubishi | Small MPV | standard | tier2
+2026-04-10T10:07:26.773345 | Mitsubishi | Crossover | standard | tier2
+2026-04-10T10:07:26.773346 | Mitsubishi | MPV | standard | tier2
+2026-04-10T10:07:26.773347 | Mitsubishi | Grandis/Space Wagon | standard | tier2
+2026-04-10T10:07:26.773349 | Mitsubishi | Mini SUV | standard | tier2
+2026-04-10T10:07:26.773350 | Mitsubishi | SUV | standard | tier2
+2026-04-10T10:07:26.773351 | Mitsubishi | Delica/L300/Starwagon/Express | standard | tier2
+2026-04-10T10:07:26.773352 | Mitsubishi | Delica Space Gear/L400/Starwagon | standard | tier2
+2026-04-10T10:07:26.773353 | Mitsubishi | Mini MPV | standard | tier2
+2026-04-10T10:07:26.773354 | Mitsubishi | Compact MPV | standard | tier2
+2026-04-10T10:07:26.773355 | Mitsubishi | Large MPV | standard | tier2
+2026-04-10T10:07:26.773356 | Mitsubishi | Grandis / Space Wagon | standard | tier2
+2026-04-10T10:07:26.773357 | Mitsubishi | Subcompact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773358 | Mitsubishi | Compact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773359 | Mitsubishi | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773361 | Mitsubishi | Space Wagon | standard | tier2
+2026-04-10T10:07:26.773362 | Mitsubishi | Minivan | standard | tier2
+2026-04-10T10:07:26.773363 | Mitsubishi | Van/Wagon | standard | tier2
+2026-04-10T10:07:26.773364 | Mitsubishi | Subcompact crossover | standard | tier2
+2026-04-10T10:07:26.773365 | Mitsubishi | Compact crossover | standard | tier2
+2026-04-10T10:07:26.773366 | Mitsubishi | Mid-size crossover | standard | tier2
+2026-04-10T10:07:26.773367 | Mitsubishi | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773368 | Mitsubishi | Pickup | standard | tier2
+2026-04-10T10:07:26.773369 | Mitsubishi | Mitsubishi Estate | standard | tier2
+2026-04-10T10:07:26.773370 | Mitsubishi | Qashqai | standard | tier2
+2026-04-10T10:07:26.773371 | Mitsubishi | Caravan/Urvan | standard | tier2
+2026-04-10T10:07:26.773372 | Mitsubishi | Patrol Pickup | standard | tier2
+2026-04-10T10:07:26.773374 | Mitsubishi | Advantest | standard | tier2
+2026-04-10T10:07:26.773375 | Mazda | Bongo Van | standard | tier2
+2026-04-10T10:07:26.773376 | Mazda | Familia Van | standard | tier2
+2026-04-10T10:07:26.773377 | Mazda | Flair Crossover | standard | tier2
+2026-04-10T10:07:26.773378 | Mazda | Flair Wagon | standard | tier2
+2026-04-10T10:07:26.773379 | Mazda | Scrum Van | standard | tier2
+2026-04-10T10:07:26.773381 | Mazda | Scrum Wagon | standard | tier2
+2026-04-10T10:07:26.773382 | Mazda | AZ-Wagon | standard | tier2
+2026-04-10T10:07:26.773383 | Mazda | MPV/Mazda8 | standard | tier2
+2026-04-10T10:07:26.773384 | Mazda | Savanna | standard | tier2
+2026-04-10T10:07:26.773385 | Mazda | Microvan | standard | tier2
+2026-04-10T10:07:26.773386 | Mazda | Familia Van/1000,1200,1300 Pickup | standard | tier2
+2026-04-10T10:07:26.773387 | Mazda | Familia Van/323 Wagon | standard | tier2
+2026-04-10T10:07:26.773389 | Mazda | Familia Van/Wagon | standard | tier2
+2026-04-10T10:07:26.773390 | Mazda | RX-3/Savanna | standard | tier2
+2026-04-10T10:07:26.773391 | Mazda | Luce Van | standard | tier2
+2026-04-10T10:07:26.773392 | Mazda | 929 Wagon | standard | tier2
+2026-04-10T10:07:26.773393 | Mazda | Minivan | standard | tier2
+2026-04-10T10:07:26.773394 | Mazda | MPV | standard | tier2
+2026-04-10T10:07:26.773395 | Mazda | Pickup | standard | tier2
+2026-04-10T10:07:26.773396 | Mazda | Van | standard | tier2
+2026-04-10T10:07:26.773397 | Mazda | Scrum/Scrum Wagon | standard | tier2
+2026-04-10T10:07:26.773399 | Mazda | MPV/ɛ̃fini MPV | standard | tier2
+2026-04-10T10:07:26.773400 | Mazda | Crossover SUV | standard | tier2
+2026-04-10T10:07:26.773401 | Mazda | SUV | standard | tier2
+2026-04-10T10:07:26.773402 | Mazda | Proceed Levante | standard | tier2
+2026-04-10T10:07:26.773404 | Mazda | Subcompact crossover | standard | tier2
+2026-04-10T10:07:26.773405 | Mazda | Compact crossover | standard | tier2
+2026-04-10T10:07:26.773406 | Mazda | Mid-size crossover | standard | tier2
+2026-04-10T10:07:26.773407 | Lexus | Crossover | standard | tier2
+2026-04-10T10:07:26.773408 | Lexus | SUV | standard | tier2
+2026-04-10T10:07:26.773409 | Lexus | Minivan | standard | tier2
+2026-04-10T10:07:26.773410 | Lexus | Pixis Van | standard | tier2
+2026-04-10T10:07:26.773412 | Lexus | Camry | standard | tier2
+2026-04-10T10:07:26.773413 | Lexus | Corolla | standard | tier2
+2026-04-10T10:07:26.773414 | Lexus | GR Corolla | standard | tier2
+2026-04-10T10:07:26.773415 | Lexus | Sedan | standard | tier2
+2026-04-10T10:07:26.773416 | Lexus | Prius | standard | tier2
+2026-04-10T10:07:26.773417 | Lexus | Hilux | standard | tier2
+2026-04-10T10:07:26.773418 | Lexus | Hilux Champ, Rangga, Stout | standard | tier2
+2026-04-10T10:07:26.773419 | Lexus | Land Cruiser 79 series | standard | tier2
+2026-04-10T10:07:26.773421 | Lexus | Tacoma | standard | tier2
+2026-04-10T10:07:26.773422 | Lexus | Tundra | standard | tier2
+2026-04-10T10:07:26.773423 | Lexus | Century (SUV) | standard | tier2
+2026-04-10T10:07:26.773424 | Lexus | Corolla Cross, Frontlander | standard | tier2
+2026-04-10T10:07:26.773425 | Lexus | Crown Estate, Signia | standard | tier2
+2026-04-10T10:07:26.773426 | Lexus | Land Cruiser | standard | tier2
+2026-04-10T10:07:26.773427 | Lexus | RAV4, Wildlander | standard | tier2
+2026-04-10T10:07:26.773428 | Lexus | Avanza, Veloz | standard | tier2
+2026-04-10T10:07:26.773429 | Lexus | Auris, Corolla iM | standard | tier2
+2026-04-10T10:07:26.773430 | Lexus | Camry Coupe | standard | tier2
+2026-04-10T10:07:26.773431 | Lexus | Camry Solara | standard | tier2
+2026-04-10T10:07:26.773432 | Lexus | Corolla Ceres | standard | tier2
+2026-04-10T10:07:26.773433 | Lexus | Corolla II | standard | tier2
+2026-04-10T10:07:26.773435 | Lexus | Corolla Levin | standard | tier2
+2026-04-10T10:07:26.773436 | Lexus | Corolla Rumion | standard | tier2
+2026-04-10T10:07:26.773437 | Lexus | Corolla Spacio | standard | tier2
+2026-04-10T10:07:26.773438 | Lexus | Corolla Sprinter | standard | tier2
+2026-04-10T10:07:26.773439 | Lexus | Corolla SR5 | standard | tier2
+2026-04-10T10:07:26.773440 | Lexus | Corolla Verso | standard | tier2
+2026-04-10T10:07:26.773441 | Lexus | Hilux Surf | standard | tier2
+2026-04-10T10:07:26.773442 | Lexus | Prius c | standard | tier2
+2026-04-10T10:07:26.773443 | Lexus | Prius v, +, α | standard | tier2
+2026-04-10T10:07:26.773444 | Lexus | SportsVan | standard | tier2
+2026-04-10T10:07:26.773445 | Lexus | Sprinter | standard | tier2
+2026-04-10T10:07:26.773446 | Lexus | Sprinter Carib | standard | tier2
+2026-04-10T10:07:26.773447 | Lexus | Sprinter Cielo | standard | tier2
+2026-04-10T10:07:26.773448 | Lexus | Sprinter Marino | standard | tier2
+2026-04-10T10:07:26.773449 | Lexus | Sprinter Trueno | standard | tier2
+2026-04-10T10:07:26.773451 | Lexus | Van | standard | tier2
+2026-04-10T10:07:26.773452 | Lexus | VanWagon | standard | tier2
+2026-04-10T10:07:26.773453 | Lexus | Camry TS-01 | standard | tier2
+2026-04-10T10:07:26.773454 | Lexus | Corona 1900S Sporty Sedan | standard | tier2
+2026-04-10T10:07:26.773455 | Lexus | Prius c Concept | standard | tier2
+2026-04-10T10:07:26.773457 | Lexus | Prius Custom Plus Concept | standard | tier2
+2026-04-10T10:07:26.773458 | Lexus | Rezvani Motors | standard | tier2
+2026-04-10T10:07:26.773462 | Lexus | Avanti | standard | tier2
+2026-04-10T10:07:26.773464 | Lexus | Sebring Vanguard | standard | tier2
+2026-04-10T10:07:26.773465 | Lexus | Rezvani Automotive Designs | standard | tier2
+2026-04-10T10:07:26.773466 | Lexus | Accord v | standard | tier2
+2026-04-10T10:07:26.773467 | Lexus | Civic iv | standard | tier2
+2026-04-10T10:07:26.773468 | Lexus | Golf Mk.5 | standard | tier2
+2026-04-10T10:07:26.773469 | Acura | RSX (SUV) | standard | tier2
+2026-04-10T10:07:26.773471 | Acura | Sedan | standard | tier2
+2026-04-10T10:07:26.773472 | Acura | Crossover | standard | tier2
+2026-04-10T10:07:26.773473 | Acura | SUV | standard | tier2
+2026-04-10T10:07:26.773474 | Acura | Accord | standard | tier2
+2026-04-10T10:07:26.773475 | Acura | Civic | standard | tier2
+2026-04-10T10:07:26.773477 | Acura | Avancier/UR-V | standard | tier2
+2026-04-10T10:07:26.773478 | Acura | CR-V/Breeze | standard | tier2
+2026-04-10T10:07:26.773479 | Acura | HR-V/Vezel/XR-V | standard | tier2
+2026-04-10T10:07:26.773480 | Acura | ZR-V/HR-V | standard | tier2
+2026-04-10T10:07:26.773481 | Acura | N-Van | standard | tier2
+2026-04-10T10:07:26.773482 | Acura | 0 Saloon | standard | tier2
+2026-04-10T10:07:26.773483 | Acura | 0 SUV | standard | tier2
+2026-04-10T10:07:26.773485 | Acura | SUV RS | standard | tier2
+2026-04-10T10:07:26.773486 | Infiniti | crossover SUV | standard | tier2
+2026-04-10T10:07:26.773487 | Infiniti | SUV | standard | tier2
+2026-04-10T10:07:26.773488 | Infiniti | Qashqai | standard | tier2
+2026-04-10T10:07:26.773490 | Infiniti | Caravan/Urvan | standard | tier2
+2026-04-10T10:07:26.773491 | Infiniti | Patrol Pickup | standard | tier2
+2026-04-10T10:07:26.773492 | Suzuki | Wagon R (Japan) | standard | tier2
+2026-04-10T10:07:26.773494 | Suzuki | Wagon R Smile | standard | tier2
+2026-04-10T10:07:26.773495 | Suzuki | Wagon R (India) | standard | tier2
+2026-04-10T10:07:26.773496 | Suzuki | MR Wagon | standard | tier2
+2026-04-10T10:07:26.773497 | Suzuki | VanVan 125 | standard | tier2
+2026-04-10T10:07:26.773498 | Suzuki | Kei sedan | standard | tier2
+2026-04-10T10:07:26.773499 | Suzuki | Suzulight 360 Van | standard | tier2
+2026-04-10T10:07:26.773500 | Suzuki | Fronte Van/ Estate/Custom | standard | tier2
+2026-04-10T10:07:26.773502 | Suzuki | Kei van | standard | tier2
+2026-04-10T10:07:26.773503 | Suzuki | Suzulight Carry Van FBD | standard | tier2
+2026-04-10T10:07:26.773504 | Suzuki | (Suzulight) Carry Van L20 | standard | tier2
+2026-04-10T10:07:26.773505 | Suzuki | Carry Van L40 | standard | tier2
+2026-04-10T10:07:26.773506 | Suzuki | Carry Van L50/L60 | standard | tier2
+2026-04-10T10:07:26.773507 | Suzuki | Carry Van 55/Wide | standard | tier2
+2026-04-10T10:07:26.773508 | Suzuki | Carry Van/Every | standard | tier2
+2026-04-10T10:07:26.773509 | Suzuki | Microvan | standard | tier2
+2026-04-10T10:07:26.773510 | Suzuki | Kei SUV | standard | tier2
+2026-04-10T10:07:26.773511 | Suzuki | Mini SUV | standard | tier2
+2026-04-10T10:07:26.773512 | Suzuki | Wagon R | standard | tier2
+2026-04-10T10:07:26.773513 | Suzuki | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773515 | Suzuki | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773516 | Suzuki | Mini MPV | standard | tier2
+2026-04-10T10:07:26.773517 | Suzuki | Wagon R+ | standard | tier2
+2026-04-10T10:07:26.773518 | Suzuki | Wagon R Wide | standard | tier2
+2026-04-10T10:07:26.773519 | Suzuki | Wagon R Solio | standard | tier2
+2026-04-10T10:07:26.773520 | Suzuki | Minivan | standard | tier2
+2026-04-10T10:07:26.773521 | Suzuki | Crossover city car | standard | tier2
+2026-04-10T10:07:26.773522 | Suzuki | Subcompact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773523 | Suzuki | Compact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773524 | Suzuki | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773525 | Suzuki | Compact MPV | standard | tier2
+2026-04-10T10:07:26.773527 | Suzuki | Pickup | standard | tier2
+2026-04-10T10:07:26.773528 | Suzuki | MPV | standard | tier2
+2026-04-10T10:07:26.773529 | Suzuki | Crossoversand SUV | standard | tier2
+2026-04-10T10:07:26.773530 | Suzuki | Mitsubishi Estate | standard | tier2
+2026-04-10T10:07:26.773531 | Suzuki | Advantest | standard | tier2
+2026-04-10T10:07:26.773532 | Hyundai | Elantra / Avante / i30 Sedan | standard | tier2
+2026-04-10T10:07:26.773534 | Hyundai | Aura / Grand i10 Sedan | standard | tier2
+2026-04-10T10:07:26.773535 | Hyundai | Xcent/Grand i10 Sedan | standard | tier2
+2026-04-10T10:07:26.773536 | Hyundai | B-SUV | standard | tier2
+2026-04-10T10:07:26.773537 | Hyundai | SUV | standard | tier2
+2026-04-10T10:07:26.773538 | Hyundai | MPV | standard | tier2
+2026-04-10T10:07:26.773539 | Hyundai | Pickup | standard | tier2
+2026-04-10T10:07:26.773540 | Hyundai | Pony Pickup(110) | standard | tier2
+2026-04-10T10:07:26.773542 | Hyundai | Pony 2 Pickup(110) | standard | tier2
+2026-04-10T10:07:26.773543 | Hyundai | Minivan | standard | tier2
+2026-04-10T10:07:26.773544 | Hyundai | Subcompactcrossover SUV | standard | tier2
+2026-04-10T10:07:26.773545 | Hyundai | Compactcrossover SUV | standard | tier2
+2026-04-10T10:07:26.773546 | Hyundai | Mid-sizecrossover SUV | standard | tier2
+2026-04-10T10:07:26.773547 | Hyundai | Van | standard | tier2
+2026-04-10T10:07:26.773549 | Hyundai | Tata Marcopolo | standard | tier2
+2026-04-10T10:07:26.773550 | Kia | B-SUV | standard | tier2
+2026-04-10T10:07:26.773551 | Kia | Subcompact SUV | standard | tier2
+2026-04-10T10:07:26.773552 | Kia | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773553 | Kia | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773555 | Kia | Mini MPV | standard | tier2
+2026-04-10T10:07:26.773556 | Kia | Compact MPV | standard | tier2
+2026-04-10T10:07:26.773557 | Kia | Large MPV | standard | tier2
+2026-04-10T10:07:26.773558 | Kia | Van | standard | tier2
+2026-04-10T10:07:26.773559 | Kia | Minivan | standard | tier2
+2026-04-10T10:07:26.773560 | Kia | Tata Marcopolo | standard | tier2
+2026-04-10T10:07:26.773562 | Genesis | Elantra / Avante / i30 Sedan | standard | tier2
+2026-04-10T10:07:26.773563 | Genesis | Aura / Grand i10 Sedan | standard | tier2
+2026-04-10T10:07:26.773564 | Genesis | Xcent/Grand i10 Sedan | standard | tier2
+2026-04-10T10:07:26.773565 | Genesis | B-SUV | standard | tier2
+2026-04-10T10:07:26.773566 | Genesis | Compact luxury SUV | standard | tier2
+2026-04-10T10:07:26.773567 | Genesis | Mid-size luxury SUV | standard | tier2
+2026-04-10T10:07:26.773569 | Ford | SUVs | standard | tier2
+2026-04-10T10:07:26.773570 | Ford | Vans | standard | tier2
+2026-04-10T10:07:26.773571 | Ford | Transit | standard | tier2
+2026-04-10T10:07:26.773572 | Ford | F-250/F-350/F-450/F-550/F-600 | standard | tier2
+2026-04-10T10:07:26.773573 | Ford | Country Sedan | standard | tier2
+2026-04-10T10:07:26.773574 | Ford | E-Series, Econoline, Club Wagon | standard | tier2
+2026-04-10T10:07:26.773576 | Ford | Econovan | standard | tier2
+2026-04-10T10:07:26.773577 | Ford | Econowagon | standard | tier2
+2026-04-10T10:07:26.773578 | Ford | Fiesta | standard | tier2
+2026-04-10T10:07:26.773579 | Ford | Focus | standard | tier2
+2026-04-10T10:07:26.773580 | Ford | Focus (North America) | standard | tier2
+2026-04-10T10:07:26.773582 | Ford | Fusion (Americas) | standard | tier2
+2026-04-10T10:07:26.773584 | Ford | Fusion (Europe) | standard | tier2
+2026-04-10T10:07:26.773586 | Ford | F-150 Lightning | standard | tier2
+2026-04-10T10:07:26.773587 | Ford | Millennium Transit Services | standard | tier2
+2026-04-10T10:07:26.773589 | Ford | Rezvani Motors | standard | tier2
+2026-04-10T10:07:26.773591 | Ford | Avanti | standard | tier2
+2026-04-10T10:07:26.773593 | Ford | Sebring Vanguard | standard | tier2
+2026-04-10T10:07:26.773595 | Ford | Rezvani Automotive Designs | standard | tier2
+2026-04-10T10:07:26.773597 | Ford | Vanguard | standard | tier2
+2026-04-10T10:07:26.773599 | Ford | Carvana | standard | tier2
+2026-04-10T10:07:26.773600 | Ford | Elevance Health | standard | tier2
+2026-04-10T10:07:26.773601 | Ford | Alexandria Real Estate Equities | standard | tier2
+2026-04-10T10:07:26.773602 | Ford | Station wagon | standard | tier2
+2026-04-10T10:07:26.773603 | Ford | Ranch Wagon | standard | tier2
+2026-04-10T10:07:26.773608 | Ford | Fusion | standard | tier2
+2026-04-10T10:07:26.773609 | Ford | Fiesta ST | standard | tier2
+2026-04-10T10:07:26.773611 | Ford | SUV | standard | tier2
+2026-04-10T10:07:26.773612 | Ford | Econoline | standard | tier2
+2026-04-10T10:07:26.773613 | Ford | Van | standard | tier2
+2026-04-10T10:07:26.773614 | Ford | Minivan | standard | tier2
+2026-04-10T10:07:26.773615 | Ford | Econoline/Club Wagon | standard | tier2
+2026-04-10T10:07:26.773616 | Ford | Crossover | standard | tier2
+2026-04-10T10:07:26.773617 | Ford | F-150/F-250 | standard | tier2
+2026-04-10T10:07:26.773618 | Ford | F-150 | standard | tier2
+2026-04-10T10:07:26.773619 | Ford | F-250 HD/F-350 | standard | tier2
+2026-04-10T10:07:26.773620 | Ford | Compact MPV | standard | tier2
+2026-04-10T10:07:26.773621 | Ford | Transit Connect | standard | tier2
+2026-04-10T10:07:26.773622 | Ford | Econoline/Club Wagon/E-Series | standard | tier2
+2026-04-10T10:07:26.773623 | Ford | Fiesta I | standard | tier2
+2026-04-10T10:07:26.773625 | Ford | Fiesta II | standard | tier2
+2026-04-10T10:07:26.773626 | Ford | Fiesta III | standard | tier2
+2026-04-10T10:07:26.773627 | Ford | Fiesta IV | standard | tier2
+2026-04-10T10:07:26.773628 | Ford | Fiesta V | standard | tier2
+2026-04-10T10:07:26.773629 | Ford | Fiesta VI | standard | tier2
+2026-04-10T10:07:26.773630 | Ford | Fiesta VII | standard | tier2
+2026-04-10T10:07:26.773631 | Ford | Focus I | standard | tier2
+2026-04-10T10:07:26.773632 | Ford | Focus II | standard | tier2
+2026-04-10T10:07:26.773633 | Ford | Focus III | standard | tier2
+2026-04-10T10:07:26.773634 | Ford | Focus IV | standard | tier2
+2026-04-10T10:07:26.773635 | Ford | Subcompact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773636 | Ford | Compact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773637 | Ford | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773639 | Ford | Mini MPV | standard | tier2
+2026-04-10T10:07:26.773640 | Ford | Large MPV | standard | tier2
+2026-04-10T10:07:26.773641 | Ford | Transit Courier | standard | tier2
+2026-04-10T10:07:26.773642 | Ford | Transit Courier II | standard | tier2
+2026-04-10T10:07:26.773643 | Ford | Transit Connect I | standard | tier2
+2026-04-10T10:07:26.773644 | Ford | Transit Connect II | standard | tier2
+2026-04-10T10:07:26.773645 | Ford | Transit Connect III | standard | tier2
+2026-04-10T10:07:26.773646 | Ford | Transit Custom | standard | tier2
+2026-04-10T10:07:26.773647 | Ford | Transit Custom II | standard | tier2
+2026-04-10T10:07:26.773648 | Ford | Transit II | standard | tier2
+2026-04-10T10:07:26.773649 | Ford | Transit III | standard | tier2
+2026-04-10T10:07:26.773650 | Ford | Transit IV | standard | tier2
+2026-04-10T10:07:26.773651 | Ford | Transit V | standard | tier2
+2026-04-10T10:07:26.773652 | Ford | Transit VI | standard | tier2
+2026-04-10T10:07:26.773653 | Ford | Falcon Van | standard | tier2
+2026-04-10T10:07:26.773654 | Ford | Subcompact SUV | standard | tier2
+2026-04-10T10:07:26.773655 | Ford | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773656 | Ford | Fiesta Classic → Classic | standard | tier2
+2026-04-10T10:07:26.773658 | Ford | Mini SUV | standard | tier2
+2026-04-10T10:07:26.773659 | Ford | Vanden Plas | standard | tier2
+2026-04-10T10:07:26.773660 | Ford | Advance (Tricar) | standard | tier2
+2026-04-10T10:07:26.773661 | Ford | Edison and Ford Winter Estates | standard | tier2
+2026-04-10T10:07:26.773662 | Chevrolet | Trailblazer (crossover) | standard | tier2
+2026-04-10T10:07:26.773664 | Chevrolet | Trailblazer (SUV) | standard | tier2
+2026-04-10T10:07:26.773665 | Chevrolet | N400/Tornado Van | standard | tier2
+2026-04-10T10:07:26.773666 | Chevrolet | Van | standard | tier2
+2026-04-10T10:07:26.773667 | Chevrolet | Evanda | standard | tier2
+2026-04-10T10:07:26.773668 | Chevrolet | Wagon/MW | standard | tier2
+2026-04-10T10:07:26.773669 | Chevrolet | Vivant | standard | tier2
+2026-04-10T10:07:26.773671 | Chevrolet | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773672 | Chevrolet | Compact pickup | standard | tier2
+2026-04-10T10:07:26.773673 | Chevrolet | Full-size pickup | standard | tier2
+2026-04-10T10:07:26.773674 | Chevrolet | Advance Design | standard | tier2
+2026-04-10T10:07:26.773675 | Chevrolet | Corvan/Greenbrier | standard | tier2
+2026-04-10T10:07:26.773676 | Chevrolet | Chevy-Van/Sportvan | standard | tier2
+2026-04-10T10:07:26.773677 | Chevrolet | Chevy Van/Sportvan | standard | tier2
+2026-04-10T10:07:26.773678 | Chevrolet | Subcompact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773679 | Chevrolet | Compact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773680 | Chevrolet | Mid-size crossover SUV | standard | tier2
+2026-04-10T10:07:26.773681 | Chevrolet | Full-size crossover SUV | standard | tier2
+2026-04-10T10:07:26.773682 | Chevrolet | Mini SUV | standard | tier2
+2026-04-10T10:07:26.773683 | Chevrolet | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773684 | Chevrolet | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773685 | Chevrolet | Pickup | standard | tier2
+2026-04-10T10:07:26.773686 | Chevrolet | Minivan | standard | tier2
+2026-04-10T10:07:26.773688 | Chevrolet | Microvan | standard | tier2
+2026-04-10T10:07:26.773689 | Chevrolet | Chevy Van | standard | tier2
+2026-04-10T10:07:26.773690 | Chevrolet | Sportvan | standard | tier2
+2026-04-10T10:07:26.773691 | Chevrolet | GMAC Real Estate | standard | tier2
+2026-04-10T10:07:26.773692 | Chevrolet | Rick Wagoner | standard | tier2
+2026-04-10T10:07:26.773693 | Chevrolet | Rezvani Motors | standard | tier2
+2026-04-10T10:07:26.773694 | Chevrolet | Avanti | standard | tier2
+2026-04-10T10:07:26.773696 | Chevrolet | Sebring Vanguard | standard | tier2
+2026-04-10T10:07:26.773697 | Chevrolet | Rezvani Automotive Designs | standard | tier2
+2026-04-10T10:07:26.773698 | Dodge | SUVs | standard | tier2
+2026-04-10T10:07:26.773699 | Dodge | Vans | standard | tier2
+2026-04-10T10:07:26.773700 | Dodge | Minivans | standard | tier2
+2026-04-10T10:07:26.773701 | Dodge | Caravan | standard | tier2
+2026-04-10T10:07:26.773702 | Dodge | Grand Caravan | standard | tier2
+2026-04-10T10:07:26.773703 | Dodge | Mini Ram Van | standard | tier2
+2026-04-10T10:07:26.773704 | Dodge | Ram Van/Ram Wagon/Sportsman/Tradesman/B-series van | standard | tier2
+2026-04-10T10:07:26.773705 | Dodge | SpaceVan | standard | tier2
+2026-04-10T10:07:26.773707 | Dodge | Sprinter | standard | tier2
+2026-04-10T10:07:26.773707 | Dodge | Town Panel/Town Wagon | standard | tier2
+2026-04-10T10:07:26.773709 | Dodge | Power Wagon | standard | tier2
+2026-04-10T10:07:26.773710 | Dodge | Ram pickup | standard | tier2
+2026-04-10T10:07:26.773711 | Dodge | Stratus (Sedan) | standard | tier2
+2026-04-10T10:07:26.773712 | Dodge | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773713 | Dodge | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773714 | Dodge | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773715 | Dodge | Minivan | standard | tier2
+2026-04-10T10:07:26.773716 | Dodge | Van | standard | tier2
+2026-04-10T10:07:26.773717 | Dodge | Ram Van/Ram Wagon | standard | tier2
+2026-04-10T10:07:26.773719 | Dodge | Compact pickup | standard | tier2
+2026-04-10T10:07:26.773720 | Dodge | Mid-size pickup | standard | tier2
+2026-04-10T10:07:26.773721 | Dodge | Full-size pickup | standard | tier2
+2026-04-10T10:07:26.773722 | Dodge | Rezvani Motors | standard | tier2
+2026-04-10T10:07:26.773723 | Dodge | Avanti | standard | tier2
+2026-04-10T10:07:26.773724 | Dodge | Sebring Vanguard | standard | tier2
+2026-04-10T10:07:26.773725 | Dodge | Rezvani Automotive Designs | standard | tier2
+2026-04-10T10:07:26.773726 | Cadillac | SUV | standard | tier2
+2026-04-10T10:07:26.773728 | Cadillac | GMAC Real Estate | standard | tier2
+2026-04-10T10:07:26.773729 | Cadillac | Rick Wagoner | standard | tier2
+2026-04-10T10:07:26.773730 | Cadillac | Rezvani Motors | standard | tier2
+2026-04-10T10:07:26.773731 | Cadillac | Avanti | standard | tier2
+2026-04-10T10:07:26.773733 | Cadillac | Sebring Vanguard | standard | tier2
+2026-04-10T10:07:26.773734 | Jeep | Wagoneer/Grand Wagoneer | standard | tier2
+2026-04-10T10:07:26.773735 | Jeep | Wagoneer S | standard | tier2
+2026-04-10T10:07:26.773739 | Jeep | Super Wagoneer | standard | tier2
+2026-04-10T10:07:26.773740 | Jeep | Willys Station Wagon | standard | tier2
+2026-04-10T10:07:26.773741 | Jeep | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773743 | Jeep | SUV | standard | tier2
+2026-04-10T10:07:26.773744 | Jeep | Willys Jeep Station Wagon | standard | tier2
+2026-04-10T10:07:26.773745 | Jeep | Super Wagoneer/Wagoneer (SJ) | standard | tier2
+2026-04-10T10:07:26.773746 | Jeep | Compact pickup | standard | tier2
+2026-04-10T10:07:26.773747 | Jeep | Full-size pickup | standard | tier2
+2026-04-10T10:07:26.773748 | Jeep | Van | standard | tier2
+2026-04-10T10:07:26.773749 | Jeep | Subcompact crossover | standard | tier2
+2026-04-10T10:07:26.773750 | Jeep | Compact crossover | standard | tier2
+2026-04-10T10:07:26.773752 | Jeep | Cherokee/Wagoneer (XJ) | standard | tier2
+2026-04-10T10:07:26.773753 | Jeep | Mid-size crossover | standard | tier2
+2026-04-10T10:07:26.773754 | Jeep | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773755 | Jeep | Grand Cherokee/Grand Wagoneer (ZJ) | standard | tier2
+2026-04-10T10:07:26.773756 | Jeep | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773757 | Jeep | Wagoneer (SJ) | standard | tier2
+2026-04-10T10:07:26.773758 | Jeep | Grand Wagoneer (SJ) | standard | tier2
+2026-04-10T10:07:26.773759 | Jeep | Wagoneer/Grand Wagoneer (WS) | standard | tier2
+2026-04-10T10:07:26.773760 | Jeep | Midsize pickup | standard | tier2
+2026-04-10T10:07:26.773762 | Ram | Cargo Van | standard | tier2
+2026-04-10T10:07:26.773763 | Ram | Van | standard | tier2
+2026-04-10T10:07:26.773764 | Ram | Minivan | standard | tier2
+2026-04-10T10:07:26.773765 | Ram | SUVs | standard | tier2
+2026-04-10T10:07:26.773766 | Ram | Vans | standard | tier2
+2026-04-10T10:07:26.773767 | Ram | Minivans | standard | tier2
+2026-04-10T10:07:26.773768 | Ram | Caravan | standard | tier2
+2026-04-10T10:07:26.773769 | Ram | Grand Caravan | standard | tier2
+2026-04-10T10:07:26.773770 | Ram | Mini Ram Van | standard | tier2
+2026-04-10T10:07:26.773771 | Ram | Ram Van/Ram Wagon/Sportsman/Tradesman/B-series van | standard | tier2
+2026-04-10T10:07:26.773773 | Ram | SpaceVan | standard | tier2
+2026-04-10T10:07:26.773774 | Ram | Sprinter | standard | tier2
+2026-04-10T10:07:26.773775 | Ram | Town Panel/Town Wagon | standard | tier2
+2026-04-10T10:07:26.773776 | Ram | Power Wagon | standard | tier2
+2026-04-10T10:07:26.773777 | Ram | Ram pickup | standard | tier2
+2026-04-10T10:07:26.773778 | Ram | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773779 | Ram | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773780 | Ram | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773781 | Ram | Ram Van/Ram Wagon | standard | tier2
+2026-04-10T10:07:26.773782 | Ram | Compact pickup | standard | tier2
+2026-04-10T10:07:26.773783 | Ram | Mid-size pickup | standard | tier2
+2026-04-10T10:07:26.773784 | Ram | Full-size pickup | standard | tier2
+2026-04-10T10:07:26.773785 | Ram | Rezvani Motors | standard | tier2
+2026-04-10T10:07:26.773787 | Ram | Avanti | standard | tier2
+2026-04-10T10:07:26.773788 | Ram | Sebring Vanguard | standard | tier2
+2026-04-10T10:07:26.773789 | Ram | Rezvani Automotive Designs | standard | tier2
+2026-04-10T10:07:26.773790 | Ram | Vanguard | standard | tier2
+2026-04-10T10:07:26.773792 | Lincoln | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773793 | Lincoln | crossover SUV | standard | tier2
+2026-04-10T10:07:26.773794 | Lincoln | Compact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773795 | Lincoln | SUV | standard | tier2
+2026-04-10T10:07:26.773796 | Lincoln | Rezvani Motors | standard | tier2
+2026-04-10T10:07:26.773797 | Lincoln | Avanti | standard | tier2
+2026-04-10T10:07:26.773798 | Lincoln | Sebring Vanguard | standard | tier2
+2026-04-10T10:07:26.773800 | Buick | GMAC Real Estate | standard | tier2
+2026-04-10T10:07:26.773801 | Buick | Rick Wagoner | standard | tier2
+2026-04-10T10:07:26.773802 | Buick | Estate | standard | tier2
+2026-04-10T10:07:26.773803 | Buick | GL8 Flagship Concept MPV | standard | tier2
+2026-04-10T10:07:26.773804 | Buick | Station wagon | standard | tier2
+2026-04-10T10:07:26.773805 | Buick | Sport Wagon | standard | tier2
+2026-04-10T10:07:26.773806 | Buick | Full-size station wagon | standard | tier2
+2026-04-10T10:07:26.773807 | Buick | Roadmaster Estate | standard | tier2
+2026-04-10T10:07:26.773808 | Buick | Subcompact crossover | standard | tier2
+2026-04-10T10:07:26.773809 | Buick | Compact crossover | standard | tier2
+2026-04-10T10:07:26.773811 | Buick | Mid-size crossover | standard | tier2
+2026-04-10T10:07:26.773812 | Buick | Full-size crossover | standard | tier2
+2026-04-10T10:07:26.773813 | Buick | SUV | standard | tier2
+2026-04-10T10:07:26.773814 | Buick | Minivan | standard | tier2
+2026-04-10T10:07:26.773815 | Buick | Rezvani Motors | standard | tier2
+2026-04-10T10:07:26.773816 | Buick | Avanti | standard | tier2
+2026-04-10T10:07:26.773817 | Buick | Sebring Vanguard | standard | tier2
+2026-04-10T10:07:26.773819 | Buick | Rezvani Automotive Designs | standard | tier2
+2026-04-10T10:07:26.773820 | BMW | VANOS | standard | tier2
+2026-04-10T10:07:26.773821 | BMW | BMW Group Plant Dingolfing | standard | tier2
+2026-04-10T10:07:26.773822 | BMW | Sedan | standard | tier2
+2026-04-10T10:07:26.773823 | BMW | New Class sedans | standard | tier2
+2026-04-10T10:07:26.773824 | Mercedes-Benz | Sprinter | standard | tier2
+2026-04-10T10:07:26.773826 | Mercedes-Benz | EQE SUV | standard | tier2
+2026-04-10T10:07:26.773827 | Mercedes-Benz | EQS SUV | standard | tier2
+2026-04-10T10:07:26.773828 | Mercedes-Benz | Vaneo | standard | tier2
+2026-04-10T10:07:26.773829 | Mercedes-Benz | Sedan | standard | tier2
+2026-04-10T10:07:26.773830 | Mercedes-Benz | Van | standard | tier2
+2026-04-10T10:07:26.773831 | Mercedes-Benz | MPV | standard | tier2
+2026-04-10T10:07:26.773833 | Mercedes-Benz | Saloon | standard | tier2
+2026-04-10T10:07:26.773834 | Mercedes-Benz | Estate | standard | tier2
+2026-04-10T10:07:26.773835 | Mercedes-Benz | Hatchback | standard | tier2
+2026-04-10T10:07:26.773836 | Mercedes-Benz | Crossover | standard | tier2
+2026-04-10T10:07:26.773837 | Mercedes-Benz | SUV | standard | tier2
+2026-04-10T10:07:26.773839 | Mercedes-Benz | Luxury SUV | standard | tier2
+2026-04-10T10:07:26.773840 | Audi | Audi S3 Saloon | standard | tier2
+2026-04-10T10:07:26.773841 | Audi | S3 Sportback/Sedan | standard | tier2
+2026-04-10T10:07:26.773842 | Audi | S5 Sedan/Avant | standard | tier2
+2026-04-10T10:07:26.773843 | Audi | S6 e-tron Sedan/Avant | standard | tier2
+2026-04-10T10:07:26.773844 | Audi | RS2 Avant | standard | tier2
+2026-04-10T10:07:26.773845 | Audi | Avantissimo | standard | tier2
+2026-04-10T10:07:26.773847 | Audi | Crossover utility vehicle | standard | tier2
+2026-04-10T10:07:26.773848 | Audi | Mini SUV | standard | tier2
+2026-04-10T10:07:26.773849 | Audi | Compact SUV | standard | tier2
+2026-04-10T10:07:26.773850 | Audi | Mid-size SUV | standard | tier2
+2026-04-10T10:07:26.773851 | Audi | Full-size SUV | standard | tier2
+2026-04-10T10:07:26.773852 | Audi | Station wagon | standard | tier2
+2026-04-10T10:07:26.773853 | Audi | Subcompact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773854 | Audi | Compact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773856 | Audi | Mid-size crossover SUV | standard | tier2
+2026-04-10T10:07:26.773857 | Audi | Ivan Hirst | standard | tier2
+2026-04-10T10:07:26.773858 | Porsche | Sedans | standard | tier2
+2026-04-10T10:07:26.773859 | Porsche | SUV | standard | tier2
+2026-04-10T10:07:26.773860 | Porsche | Ivan Hirst | standard | tier2
+2026-04-10T10:07:26.773861 | Volkswagen | Tiguan | standard | tier2
+2026-04-10T10:07:26.773862 | Volkswagen | Polo/Virtus/Taigo/Nivus | standard | tier2
+2026-04-10T10:07:26.773864 | Volkswagen | Passat/Magotan | standard | tier2
+2026-04-10T10:07:26.773865 | Volkswagen | Golf | standard | tier2
+2026-04-10T10:07:26.773866 | Volkswagen | Ivan Hirst | standard | tier2
+2026-04-10T10:07:26.773867 | Volkswagen | Passat | standard | tier2
+2026-04-10T10:07:26.773868 | Volkswagen | Passat Pro | standard | tier2
+2026-04-10T10:07:26.773869 | Volkswagen | Polo | standard | tier2
+2026-04-10T10:07:26.773873 | Volkswagen | Virtus / Polo Sedan / Lavida XR | standard | tier2
+2026-04-10T10:07:26.773875 | Volkswagen | Citi Golf (China) | standard | tier2
+2026-04-10T10:07:26.773876 | Volkswagen | Citi Golf (South Africa) | standard | tier2
+2026-04-10T10:07:26.773877 | Volkswagen | Golf Plus | standard | tier2
+2026-04-10T10:07:26.773878 | Volkswagen | Golf Sportsvan | standard | tier2
+2026-04-10T10:07:26.773879 | Volkswagen | Passat Lingyu | standard | tier2
+2026-04-10T10:07:26.773880 | Volkswagen | Passat (North America) | standard | tier2
+2026-04-10T10:07:26.773881 | Volkswagen | Polo Playa | standard | tier2
+2026-04-10T10:07:26.773883 | Volkswagen | Polo (Russia) | standard | tier2
+2026-04-10T10:07:26.773884 | Volkswagen | Touareg | standard | tier2
+2026-04-10T10:07:26.773885 | Volkswagen | Vento/Polo Sedan | standard | tier2
+2026-04-10T10:07:26.773886 | Volkswagen | Voyage/Gol Sedan | standard | tier2
+2026-04-10T10:07:26.773887 | Volkswagen | EDAG Biwak (New Beetle estate) | standard | tier2
+2026-04-10T10:07:26.773888 | Volkswagen | Polo R WRC | standard | tier2
+2026-04-10T10:07:26.773889 | Volkswagen | Race Touareg | standard | tier2
+2026-04-10T10:07:26.773891 | Volkswagen | Polo / Derby II | standard | tier2
+2026-04-10T10:07:26.773892 | Volkswagen | Polo III | standard | tier2
+2026-04-10T10:07:26.773893 | Volkswagen | Polo IV | standard | tier2
+2026-04-10T10:07:26.773894 | Volkswagen | Polo V | standard | tier2
+2026-04-10T10:07:26.773895 | Volkswagen | Polo VI | standard | tier2
+2026-04-10T10:07:26.773896 | Volkswagen | Golf I | standard | tier2
+2026-04-10T10:07:26.773897 | Volkswagen | Golf II | standard | tier2
+2026-04-10T10:07:26.773898 | Volkswagen | Golf III | standard | tier2
+2026-04-10T10:07:26.773899 | Volkswagen | Golf IV | standard | tier2
+2026-04-10T10:07:26.773900 | Volkswagen | Golf V | standard | tier2
+2026-04-10T10:07:26.773901 | Volkswagen | Golf VI | standard | tier2
+2026-04-10T10:07:26.773902 | Volkswagen | Golf VII | standard | tier2
+2026-04-10T10:07:26.773903 | Volkswagen | Golf VIII | standard | tier2
+2026-04-10T10:07:26.773904 | Volkswagen | Passat I | standard | tier2
+2026-04-10T10:07:26.773905 | Volkswagen | Passat II | standard | tier2
+2026-04-10T10:07:26.773906 | Volkswagen | Passat III | standard | tier2
+2026-04-10T10:07:26.773907 | Volkswagen | Passat IV | standard | tier2
+2026-04-10T10:07:26.773908 | Volkswagen | Passat V | standard | tier2
+2026-04-10T10:07:26.773909 | Volkswagen | Passat VI | standard | tier2
+2026-04-10T10:07:26.773910 | Volkswagen | Passat VII | standard | tier2
+2026-04-10T10:07:26.773911 | Volkswagen | Passat VIII | standard | tier2
+2026-04-10T10:07:26.773912 | Volkswagen | Passat IX | standard | tier2
+2026-04-10T10:07:26.773913 | Volkswagen | Passat CC → CC | standard | tier2
+2026-04-10T10:07:26.773915 | Volkswagen | Golf I Cabriolet | standard | tier2
+2026-04-10T10:07:26.773916 | Volkswagen | Golf III Cabriolet | standard | tier2
+2026-04-10T10:07:26.773917 | Volkswagen | Golf VI Cabriolet | standard | tier2
+2026-04-10T10:07:26.773918 | Volkswagen | Compact MPV | standard | tier2
+2026-04-10T10:07:26.773919 | Volkswagen | Large MPV | standard | tier2
+2026-04-10T10:07:26.773920 | Volkswagen | Subcompact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773921 | Volkswagen | Compact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773923 | Volkswagen | Tiguan I | standard | tier2
+2026-04-10T10:07:26.773924 | Volkswagen | Tiguan II | standard | tier2
+2026-04-10T10:07:26.773925 | Volkswagen | Tiguan III | standard | tier2
+2026-04-10T10:07:26.773926 | Volkswagen | Tiguan Allspace | standard | tier2
+2026-04-10T10:07:26.773927 | Volkswagen | Mid-size crossover SUV | standard | tier2
+2026-04-10T10:07:26.773928 | Volkswagen | Touareg I | standard | tier2
+2026-04-10T10:07:26.773929 | Volkswagen | Touareg II | standard | tier2
+2026-04-10T10:07:26.773930 | Volkswagen | Touareg III | standard | tier2
+2026-04-10T10:07:26.773931 | Volkswagen | Golf II | standard | tier2
+2026-04-10T10:07:26.773932 | Volkswagen | Golf III | standard | tier2
+2026-04-10T10:07:26.773933 | Volkswagen | Golf IV | standard | tier2
+2026-04-10T10:07:26.773934 | Volkswagen | Golf VI | standard | tier2
+2026-04-10T10:07:26.773935 | Volkswagen | Golf VII | standard | tier2
+2026-04-10T10:07:26.773937 | Volkswagen | Golf VIII | standard | tier2
+2026-04-10T10:07:26.773938 | Volkswagen | Passat III | standard | tier2
+2026-04-10T10:07:26.773939 | Volkswagen | Passat IV | standard | tier2
+2026-04-10T10:07:26.773940 | Volkswagen | Passat V | standard | tier2
+2026-04-10T10:07:26.773941 | Volkswagen | Passat VI | standard | tier2
+2026-04-10T10:07:26.773942 | Volkswagen | Passat VII | standard | tier2
+2026-04-10T10:07:26.773943 | Volkswagen | Van | standard | tier2
+2026-04-10T10:07:26.773945 | Volkswagen | Vanagon | standard | tier2
+2026-04-10T10:07:26.773946 | Volkswagen | Eurovan | standard | tier2
+2026-04-10T10:07:26.773947 | Volkswagen | crossover SUV | standard | tier2
+2026-04-10T10:07:26.773948 | Volkswagen | Polo IVF | standard | tier2
+2026-04-10T10:07:26.773949 | Volkswagen | Sedan | standard | tier2
+2026-04-10T10:07:26.773950 | Volkswagen | Voyage / Gol Sedan I | standard | tier2
+2026-04-10T10:07:26.773951 | Volkswagen | Voyage / Gol Sedan II | standard | tier2
+2026-04-10T10:07:26.773952 | Volkswagen | Polo Classic | standard | tier2
+2026-04-10T10:07:26.773953 | Volkswagen | Polo Sedan | standard | tier2
+2026-04-10T10:07:26.773954 | Volkswagen | Golf IVF | standard | tier2
+2026-04-10T10:07:26.773955 | Volkswagen | SUV | standard | tier2
+2026-04-10T10:07:26.773956 | Volkswagen | Panel van | standard | tier2
+2026-04-10T10:07:26.773957 | Volkswagen | Caddy / Van | standard | tier2
+2026-04-10T10:07:26.773958 | Lamborghini | Eric van de Poele | standard | tier2
+2026-04-10T10:07:26.773959 | Lamborghini | Marco Polo | standard | tier2
+2026-04-10T10:07:26.773960 | Lamborghini | SUV | standard | tier2
+2026-04-10T10:07:26.773961 | Lamborghini | Ivan Hirst | standard | tier2
+2026-04-10T10:07:26.773963 | Lamborghini | Fioravanti | standard | tier2
+2026-04-10T10:07:26.773964 | Maserati | Levante | standard | tier2
+2026-04-10T10:07:26.773965 | Maserati | Luxury saloon | standard | tier2
+2026-04-10T10:07:26.773966 | Maserati | Saloon | standard | tier2
+2026-04-10T10:07:26.773967 | Maserati | SUV | standard | tier2
+2026-04-10T10:07:26.773968 | Maserati | Fioravanti | standard | tier2
+2026-04-10T10:07:26.773969 | Alfa Romeo | Vans | standard | tier2
+2026-04-10T10:07:26.773971 | Alfa Romeo | Crossover SUV | standard | tier2
+2026-04-10T10:07:26.773972 | Alfa Romeo | Subcompact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773973 | Alfa Romeo | Compact crossover SUV | standard | tier2
+2026-04-10T10:07:26.773974 | Alfa Romeo | Fioravanti | standard | tier2
+2026-04-10T10:07:26.773975 | FIAT | Giovanni Agnelli | standard | tier2
+2026-04-10T10:07:26.773976 | FIAT | Giovanni Savonuzzi | standard | tier2
+2026-04-10T10:07:26.773977 | FIAT | Hatchback | standard | tier2
+2026-04-10T10:07:26.773978 | FIAT | Sedan | standard | tier2
+2026-04-10T10:07:26.773980 | FIAT | MPV | standard | tier2
+2026-04-10T10:07:26.773981 | FIAT | Compact MPV | standard | tier2
+2026-04-10T10:07:26.773982 | FIAT | Mini pickup | standard | tier2
+2026-04-10T10:07:26.773983 | FIAT | Pickup | standard | tier2
+2026-04-10T10:07:26.773984 | FIAT | Fioravanti | standard | tier2
+2026-04-10T10:07:26.773985 | Lancia | Mini MPV | standard | tier2
+2026-04-10T10:07:26.773986 | Lancia | Large MPV | standard | tier2
+2026-04-10T10:07:26.773987 | Lancia | Vanwall | standard | tier2
+2026-04-10T10:07:26.773988 | Lancia | Fioravanti | standard | tier2
+2026-04-10T10:07:26.773989 | Aston Martin | Aston Martin Vantage N24 | standard | tier2
+2026-04-10T10:07:26.773991 | Aston Martin | Aston Martin Vantage DTM | standard | tier2
+2026-04-10T10:07:26.773992 | Aston Martin | Vanina Ickx | standard | tier2
+2026-04-10T10:07:26.773993 | Aston Martin | Stoffel Vandoorne | standard | tier2
+2026-04-10T10:07:26.773994 | Aston Martin | Stuart Lewis-Evans | standard | tier2
+2026-04-10T10:07:26.773995 | Aston Martin | V8 Vantage N24 | standard | tier2
+2026-04-10T10:07:26.773997 | Aston Martin | Vantage DTM | standard | tier2
+2026-04-10T10:07:26.774001 | Aston Martin | Vantage | standard | tier2
+2026-04-10T10:07:26.774002 | Aston Martin | V8 Vantage | standard | tier2
+2026-04-10T10:07:26.774003 | Aston Martin | Vanquish | standard | tier2
+2026-04-10T10:07:26.774004 | Aston Martin | Vanquish Zagato | standard | tier2
+2026-04-10T10:07:26.774005 | Aston Martin | SUV | standard | tier2
+2026-04-10T10:07:26.774007 | Aston Martin | Vanquish Vision concept | standard | tier2
+2026-04-10T10:07:26.774008 | Aston Martin | Advanced Engine Research | standard | tier2
+2026-04-10T10:07:26.774009 | Aston Martin | Van Diemen | standard | tier2
+2026-04-10T10:07:26.774010 | Aston Martin | Vanden Plas | standard | tier2
+2026-04-10T10:07:26.774011 | Aston Martin | Advance (Tricar) | standard | tier2
+2026-04-10T10:07:26.774012 | Aston Martin | Vanwall | standard | tier2
+2026-04-10T10:07:26.774013 | Aston Martin | Aberdeen Asia Focus | standard | tier2
+2026-04-10T10:07:26.774014 | Aston Martin | Great Portland Estates | standard | tier2
+2026-04-10T10:07:26.774016 | Aston Martin | Morgan Advanced Materials | standard | tier2
+2026-04-10T10:07:26.774017 | Aston Martin | Sirius Real Estate | standard | tier2
+2026-04-10T10:07:26.774018 | Aston Martin | Vesuvius | standard | tier2
+2026-04-10T10:07:26.774019 | Aston Martin | Livan | standard | tier2
+2026-04-10T10:07:26.774020 | Jaguar | Saloon | standard | tier2
+2026-04-10T10:07:26.774022 | Jaguar | Subcompact luxury crossover SUV | standard | tier2
+2026-04-10T10:07:26.774023 | Jaguar | Compact luxury crossover SUV | standard | tier2
+2026-04-10T10:07:26.774024 | Jaguar | Mid-size luxury crossover SUV | standard | tier2
+2026-04-10T10:07:26.774025 | Jaguar | Advanced Lightweight Coupe Concept | standard | tier2
+2026-04-10T10:07:26.774026 | Jaguar | Vanden Plas | standard | tier2
+2026-04-10T10:07:26.774027 | Jaguar | Advanced Engine Research | standard | tier2
+2026-04-10T10:07:26.774028 | Jaguar | Van Diemen | standard | tier2
+2026-04-10T10:07:26.774030 | Jaguar | Advance (Tricar) | standard | tier2
+2026-04-10T10:07:26.774031 | Lotus | Saloon | standard | tier2
+2026-04-10T10:07:26.774032 | Lotus | SUV | standard | tier2
+2026-04-10T10:07:26.774033 | Lotus | Livan | standard | tier2
+2026-04-10T10:07:26.774034 | Renault | Avantime | standard | tier2
+2026-04-10T10:07:26.774035 | Renault | Large MPV | standard | tier2
+2026-04-10T10:07:26.774037 | Renault | Van | standard | tier2
+2026-04-10T10:07:26.774038 | Renault | Sedan | standard | tier2
+2026-04-10T10:07:26.774039 | Renault | MPV | standard | tier2
+2026-04-10T10:07:26.774040 | Renault | Mégane Sedan I | standard | tier2
+2026-04-10T10:07:26.774041 | Renault | Mégane Sedan II | standard | tier2
+2026-04-10T10:07:26.774043 | Renault | Mégane Sedan IV | standard | tier2
+2026-04-10T10:07:26.774044 | Renault | Mégane Estate I | standard | tier2
+2026-04-10T10:07:26.774045 | Renault | Saloon | standard | tier2
+2026-04-10T10:07:26.774046 | Renault | Estate | standard | tier2
+2026-04-10T10:07:26.774047 | Renault | Clio Sedan / Citius | standard | tier2
+2026-04-10T10:07:26.774048 | Peugeot | 408 (saloon) | standard | tier2
+2026-04-10T10:07:26.774049 | Peugeot | 408 (crossover) | standard | tier2
+2026-04-10T10:07:26.774050 | Peugeot | Hatchback | standard | tier2
+2026-04-10T10:07:26.774052 | Peugeot | Sedan | standard | tier2
+2026-04-10T10:07:26.774053 | Peugeot | 206 SD / 207 Sedan/Passion | standard | tier2
+2026-04-10T10:07:26.774054 | Peugeot | MPV | standard | tier2
+2026-04-10T10:07:26.774055 | Peugeot | 306 Sedan | standard | tier2
+2026-04-10T10:07:26.774056 | Peugeot | 307 Sedan | standard | tier2
+2026-04-10T10:07:26.774057 | Peugeot | 308 Sedan I | standard | tier2
+2026-04-10T10:07:26.774058 | Peugeot | 308 Sedan II | standard | tier2
+2026-04-10T10:07:26.774059 | Citroën | Traction Avant | standard | tier2
+2026-04-10T10:07:26.774060 | Citroën | H Van | standard | tier2
+2026-04-10T10:07:26.774062 | Citroën | G Van | standard | tier2
+2026-04-10T10:07:26.774063 | Citroën | Sedan | standard | tier2
+2026-04-10T10:07:26.774064 | Citroën | MPV | standard | tier2
+2026-04-10T10:07:26.774065 | Citroën | C4 Sedan | standard | tier2
+2026-04-10T10:07:26.774067 | Citroën | C-Triomphe / C4 Sedan/Pallas | standard | tier2
+2026-04-10T10:07:26.774068 | Citroën | C4 L/Sedan/Lounge | standard | tier2
+2026-04-10T10:07:26.774069 | Citroën | Estate | standard | tier2
+2026-04-10T10:07:26.774070 | Volvo | Tundra | standard | tier2
+2026-04-10T10:07:26.774072 | Volvo | Concept Estate | standard | tier2
+2026-04-10T10:07:26.774073 | Volvo | Sports sedan | standard | tier2
+2026-04-10T10:07:26.774074 | Volvo | Crossover utility vehicle | standard | tier2
+2026-04-10T10:07:26.774075 | Volvo | Minivan | standard | tier2
+2026-04-10T10:07:26.774076 | Volvo | Livan | standard | tier2
+2026-04-10T10:07:26.774077 | Seat | Panel van | standard | tier2
+2026-04-10T10:07:26.774078 | Seat | Sedan | standard | tier2
+2026-04-10T10:07:26.774079 | Seat | MPV | standard | tier2
+2026-04-10T10:07:26.774080 | Seat | Van | standard | tier2
+2026-04-10T10:07:26.774081 | Seat | Ivan Hirst | standard | tier2
+2026-04-10T14:44:23.103406 | What cars came with the 2JZ-GTE?

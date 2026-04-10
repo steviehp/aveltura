@@ -1,0 +1,218 @@
+vehicle,manufacturer,region,engine,aspiration,year_start,year_end,year_span,era,power_hp,torque_nm,hp_per_litre,bore_mm,stroke_mm,compression_ratio,redline_rpm,valvetrain,fuel_system,configuration,block_material,head_material,notes,source
+Toyota Supra A80,Toyota,JDM,Toyota 2JZ-GTE,Turbocharged,1993,1998.0,6.0,90s,276.0,379.0,,86.0,86.0,8.5,,,,Straight-6,Cast iron,Aluminum,JDM twin turbo,verified_manual
+Toyota Aristo,Toyota,JDM,Toyota 2JZ-GTE,Turbocharged,1991,2004.0,14.0,90s,276.0,379.0,,86.0,86.0,8.5,,,,Straight-6,Cast iron,Aluminum,JDM twin turbo,verified_manual
+Toyota Supra A80,Toyota,JDM,Toyota 2JZ-GE,Naturally Aspirated,1993,1998.0,6.0,90s,220.0,294.0,,86.0,86.0,10.5,,,,Straight-6,Cast iron,Aluminum,naturally aspirated,verified_manual
+Lexus IS300,Toyota,JDM,Toyota 2JZ-GE,Naturally Aspirated,2001,2005.0,5.0,2000s,215.0,288.0,,86.0,86.0,10.5,,,,Straight-6,Cast iron,Aluminum,naturally aspirated,verified_manual
+Nissan GT-R R32,Nissan,JDM,Nissan RB26DETT,Turbocharged,1989,1994.0,6.0,80s,276.0,353.0,,86.0,73.7,8.5,,,,Straight-6,Cast iron,Aluminum,276hp factory limited JDM,verified_manual
+Nissan GT-R R33,Nissan,JDM,Nissan RB26DETT,Turbocharged,1995,1998.0,4.0,90s,276.0,353.0,,86.0,73.7,8.5,,,,Straight-6,Cast iron,Aluminum,276hp factory limited JDM,verified_manual
+Nissan GT-R R34,Nissan,JDM,Nissan RB26DETT,Turbocharged,1999,2002.0,4.0,90s,276.0,353.0,,86.0,73.7,8.5,,,,Straight-6,Cast iron,Aluminum,276hp factory limited JDM,verified_manual
+Nissan 240SX S13,Nissan,JDM,Nissan SR20DET,Turbocharged,1989,1994.0,6.0,80s,205.0,275.0,,86.0,86.0,8.5,,,,Straight-4,Cast iron,Aluminum,JDM redtop,verified_manual
+Nissan Silvia S14,Nissan,JDM,Nissan SR20DET,Turbocharged,1993,1998.0,6.0,90s,205.0,275.0,,86.0,86.0,8.5,,,,Straight-4,Cast iron,Aluminum,JDM blacktop,verified_manual
+Nissan Silvia S15,Nissan,JDM,Nissan SR20DET,Turbocharged,1999,2002.0,4.0,90s,250.0,275.0,,86.0,86.0,8.5,,,,Straight-4,Cast iron,Aluminum,Spec-R tune,verified_manual
+Nissan 350Z,Nissan,JDM,Nissan VQ35DE,Naturally Aspirated,2002,2008.0,7.0,2000s,306.0,363.0,,95.5,81.4,10.3,,,,V6,Aluminum,Aluminum,standard tune,verified_manual
+Infiniti G35,Nissan,JDM,Nissan VQ35DE,Naturally Aspirated,2003,2007.0,5.0,2000s,306.0,363.0,,95.5,81.4,10.3,,,,V6,Aluminum,Aluminum,coupe tune,verified_manual
+Nissan Maxima,Nissan,JDM,Nissan VQ35DE,Naturally Aspirated,2004,2008.0,5.0,2000s,265.0,254.0,,95.5,81.4,10.3,,,,V6,Aluminum,Aluminum,FWD detuned,verified_manual
+Nissan 370Z,Nissan,JDM,Nissan VQ37VHR,Naturally Aspirated,2009,2020.0,12.0,2000s,332.0,363.0,,95.5,86.4,11.0,,,,V6,Aluminum,Aluminum,HR high revving,verified_manual
+Infiniti G37,Nissan,JDM,Nissan VQ37VHR,Naturally Aspirated,2008,2013.0,6.0,2000s,328.0,360.0,,95.5,86.4,11.0,,,,V6,Aluminum,Aluminum,coupe tune,verified_manual
+Nissan GT-R R35,Nissan,JDM,Nissan VR38DETT,Turbocharged,2007,2023.0,17.0,2000s,480.0,588.0,,95.5,88.4,9.0,,,,V6,Aluminum,Aluminum,base tune,verified_manual
+Nissan GT-R R35 Nismo,Nissan,JDM,Nissan VR38DETT,Turbocharged,2014,2023.0,10.0,2010s,600.0,652.0,,95.5,88.4,9.0,,,,V6,Aluminum,Aluminum,Nismo tune,verified_manual
+Honda Civic Type R EP3,Honda,JDM,Honda K20A,Naturally Aspirated,2001,2005.0,5.0,2000s,221.0,206.0,,86.0,86.0,11.7,,,,Straight-4,Aluminum,Aluminum,JDM tune,verified_manual
+Honda Integra Type R DC5,Honda,JDM,Honda K20A,Naturally Aspirated,2001,2006.0,6.0,2000s,221.0,206.0,,86.0,86.0,11.7,,,,Straight-4,Aluminum,Aluminum,JDM tune,verified_manual
+Honda NSX,Honda,JDM,Honda K20A,Naturally Aspirated,2016,2022.0,7.0,2010s,573.0,645.0,,86.0,86.0,11.7,,,,Straight-4,Aluminum,Aluminum,hybrid system total,verified_manual
+Acura Integra Type R DC2,Honda,JDM,Honda B18C,Naturally Aspirated,1994,2001.0,8.0,90s,197.0,178.0,,81.0,87.2,10.6,,,,Straight-4,Aluminum,Aluminum,US tune,verified_manual
+Honda Integra Type R DC2,Honda,JDM,Honda B18C,Naturally Aspirated,1995,2001.0,7.0,90s,200.0,181.0,,81.0,87.2,10.6,,,,Straight-4,Aluminum,Aluminum,JDM tune,verified_manual
+Honda S2000,Honda,JDM,Honda F20C,Naturally Aspirated,1999,2003.0,5.0,90s,240.0,208.0,,87.0,83.6,11.7,,,,Straight-4,Aluminum,Aluminum,9000rpm redline,verified_manual
+Mitsubishi Lancer Evo I,Mitsubishi,JDM,Mitsubishi 4G63T,Turbocharged,1992,1994.0,3.0,90s,250.0,309.0,,85.0,88.0,8.5,,,,Straight-4,Cast iron,Aluminum,first gen,verified_manual
+Mitsubishi Lancer Evo IX,Mitsubishi,JDM,Mitsubishi 4G63T,Turbocharged,2005,2007.0,3.0,2000s,286.0,400.0,,85.0,88.0,8.5,,,,Straight-4,Cast iron,Aluminum,final 4G63,verified_manual
+Mitsubishi Lancer Evo X,Mitsubishi,JDM,Mitsubishi 4B11T,Turbocharged,2007,2015.0,9.0,2000s,291.0,366.0,,86.0,86.0,9.0,,,,Straight-4,Aluminum,Aluminum,SST version,verified_manual
+Subaru WRX STI,Subaru,JDM,Subaru EJ257,Turbocharged,2004,2021.0,18.0,2000s,300.0,407.0,,99.5,79.0,8.4,,,,Flat-4,Aluminum,Aluminum,stock tune,verified_manual
+Subaru Impreza WRX STI JDM,Subaru,JDM,Subaru EJ207,Turbocharged,1994,2007.0,14.0,90s,280.0,392.0,,92.0,75.0,8.0,,,,Flat-4,Aluminum,Aluminum,JDM only,verified_manual
+Toyota GR86,Subaru,JDM,Subaru FA20,Naturally Aspirated,2012,2021.0,10.0,2010s,197.0,205.0,,86.0,86.0,12.5,,,,Flat-4,Aluminum,Aluminum,naturally aspirated,verified_manual
+Subaru BRZ,Subaru,JDM,Subaru FA20,Naturally Aspirated,2012,2021.0,10.0,2010s,197.0,205.0,,86.0,86.0,12.5,,,,Flat-4,Aluminum,Aluminum,naturally aspirated,verified_manual
+Chevrolet Corvette C6,GM,American,GM LS3,Naturally Aspirated,2008,2013.0,6.0,2000s,430.0,569.0,,103.2,92.0,10.7,,,,V8,Aluminum,Aluminum,standard tune,verified_manual
+Chevrolet Camaro SS,GM,American,GM LS3,Naturally Aspirated,2010,2015.0,6.0,2010s,426.0,569.0,,103.2,92.0,10.7,,,,V8,Aluminum,Aluminum,slightly detuned,verified_manual
+Chevrolet Corvette Z06 C6,GM,American,GM LS7,Naturally Aspirated,2006,2013.0,8.0,2000s,505.0,637.0,,104.8,101.6,11.0,,,,V8,Aluminum,Aluminum,dry sump,verified_manual
+Chevrolet Corvette ZR1 C6,GM,American,GM LS9,Supercharged,2009,2013.0,5.0,2000s,638.0,819.0,,103.2,92.0,9.1,,,,V8,Aluminum,Aluminum,supercharged,verified_manual
+Chevrolet Camaro ZL1,GM,American,GM LS9,Supercharged,2012,2015.0,4.0,2010s,580.0,754.0,,103.2,92.0,9.1,,,,V8,Aluminum,Aluminum,detuned for Camaro,verified_manual
+Chevrolet Corvette Z06 C7,Cadillac,American,Cadillac LT4,Naturally Aspirated,2015,2019.0,5.0,2010s,650.0,881.0,,103.2,92.0,10.0,,,,V8,Aluminum,Aluminum,supercharged,verified_manual
+Cadillac CT5-V Blackwing,Cadillac,American,Cadillac LT4,Naturally Aspirated,2022,2025.0,4.0,2020s+,668.0,893.0,,103.2,92.0,10.0,,,,V8,Aluminum,Aluminum,highest output,verified_manual
+Ford Mustang GT,Ford,American,Ford 5.0 Coyote,Naturally Aspirated,2011,2025.0,15.0,2010s,412.0,529.0,,92.2,92.7,11.0,,,,V8,Aluminum,Aluminum,Gen 3 tune,verified_manual
+Ford F-150,Ford,American,Ford 5.0 Coyote,Naturally Aspirated,2018,2025.0,8.0,2010s,395.0,400.0,,92.2,92.7,11.0,,,,V8,Aluminum,Aluminum,truck tune,verified_manual
+Ford Mustang GT350,Ford,American,Ford 5.2 Voodoo,Naturally Aspirated,2015,2020.0,6.0,2010s,526.0,582.0,,94.0,93.0,12.0,,,,V8,Aluminum,Aluminum,flat plane crank,verified_manual
+Ford Mustang Shelby GT500,Ford,American,Ford 5.8 Trinity,Naturally Aspirated,2013,2014.0,2.0,2010s,662.0,847.0,,92.2,110.0,9.0,,,,V8,Aluminum,Aluminum,supercharged,verified_manual
+Ford F-250 Super Duty,Ford,American,Ford 7.3 Godzilla,Naturally Aspirated,2020,2025.0,6.0,2020s+,430.0,678.0,,107.7,101.6,10.5,,,,V8,Cast iron,Aluminum,truck application,verified_manual
+Dodge Challenger SRT392,Chrysler,American,Chrysler 6.4 Hemi,Naturally Aspirated,2012,2023.0,12.0,2010s,470.0,644.0,,103.0,96.0,10.9,,,,V8,Cast iron,Aluminum,naturally aspirated,verified_manual
+Dodge Charger SRT392,Chrysler,American,Chrysler 6.4 Hemi,Naturally Aspirated,2012,2023.0,12.0,2010s,470.0,644.0,,103.0,96.0,10.9,,,,V8,Cast iron,Aluminum,naturally aspirated,verified_manual
+Dodge Challenger SRT Hellcat,Chrysler,American,Chrysler 6.2 Hellcat,Supercharged,2015,2023.0,9.0,2010s,707.0,881.0,,103.9,90.9,9.5,,,,V8,Cast iron,Aluminum,supercharged,verified_manual
+Dodge Charger SRT Hellcat,Chrysler,American,Chrysler 6.2 Hellcat,Supercharged,2015,2023.0,9.0,2010s,707.0,881.0,,103.9,90.9,9.5,,,,V8,Cast iron,Aluminum,supercharged,verified_manual
+Dodge Challenger SRT Demon,Dodge,American,Dodge 6.2 Demon,Supercharged,2018,2018.0,1.0,2010s,840.0,770.0,,103.9,90.9,9.5,,,,V8,Cast iron,Aluminum,drag focused,verified_manual
+BMW M3 E46,BMW,European,BMW S54B32,Naturally Aspirated,2000,2006.0,7.0,2000s,338.0,365.0,,87.0,91.0,11.5,,,,Straight-6,Cast iron,Aluminum,naturally aspirated,verified_manual
+BMW Z3 M,BMW,European,BMW S54B32,Naturally Aspirated,2001,2002.0,2.0,2000s,321.0,354.0,,87.0,91.0,11.5,,,,Straight-6,Cast iron,Aluminum,slightly detuned,verified_manual
+BMW Z4 M,BMW,European,BMW S54B32,Naturally Aspirated,2006,2008.0,3.0,2000s,338.0,365.0,,87.0,91.0,11.5,,,,Straight-6,Cast iron,Aluminum,same as E46 M3,verified_manual
+BMW M3 E90 E92 E93,BMW,European,BMW S65B40,Naturally Aspirated,2007,2013.0,7.0,2000s,414.0,400.0,,92.0,75.2,12.0,,,,V8,Aluminum,Aluminum,V8 M3,verified_manual
+BMW 335i E90,BMW,European,BMW N54B30,Naturally Aspirated,2006,2013.0,8.0,2000s,306.0,400.0,,84.0,89.6,10.2,,,,Straight-6,Aluminum,Aluminum,twin turbo,verified_manual
+BMW 135i E82,BMW,European,BMW N54B30,Naturally Aspirated,2007,2013.0,7.0,2000s,306.0,400.0,,84.0,89.6,10.2,,,,Straight-6,Aluminum,Aluminum,twin turbo,verified_manual
+BMW M135i F20,BMW,European,BMW N55B30,Naturally Aspirated,2012,2016.0,5.0,2010s,322.0,450.0,,84.0,89.6,10.2,,,,Straight-6,Aluminum,Aluminum,single turbo,verified_manual
+BMW M3 F80,BMW,European,BMW S55B30,Naturally Aspirated,2014,2018.0,5.0,2010s,425.0,550.0,,84.0,89.6,10.2,,,,Straight-6,Aluminum,Aluminum,twin turbo,verified_manual
+BMW M4 F82,BMW,European,BMW S55B30,Naturally Aspirated,2014,2018.0,5.0,2010s,425.0,550.0,,84.0,89.6,10.2,,,,Straight-6,Aluminum,Aluminum,twin turbo,verified_manual
+Toyota Supra A90,BMW,European,BMW B58B30,Naturally Aspirated,2019,2025.0,7.0,2010s,335.0,500.0,,82.0,94.6,11.0,,,,Straight-6,Aluminum,Aluminum,BMW engine in Toyota,verified_manual
+BMW M240i,BMW,European,BMW B58B30,Naturally Aspirated,2017,2025.0,9.0,2010s,382.0,500.0,,82.0,94.6,11.0,,,,Straight-6,Aluminum,Aluminum,higher tune,verified_manual
+Toyota GR Supra 2.0,BMW,European,BMW B48B20,Naturally Aspirated,2020,2025.0,6.0,2020s+,255.0,400.0,,82.0,94.6,11.0,,,,Straight-4,Aluminum,Aluminum,4 cylinder Supra,verified_manual
+Mercedes C63 AMG W204,Mercedes,European,Mercedes M156,Naturally Aspirated,2008,2014.0,7.0,2000s,457.0,600.0,,102.2,94.6,11.3,,,,V8,Aluminum,Aluminum,naturally aspirated,verified_manual
+Mercedes E63 AMG W212,Mercedes,European,Mercedes M156,Naturally Aspirated,2009,2013.0,5.0,2000s,525.0,630.0,,102.2,94.6,11.3,,,,V8,Aluminum,Aluminum,higher tune,verified_manual
+Mercedes SL63 AMG R230,Mercedes,European,Mercedes M156,Naturally Aspirated,2008,2012.0,5.0,2000s,525.0,630.0,,102.2,94.6,11.3,,,,V8,Aluminum,Aluminum,roadster,verified_manual
+Pagani Huayra,Mercedes,European,Mercedes M158,Naturally Aspirated,2011,2025.0,15.0,2010s,710.0,1000.0,,,,,,,,,,,AMG built custom,verified_manual
+Mercedes SLS AMG,Mercedes,European,Mercedes M159,Naturally Aspirated,2009,2014.0,6.0,2000s,571.0,650.0,,102.2,94.6,11.3,,,,V8,Aluminum,Aluminum,gullwing,verified_manual
+McLaren 720S,McLaren,European,McLaren M840T,Turbocharged,2017,2025.0,9.0,2010s,710.0,770.0,,86.1,85.8,8.7,,,,V8,Aluminum,Aluminum,twin turbo,verified_manual
+McLaren 765LT,McLaren,European,McLaren M840T,Turbocharged,2020,2025.0,6.0,2020s+,755.0,800.0,,86.1,85.8,8.7,,,,V8,Aluminum,Aluminum,LongTail tune,verified_manual
+Ferrari 458 Italia,Ferrari,European,Ferrari F136 4.5,Naturally Aspirated,2009,2015.0,7.0,2000s,562.0,540.0,,92.0,84.4,12.5,,,,V8,Aluminum,Aluminum,naturally aspirated,verified_manual
+Ferrari 488 GTB,Ferrari,European,Ferrari F154 CB,Naturally Aspirated,2015,2019.0,5.0,2010s,660.0,760.0,,86.5,83.1,9.4,,,,V8,Aluminum,Aluminum,twin turbo,verified_manual
+Lamborghini Aventador,Lamborghini,European,Lamborghini V12 6.5,Naturally Aspirated,2011,2022.0,12.0,2010s,700.0,690.0,,95.0,88.6,12.5,,,,V12,Aluminum,Aluminum,naturally aspirated,verified_manual
+Lamborghini Huracan,Lamborghini,European,Lamborghini V10 5.2,Naturally Aspirated,2014,2025.0,12.0,2010s,610.0,560.0,,84.5,92.8,12.7,,,,V10,Aluminum,Aluminum,naturally aspirated,verified_manual
+Bugatti Veyron,Bugatti,European,Bugatti WR16,Naturally Aspirated,2005,2015.0,11.0,2000s,1001.0,1250.0,,86.0,86.0,9.0,,,,W16,Aluminum,Aluminum,quad turbo,verified_manual
+Bugatti Chiron,Bugatti,European,Bugatti WR16,Naturally Aspirated,2016,2025.0,10.0,2010s,1500.0,1600.0,,86.0,86.0,9.0,,,,W16,Aluminum,Aluminum,quad turbo evolved,verified_manual
+Porsche 911 996,Porsche,European,Porsche M96 3.6,Naturally Aspirated,1997,2004.0,8.0,90s,316.0,370.0,,96.0,82.8,11.3,,,,Flat-6,Aluminum,Aluminum,naturally aspirated,verified_manual
+Porsche 911 GT3 992,Porsche,European,Porsche MA1 4.0,Naturally Aspirated,2021,2025.0,5.0,2020s+,510.0,470.0,,102.0,81.5,12.5,,,,Flat-6,Aluminum,Aluminum,naturally aspirated,verified_manual
+Audi TT RS,Audi,European,Audi 2.5 TFSI,Turbocharged,2009,2025.0,17.0,2000s,394.0,480.0,,82.5,92.8,10.0,,,,Straight-5,Aluminum,Aluminum,inline 5 turbo,verified_manual
+Kia Stinger GT,Kia,JDM,Kia Lambda II,Naturally Aspirated,2017,2025.0,9.0,2010s,365.0,510.0,,96.0,77.4,11.5,,,,V6,Aluminum,Aluminum,twin turbo V6,verified_manual
+Lexus LFA,Toyota,JDM,Toyota 1LR-GUE,Naturally Aspirated,2010,2012.0,3.0,2010s,553.0,480.0,,88.5,97.0,11.8,,,,V10,Aluminum,Aluminum,Yamaha co-developed,verified_manual
+Nissan GT-R Nismo 2020,Nissan,JDM,Nissan VR38DETT,Turbocharged,2020,2023.0,4.0,2020s+,600.0,652.0,,95.5,88.4,9.0,,,,V6,Aluminum,Aluminum,Nismo special,verified_manual
+Acura NSX NA1,Honda,JDM,Honda C32B,Naturally Aspirated,1990,2005.0,16.0,90s,276.0,304.0,,93.0,78.0,10.2,,,,V6,Aluminum,Aluminum,VTEC V6,verified_manual
+Mazda RX-7 FD,Mazda,JDM,Mazda 13B-REW,Naturally Aspirated,1992,2002.0,11.0,90s,255.0,294.0,,,,9.0,,,,Rotary,,,twin turbo rotary,verified_manual
+Toyota GR Supra,BMW,European,BMW B48B20,Naturally Aspirated,2020,2026.0,7.0,2020s+,255.0,,,82.0,94.6,11.0,,,,Straight-4,Aluminum,Aluminum,car_discovery,https://en.wikipedia.org/wiki/Toyota_GR_Supra
+Toyota GR Supra,BMW,European,BMW B58B30C,Naturally Aspirated,2020,2026.0,7.0,2020s+,255.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Toyota_GR_Supra
+Toyota GR Supra,BMW,European,BMW B58B30O1,Naturally Aspirated,2020,2026.0,7.0,2020s+,255.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Toyota_GR_Supra
+Toyota GR Supra,BMW,European,BMW B58B30M1,Naturally Aspirated,2020,2026.0,7.0,2020s+,255.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Toyota_GR_Supra
+Toyota Camry (XV20),2.2,Other,2.2 L 5S-FE I4 (gasoline) 3.0 L 1MZ-FE V6 (gasoline) 2.5 L 2MZ-FE V6 (gasoline),Naturally Aspirated,1997,2001.0,5.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Toyota_Camry_(XV20)
+Lexus LFA,4.8,Other,4.8 L 1LR-GUE even-firing V10,Naturally Aspirated,2010,,,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Lexus_LFA
+Nissan GT-R,VR38DETT,Other,VR38DETT,Turbocharged,2009,2024.0,16.0,2000s,473.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Nissan_GT-R
+Nissan 370Z,VQ37VHR,Other,VQ37VHR,Naturally Aspirated,2009,2020.0,12.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Nissan_370Z
+Nissan 350Z,VQ35DE,Other,VQ35DE,Naturally Aspirated,2003,2009.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Nissan_350Z
+Nissan 350Z,VQ35HR,Other,VQ35HR,Naturally Aspirated,2003,2009.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Nissan_350Z
+Nissan 180SX,CA18DET,Other,CA18DET,Turbocharged,1989,1998.0,10.0,80s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Nissan_180SX
+Nissan 180SX,SR20DE,Other,SR20DE,Naturally Aspirated,1989,1998.0,10.0,80s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Nissan_180SX
+Nissan 180SX,SR20DET,Other,SR20DET,Turbocharged,1989,1998.0,10.0,80s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Nissan_180SX
+Honda Integra (fourth generation),K20A3,Other,K20A3,Naturally Aspirated,2002,2006.0,5.0,2000s,160.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Honda_Integra_(fourth_generation)
+Honda Integra (fourth generation),K20A2,Other,K20A2,Naturally Aspirated,2002,2006.0,5.0,2000s,160.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Honda_Integra_(fourth_generation)
+Honda Integra (fourth generation),K20Z1,Other,K20Z1,Naturally Aspirated,2002,2006.0,5.0,2000s,160.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Honda_Integra_(fourth_generation)
+Honda Integra (fourth generation),K20A,Other,K20A,Naturally Aspirated,2002,2006.0,5.0,2000s,160.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Honda_Integra_(fourth_generation)
+Honda NSX (first generation),Honda,JDM,Honda C30A,Naturally Aspirated,1991,2006.0,16.0,90s,270.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Honda_NSX_(first_generation)
+Honda NSX (first generation),Honda,JDM,Honda C32B,Naturally Aspirated,1991,2006.0,16.0,90s,270.0,,,93.0,78.0,10.2,,,,V6,Aluminum,Aluminum,car_discovery,https://en.wikipedia.org/wiki/Honda_NSX_(first_generation)
+Subaru Impreza WRX STI,EJ,Other,EJ series engine,Naturally Aspirated,1994,2014.0,21.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Subaru_Impreza_WRX_STI
+Mitsubishi Lancer Evolution X,4B11T,Other,4B11T,Turbocharged,2007,,,2000s,440.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mitsubishi_Lancer_Evolution_X
+Mitsubishi Lancer Evolution,4G63T,Other,4G63T,Turbocharged,1992,2016.0,25.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mitsubishi_Lancer_Evolution
+Mitsubishi Lancer Evolution,4B11T,Other,4B11T,Turbocharged,1992,2016.0,25.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mitsubishi_Lancer_Evolution
+Mitsubishi 3000GT,6G72,Other,6G72,Naturally Aspirated,1991,1999.0,9.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mitsubishi_3000GT
+Chevrolet Corvette (C8),LT2,Other,LT2,Naturally Aspirated,2020,,,2020s+,495.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C8)
+Chevrolet Corvette (C8),LS6,Other,LS6,Naturally Aspirated,2020,,,2020s+,495.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C8)
+Chevrolet Corvette (C8),LT6,Other,LT6,Naturally Aspirated,2020,,,2020s+,495.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C8)
+Chevrolet Corvette (C8),LT7,Other,LT7,Naturally Aspirated,2020,,,2020s+,495.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C8)
+Chevrolet Corvette (C7),LT1V8,Other,LT1V8,Naturally Aspirated,2014,2019.0,6.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C7)
+Chevrolet Corvette (C7),LT4,Other,LT4,Naturally Aspirated,2014,2019.0,6.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C7)
+Chevrolet Corvette (C7),LT5,Other,LT5,Naturally Aspirated,2014,2019.0,6.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C7)
+Chevrolet Corvette (C6),LS2,Other,LS2,Naturally Aspirated,2005,2013.0,9.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C6)
+Chevrolet Corvette (C6),LS3,Other,LS3,Naturally Aspirated,2005,2013.0,9.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C6)
+Chevrolet Corvette (C6),LS7,Other,LS7,Naturally Aspirated,2005,2013.0,9.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C6)
+Chevrolet Corvette (C6),LS9,Other,LS9,Supercharged,2005,2013.0,9.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C6)
+Chevrolet Corvette (C5),LS1V8,Other,LS1V8,Naturally Aspirated,1997,2004.0,8.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C5)
+Chevrolet Corvette (C5),LS6,Other,LS6,Naturally Aspirated,1997,2004.0,8.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C5)
+Cadillac CT5,LT4,Other,LT4,Naturally Aspirated,2020,,,2020s+,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Cadillac_CT5
+Dodge Challenger (2008),Hellcat,Other,Hellcat,Supercharged,2008,2023.0,16.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Dodge_Challenger_(2008)
+Dodge Viper,Viper,Other,Viper V10,Naturally Aspirated,1992,2006.0,15.0,90s,400.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Dodge_Viper
+Jeep Grand Cherokee (WK2),Hemi,Other,Hemi,Naturally Aspirated,2011,2022.0,12.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(WK2)
+Jeep Grand Cherokee (WK2),Hellcat,Other,Hellcat Hemi,Supercharged,2011,2022.0,12.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(WK2)
+Ram 1500 TRX,Hemi,Other,Hemi,Naturally Aspirated,2021,2024.0,4.0,2020s+,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Ram_1500_TRX
+BMW 1 Series (E87),N43,Other,N43,Naturally Aspirated,2005,2011.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_1_Series_(E87)
+BMW 1 Series (E87),N45,Other,N45,Naturally Aspirated,2005,2011.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_1_Series_(E87)
+BMW 1 Series (E87),N46,Other,N46,Naturally Aspirated,2005,2011.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_1_Series_(E87)
+BMW 1 Series (E87),N52,Other,N52,Naturally Aspirated,2005,2011.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_1_Series_(E87)
+BMW 1 Series (E87),N54,Other,N54,Naturally Aspirated,2005,2011.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_1_Series_(E87)
+BMW 1 Series (E87),N55,Other,N55,Naturally Aspirated,2005,2011.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_1_Series_(E87)
+BMW 1 Series (E87),M47,Other,M47,Naturally Aspirated,2005,2011.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_1_Series_(E87)
+BMW 1 Series (E87),N47,Other,N47,Naturally Aspirated,2005,2011.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_1_Series_(E87)
+BMW Z4 (E85),N46,Other,N46,Naturally Aspirated,2003,2008.0,6.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_Z4_(E85)
+BMW Z4 (E85),M54,Other,M54,Naturally Aspirated,2003,2008.0,6.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_Z4_(E85)
+BMW Z4 (E85),N52,Other,N52,Naturally Aspirated,2003,2008.0,6.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_Z4_(E85)
+BMW Z4 (E85),S54,Other,S54,Naturally Aspirated,2003,2008.0,6.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_Z4_(E85)
+BMW M8,S63,Other,S63,Naturally Aspirated,2019,,,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_M8
+BMW 7 Series (E38),M52B28,Other,M52B28,Naturally Aspirated,1995,2001.0,7.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+BMW 7 Series (E38),M60B30,Other,M60B30,Naturally Aspirated,1995,2001.0,7.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+BMW 7 Series (E38),M62B35,Other,M62B35,Naturally Aspirated,1995,2001.0,7.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+BMW 7 Series (E38),M60B40,Other,M60B40,Naturally Aspirated,1995,2001.0,7.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+BMW 7 Series (E38),M62B44,Other,M62B44,Naturally Aspirated,1995,2001.0,7.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+BMW 7 Series (E38),M73B54,Other,M73B54,Naturally Aspirated,1995,2001.0,7.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+BMW 7 Series (E38),M51,Other,M51,Naturally Aspirated,1995,2001.0,7.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+BMW 7 Series (E38),M57,Other,M57,Naturally Aspirated,1995,2001.0,7.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+BMW 7 Series (E38),M67,Other,M67,Naturally Aspirated,1995,2001.0,7.0,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_7_Series_(E38)
+BMW 5 Series (E39),M52,Other,M52,Naturally Aspirated,1995,,,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_5_Series_(E39)
+BMW 5 Series (E39),M54,Other,M54,Naturally Aspirated,1995,,,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_5_Series_(E39)
+BMW 5 Series (E39),M62,Other,M62,Naturally Aspirated,1995,,,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_5_Series_(E39)
+BMW 5 Series (E39),S62,Other,S62,Naturally Aspirated,1995,,,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_5_Series_(E39)
+BMW 5 Series (E39),M47,Other,M47,Naturally Aspirated,1995,,,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_5_Series_(E39)
+BMW 5 Series (E39),M51,Other,M51,Naturally Aspirated,1995,,,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_5_Series_(E39)
+BMW 5 Series (E39),M57,Other,M57,Naturally Aspirated,1995,,,90s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/BMW_5_Series_(E39)
+Mercedes-Benz C-Class (W204),M271,Other,M271,Naturally Aspirated,2008,2014.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W204)
+Mercedes-Benz C-Class (W204),M274,Other,M274,Naturally Aspirated,2008,2014.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W204)
+Mercedes-Benz C-Class (W204),M272,Other,M272,Naturally Aspirated,2008,2014.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W204)
+Mercedes-Benz C-Class (W204),M276,Other,M276,Naturally Aspirated,2008,2014.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W204)
+Mercedes-Benz C-Class (W204),M156,Other,M156,Naturally Aspirated,2008,2014.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W204)
+Mercedes-Benz C-Class (W204),OM651,Other,OM651,Naturally Aspirated,2008,2014.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W204)
+Mercedes-Benz C-Class (W204),OM646,Other,OM646,Naturally Aspirated,2008,2014.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W204)
+Mercedes-Benz C-Class (W204),OM642,Other,OM642,Naturally Aspirated,2008,2014.0,7.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W204)
+Mercedes-Benz C-Class (W205),M264,Other,M264,Naturally Aspirated,2015,2021.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W205)
+Mercedes-Benz C-Class (W205),M270,Other,M270,Naturally Aspirated,2015,2021.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W205)
+Mercedes-Benz C-Class (W205),M274,Other,M274,Naturally Aspirated,2015,2021.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W205)
+Mercedes-Benz C-Class (W205),M276,Other,M276,Naturally Aspirated,2015,2021.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W205)
+Mercedes-Benz C-Class (W205),M177,Other,M177,Naturally Aspirated,2015,2021.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W205)
+Mercedes-Benz C-Class (W205),M139,Other,M139,Naturally Aspirated,2015,2021.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W205)
+Mercedes-Benz C-Class (W205),OM651,Other,OM651,Naturally Aspirated,2015,2021.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W205)
+Mercedes-Benz C-Class (W205),OM626,Other,OM626,Naturally Aspirated,2015,2021.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W205)
+Mercedes-Benz C-Class (W205),OM654,Other,OM654,Naturally Aspirated,2015,2021.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class_(W205)
+Mercedes-Benz E-Class (W212),M271,Other,M271,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz E-Class (W212),M274,Other,M274,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz E-Class (W212),M272,Other,M272,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz E-Class (W212),M276,Other,M276,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz E-Class (W212),M278,Other,M278,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz E-Class (W212),M273,Other,M273,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz E-Class (W212),M157,Other,M157,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz E-Class (W212),M156,Other,M156,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz E-Class (W212),OM651,Other,OM651,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz E-Class (W212),OM642,Other,OM642,Naturally Aspirated,2010,2016.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W212)
+Mercedes-Benz SLS AMG,M159,Other,M159,Naturally Aspirated,2010,2015.0,6.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_SLS_AMG
+Mercedes-AMG G 63 6x6,M157,Other,M157,Naturally Aspirated,2013,2015.0,3.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-AMG_G_63_6x6
+Mercedes-Benz GLK-Class,3.0L,Other,3.0L V6 3.5L V6 2.1L CDI I4 3.0L CDI V6,Naturally Aspirated,2010,2015.0,6.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_GLK-Class
+Lamborghini Huracán,5.2,Other,5.2 L odd-firing V10,Naturally Aspirated,2014,,,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Lamborghini_Huracán
+Lamborghini Aventador,L539,Other,L539,Naturally Aspirated,2012,2022.0,11.0,2010s,690.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Lamborghini_Aventador
+Lamborghini Murciélago,6.2,Other,6.2 L–6.5 L Lamborghini V12,Naturally Aspirated,2002,2010.0,9.0,2000s,573.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Lamborghini_Murciélago
+Ferrari 458,Ferrari,European,Ferrari F136 F,Naturally Aspirated,2009,2015.0,7.0,2000s,562.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Ferrari_458
+Ferrari 488,F154,Other,F154 CB,Naturally Aspirated,2015,2020.0,6.0,2010s,661.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Ferrari_488
+Ferrari F40,Tipo,Other,Tipo F120A/F120D,Naturally Aspirated,1987,1996.0,10.0,80s,471.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Ferrari_F40
+Ferrari F50,Tipo,Other,Tipo F130B,Naturally Aspirated,1995,1997.0,3.0,90s,513.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Ferrari_F50
+Ferrari Enzo,Tipo,Other,Tipo F140 B,Naturally Aspirated,2002,2004.0,3.0,2000s,651.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Ferrari_Enzo
+LaFerrari,F140,Other,F140 FE,Naturally Aspirated,2013,2016.0,4.0,2010s,950.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/LaFerrari
+McLaren 720S,M840T,Other,M840T,Turbocharged,2017,2023.0,7.0,2010s,710.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/McLaren_720S
+McLaren 570S,M838T,Other,M838T E,Naturally Aspirated,2015,2021.0,7.0,2010s,562.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/McLaren_570S
+McLaren P1,M838TQ,Other,M838TQ,Naturally Aspirated,2013,,,2010s,903.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/McLaren_P1
+McLaren F1,BMW,European,BMW S70/2,Naturally Aspirated,1992,1998.0,7.0,90s,618.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/McLaren_F1
+Bugatti Veyron,WR16,Other,WR16,Naturally Aspirated,2005,2015.0,11.0,2000s,987.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Bugatti_Veyron
+Bugatti Chiron,WR16,Other,WR16,Naturally Aspirated,2016,2024.0,9.0,2010s,479.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Bugatti_Chiron
+Pagani Huayra,Mercedes-AMG,Other,Mercedes-AMG M158,Naturally Aspirated,2011,2018.0,8.0,2010s,730.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Pagani_Huayra
+Aston Martin Vantage (2005),AM05,Other,AM05,Naturally Aspirated,2006,2018.0,13.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2005)
+Aston Martin Vantage (2005),AM14,Other,AM14,Naturally Aspirated,2006,2018.0,13.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2005)
+Aston Martin Vantage (2005),AM11,Other,AM11,Naturally Aspirated,2006,2018.0,13.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2005)
+Aston Martin Vantage (2005),AM28,Other,AM28,Naturally Aspirated,2006,2018.0,13.0,2000s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2005)
+Aston Martin DBS Superleggera,AE31,Other,AE31,Naturally Aspirated,2018,2024.0,7.0,2010s,715.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Aston_Martin_DBS_Superleggera
+Jaguar F-Type,Jaguar,European,Jaguar AJ126V6,Naturally Aspirated,2014,2024.0,11.0,2010s,295.9,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Jaguar_F-Type
+Jaguar F-Type,Jaguar,European,Jaguar AJ133V8,Naturally Aspirated,2014,2024.0,11.0,2010s,295.9,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Jaguar_F-Type
+Mercedes-Benz E-Class (W213),M264,Other,M264,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Mercedes-Benz E-Class (W213),M270,Other,M270,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Mercedes-Benz E-Class (W213),M274,Other,M274,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Mercedes-Benz E-Class (W213),M256,Other,M256,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Mercedes-Benz E-Class (W213),M276,Other,M276,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Mercedes-Benz E-Class (W213),M177,Other,M177,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Mercedes-Benz E-Class (W213),M139,Other,M139,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Mercedes-Benz E-Class (W213),OM654,Other,OM654,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Mercedes-Benz E-Class (W213),OM656,Other,OM656,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Mercedes-Benz E-Class (W213),OM642,Other,OM642,Naturally Aspirated,2017,2023.0,7.0,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class_(W213)
+Alfa Romeo Giulia (2015),GME,Other,GME T4,Naturally Aspirated,2016,,,2010s,,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Alfa_Romeo_Giulia_(2015)
+Koenigsegg Agera,5.0,Other,"5.0 L (305 cu in; 5,000 cc) Koenigsegg twin-turbocharged V8",Turbocharged,2010,2018.0,9.0,2010s,947.0,,,,,,,,,,,,car_discovery,https://en.wikipedia.org/wiki/Koenigsegg_Agera

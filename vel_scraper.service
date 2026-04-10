@@ -1,0 +1,24 @@
+python3 -c "
+content = '''[Unit]
+Description=Vel Scraper Discovery Clean and Backup
+After=network.target
+
+[Service]
+Type=oneshot
+User=_homeos
+WorkingDirectory=/home/_homeos/engine-analysis
+ExecStart=/usr/bin/bash -c 'python3 backup.py && python3 manufacturer_discovery.py && python3 generation_scraper.py && python3 car_cleaner.py && python3 scraper.py && python3 cleaner.py && python3 normalizer.py && python3 ingest_applications.py && python3 rag.py --full && python3 tableau_export.py && python3 viz_engine.py && curl -s -X POST http://localhost:8001/reload -H \"Authorization: Bearer \$VEL_API_KEY\" -H \"Content-Type: application/json\"'
+EnvironmentFile=/home/_homeos/engine-analysis/.env
+StandardOutput=append:/home/_homeos/engine-analysis/pipeline.log
+StandardError=append:/home/_homeos/engine-analysis/pipeline.log
+
+[Install]
+WantedBy=multi-user.target
+'''
+with open('/tmp/vel-scraper.service', 'w') as f:
+    f.write(content)
+print('Done')
+"
+sudo cp /tmp/vel-scraper.service /etc/systemd/system/vel-scraper.service
+sudo systemctl daemon-reload
+cat /etc/systemd/system/vel-scraper.service
