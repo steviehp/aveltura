@@ -1,3 +1,28 @@
+'00-'02 200SX (Australia)
+'89 U12 Bluebird Ltd
+'90'94 RNN14 Pulsar GTI-R
+'90'95 EGNN14 Sunny GTI-R
+'91'93 S13 Silvia, 180SX
+'91'95 U13 Bluebird Ltd
+'94'98 S13 180SX
+'95'97 W10 Avenir Salut
+'95'99 S14 Silvia, '95-'99 200SX (Australia, New Zealand)
+'97'01 W11 Avenir GT4
+'99'02 S15 Silvia, '99-'02 200SX (New Zealand)
+0-160 km/h (100 mph)
+0-180 km/h (110 mph)
+0-201 km/h (125 mph)
+0-97 km/h (60 mph)
+0100 km/h (062 mph) (seconds)
+0100 km/h(062 mph)
+0200 km/h (0124 mph) (seconds)
+03/201707/2020
+0400 m(01,312 ft)
+07/201707/2020
+07/2020
+100kWh NMC CATL
+16.1:1
+16.5:1
 3.5
 3.9
 330 cu in (5.4 L)
@@ -10,6 +35,7 @@
 391 cu in (6.4 L)
 4.38 in (111 mm)
 4.8
+400 m (14mi)
 406 cu in (6.7 L)
 410 cu in (6.7 L)
 427 cu in (7.0 L)
@@ -19,6 +45,10 @@
 6.0
 6.2
 6.5
+71kWhNMCCATL
+75kWhLFPCALB
+83kWhNMCCATL
+90kWh NMC CATL
 911 "40 Jahre"
 911 Carrera
 911 Carrera 4
@@ -30,45 +60,232 @@
 911 GT3
 911 GT3 RS
 911 Targa
+Absolute magnitude(MV)
+Action
+Active safety:
+Adult occupant:
+Alabaster Silver Metallic
+Alabaster Silver Metallic (200506)
 Alpina
 Alpina F3
 Alpina F4
 Alpina F5
+Apparent magnitude(V)
+Arctic Blue Pearl
+Arctic Blue Pearl (200204)
+Armament
+Armor
 Assembly
+Band
+Battery
+Beam
+Black
+Blade Green (05-06)
+Blaze Orange (05-06)
+Blaze Orange Metallic
+Blaze Orange Metallic (200506)
 Body style
 Boss 260
 Boss 290
 Boss 302
 Boss 315
+Braking 100 km/h (62 mph)-0
+Bus
+CO2emissions
+COSPAR ID
+Calendar year
+Caliber
+Car
+Cartridge
+Category
+Championship White
+Child occupant:
 Class
+Color
 Combustion Chamber:
+Commissioned
 Compresses Volume
+Constellation
+Contractor
+Coverage area
 Crankpin diameter:
 Crankshaft journal diameter:
+Crew
 De Tomaso P72
+Deactivated
+Declination
+Decommissioned
+Desert Silver Metallic
+Detonationmechanism
+Developed from
+Developed into
+Disposal
+Distance
+Doors
+Draft
+Drivetrain
+Dry mass
+EREV
+Effective firing range
+Electric motor
+Electric range
+Elevation rate
+Elevation, main gun
 Emissions control systems
+Emissions target standard
+Entered service
+Eternal Blue Pearl
+Evolutionary stage
+Exterior Color
+Fate
+Feed system
+Filling
+Firepepper Red (2002 only)
+Firing rate
 FirstYear
-Ford F-150
 Ford Mustang Dark Horse
-Ford Mustang GT
-Ford Mustang SVT Cobra
+Fording
 Gasket Thickness
+Ground clearance
+Ground pressure
+Guidancesystem
 Head Volume
+Honours andawards
+Hybrid drivetrain
+In service
+Jade Green Metallic
 K20A (Eco)
 K20A(High Performance)
+Lateral acceleration
+Launch date
+Launch mass
+Launch site
+Launched
 Lincoln Blackwood
+Longitude
+Luminosity
+M2, M2/1
+M270 DE16LA
+M270 DE16LA R
+M270 DE20LA
+M274 DE16LAD274.910
+M274 DE20LAD274.920
+M5(N63M30)
+Magnesium (05-06)
+Magnesium Metallic
+Magnesium Metallic (200506)
+Main armament
+Main gun ammo
+Mainarmament
 Management
+Manual
+Manual(Europe)
+Mass
+Max speed
+Max. grade
+Max. trench
+Max. wall
+Maximum firing range
+Maximum speed
+Mercedes-AMG GT (C190)
+Mercedes-AMG GT C (C190)
+Mercedes-AMG GT R (C190)
+Mercedes-AMG GT S (C190)
+Mercedes-Benz A 180d (W177)
+Mercedes-Benz A 200d (W177)
+Mercedes-Benz A 220d/A 220d 4MATIC (W177)
+Mercedes-Benz B 200d (W247)
+Mercedes-Benz B 220d/B 220d 4MATIC (W247)
+Mercedes-Benz C 200d (W206)
+Mercedes-Benz C 220d/C 220d 4MATIC (W206)
+Mercedes-Benz C 300d/C 300d 4MATIC (W206)
+Mercedes-Benz CLA 200d/ CLA 200d 4MATIC (C118)
+Mercedes-Benz CLA 220d/CLA 220d 4MATIC (C118)
+Mercedes-Benz CLS 220d (C257)
+Mercedes-Benz CLS 300d/CLS 300d 4MATIC (C257)
+Mercedes-Benz E 200d/E 220d/E 220d 4MATIC (W213)
+Mercedes-Benz E 300d/E 300d 4MATIC (W213)
+Mercedes-Benz E 300de/E 300de 4MATIC (W213)
+Mercedes-Benz GLA 200d/GLA 200d 4MATIC (H247)
+Mercedes-Benz GLA 220d 4MATIC (H247)
+Mercedes-Benz GLB 200d/GLB 200d 4MATIC (X247)
+Mercedes-Benz GLB 220d 4MATIC (X247)
+Mercedes-Benz GLC 200d/GLC 200d 4MATIC (X253)
+Mercedes-Benz GLC 220d 4MATIC (X253)
+Mercedes-Benz GLC 300d 4MATIC (X253)
+Mercedes-Benz GLC 300de 4MATIC (X253)
+Mercedes-Benz GLE 300d 4MATIC (W167)
+Mercedes-Benz GLE 350de 4MATIC (W167)
+Mercedes-Benz Sprinter
+Mercedes-Benz V-Class & Vito
+Milano Red
+Mission duration
 Model
+Model code
+Model years
+Models
+Muzzle velocity
+Name
+Names
+Namesake
+Nighthawk Black Pearl
 Nissan
+Occupant protection:
+Operationalrange
+Operator
+Parallax()
+Pedestrian:
 Piston Deck
 Piston Dish
 Piston Pin Offset
+Place of origin
+Platform
+Plug-in charging
+Premium White Pearl
+Proper motion()
 Puritalia Berlinetta
+Quarter Mile
 Racing Dynamics R52
+Radius
+Reclassified
+Recommissioned
+Redondo Red Pearl (2003 only)
+Reference system
+Regime
 Related
+Right ascension
+Rocket
+S70/2
+S70/3
+SIMBAD
+Safety assist:
+Satin Silver Metallic
+Satin Silver Metallic (200204)
+Secondaryarmament
+Series
+Sights
+Silver
+Spacecraft
+Stricken
+Suspension
+Taffetta White
+Temperature
+Test
+Top speed
 Total
 Total Deck Volume
 Total Quench Volume
+Traverse rate
+Unit cost
+Used by
 Vehicle Name
 Vehicle name
+Vivid Blue (05-06)
+Vivid Blue Pearl
+Vivid Blue Pearl (200506)
+Vulnerable road users:
+Warhead
+Wars
+Website
+Year(s)
 produces PS

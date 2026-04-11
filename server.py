@@ -226,6 +226,10 @@ class CompareRequest(BaseModel):
     engines: List[str]
     spec:    str
 
+class OptimizeRequest(BaseModel):
+    query:      str
+    budget_usd: Optional[int] = None
+
 
 # ── Core query endpoints ──────────────────────────────────────────────────────
 
@@ -367,6 +371,16 @@ async def stats_summary(body: SpecRequest):
 async def stats_regression(body: RegressionRequest):
     from stats_engine import regression_analysis
     return regression_analysis(body.target, body.predictors)
+
+
+# ── Optimization endpoint ─────────────────────────────────────────────────────
+
+@app.post("/optimize", dependencies=[Depends(verify_key)])
+@limiter.limit("5/minute")
+async def optimize(request: Request, body: OptimizeRequest):
+    from optimization_engine import optimize as run_optimize
+    result = run_optimize(body.query, body.budget_usd)
+    return {"plan": result}
 
 
 # ── Viz endpoints ─────────────────────────────────────────────────────────────
