@@ -8,6 +8,7 @@ Endpoints:
   GET  /stats                  — Query log stats
   GET  /v1/models              — Model list (OpenAI compat)
   POST /reload                 — Hot-reload RAG index after pipeline run
+  POST /optimize               — Physics-based mod optimization
   GET  /viz/list               — List available charts
   POST /viz/scatter            — Generate scatter plot
   POST /viz/bar                — Generate bar chart
@@ -19,6 +20,7 @@ Endpoints:
   POST /stats/outliers         — Outlier detection for a spec
   POST /stats/summary          — Summary statistics for a spec
   POST /stats/regression       — OLS regression
+  GET  /reports                — List generated analysis reports
 """
 
 from fastapi import FastAPI, HTTPException, Depends, Request
@@ -26,7 +28,7 @@ from fastapi.responses import StreamingResponse
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional, List, Any
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
@@ -50,41 +52,35 @@ EMBED_MODEL     = os.getenv("EMBED_MODEL",     "nomic-embed-text")
 REQUEST_TIMEOUT = float(os.getenv("REQUEST_TIMEOUT", "300.0"))
 VEL_API_KEY     = os.getenv("VEL_API_KEY")
 BASE_DIR        = os.getenv("BASE_DIR",        "/home/_homeos/engine-analysis")
+VEL_PORT        = os.getenv("VEL_PORT",        "8001")
 
-# ── PERSIST_DIR: always relative to BASE_DIR, never relative to cwd ──────────
-PERSIST_DIR      = os.getenv("PERSIST_DIR", os.path.join(BASE_DIR, "storage"))
-DISCOVERY_QUEUE  = os.path.join(BASE_DIR, "discovery_queue.txt")
+# ── PERSIST_DIR ───────────────────────────────────────────────────────────────
+PERSIST_DIR     = os.getenv("PERSIST_DIR", os.path.join(BASE_DIR, "storage"))
+DISCOVERY_QUEUE = os.path.join(BASE_DIR, "discovery_queue.txt")
 
 # ── LlamaIndex settings ───────────────────────────────────────────────────────
 Settings.llm         = Ollama(model=MODEL_NAME, request_timeout=REQUEST_TIMEOUT)
 Settings.embed_model = OllamaEmbedding(model_name=EMBED_MODEL)
 
-# Import hybrid query engine builder from rag.py
 import sys
 sys.path.insert(0, BASE_DIR)
 from rag import build_hybrid_query_engine
 
 # ── Vel QA prompt ─────────────────────────────────────────────────────────────
-# Mistral answers from its own knowledge first, uses RAG context as override,
-# and flags unknowns to the discovery queue.
 VEL_QA_PROMPT = PromptTemplate(
-    "You are Vel, an expert automotive engine analysis AI. "
-    "You have deep knowledge of engine specifications, vehicle applications, "
-    "tuning, and performance data.\n\n"
-    "The following context was retrieved from the Vel engine database:\n"
+    "You are Vel, a precise automotive engine analysis AI.\n\n"
+    "Context from the Vel database:\n"
     "---------------------\n"
     "{context_str}\n"
     "---------------------\n\n"
-    "Instructions:\n"
-    "1. Use your own automotive knowledge to answer the question accurately.\n"
-    "2. If the context above contains relevant verified data, prioritize and "
-    "cite it over your general knowledge — especially for specific power figures, "
-    "displacement, or tune details marked as verified_manual.\n"
-    "3. If you are genuinely uncertain about specific technical details and the "
-    "context does not help, say: \'I don\'t have verified data on that — "
-    "adding it to the discovery queue for the next scrape run.\'\n"
-    "4. Never refuse to answer a question about a well-known engine. "
-    "Use your training knowledge as a baseline.\n\n"
+    "Rules:\n"
+    "1. Answer ONLY using data from the context above. No exceptions.\n"
+    "2. Do NOT speculate, hedge, or add information from outside the context.\n"
+    "3. Be concise — 1-3 sentences maximum.\n"
+    "4. State the confidence level (verified_manual, epa_verified, wikipedia_scraped) when relevant.\n"
+    "5. If the context lacks the answer, say only: 'No verified data available.'\n"
+    "6. Forbidden words: possibly, potentially, likely, may, might, some other, also used in, known to be.\n"
+    "7. List ONLY the exact vehicles named in the context. Nothing else.\n\n"
     "Question: {query_str}\n"
     "Answer:"
 )
@@ -96,13 +92,9 @@ _handler = logging.FileHandler(os.path.join(BASE_DIR, "query.log"))
 _handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
 query_logger.addHandler(_handler)
 
-# ── Discovery queue ──────────────────────────────────────────────────────────
+# ── Discovery queue ───────────────────────────────────────────────────────────
 
 def add_to_discovery_queue(query: str):
-    """
-    Append a query to the discovery queue file so the next scraper run
-    can attempt to find and index the missing engine data.
-    """
     try:
         with open(DISCOVERY_QUEUE, "a") as f:
             f.write(f"{datetime.now().isoformat()} | {query}\n")
@@ -112,16 +104,27 @@ def add_to_discovery_queue(query: str):
 
 
 def response_flags_unknown(text: str) -> bool:
-    """Return True if Vel flagged this as unknown / adding to queue."""
     signals = [
         "discovery queue",
         "don't have verified data",
         "adding it to the discovery",
-        "i don't have",
+        "no verified data available",
     ]
     return any(s in text.lower() for s in signals)
 
 
+# ── Tabular data detector ─────────────────────────────────────────────────────
+
+def _looks_like_tabular(text: str) -> bool:
+    """Return True if message looks like CSV/TSV tabular data."""
+    lines = [l.strip() for l in text.strip().split("\n") if l.strip()]
+    if len(lines) < 3:
+        return False
+    for delim in [",", "\t", ";", "|"]:
+        counts = [line.count(delim) for line in lines[:6]]
+        if len(set(counts)) <= 2 and counts[0] >= 2 and counts[0] == counts[1]:
+            return True
+    return False
 
 
 # ── Index loader ──────────────────────────────────────────────────────────────
@@ -155,12 +158,17 @@ app     = FastAPI(title="Vel — Engine Analysis API", version="1.0.0")
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
-# Mount charts directory only if it exists
+# Mount charts
 _charts_dir = os.path.join(BASE_DIR, "charts")
 if os.path.exists(_charts_dir):
     app.mount("/charts", StaticFiles(directory=_charts_dir), name="charts")
 else:
-    logging.warning(f"Charts directory not found at {_charts_dir} — /charts not mounted")
+    logging.warning(f"Charts directory not found at {_charts_dir}")
+
+# Mount reports
+_reports_dir = os.path.join(BASE_DIR, "reports")
+os.makedirs(_reports_dir, exist_ok=True)
+app.mount("/reports", StaticFiles(directory=_reports_dir), name="reports")
 
 
 # ── Auth ──────────────────────────────────────────────────────────────────────
@@ -175,7 +183,6 @@ def verify_key(credentials: HTTPAuthorizationCredentials = Depends(security)):
     return credentials.credentials
 
 def require_index():
-    """Dependency — raises 503 if the index isn't loaded."""
     if query_engine is None:
         raise HTTPException(
             status_code=503,
@@ -190,7 +197,7 @@ class Query(BaseModel):
 
 class ChatMessage(BaseModel):
     role:    str
-    content: str
+    content: Any  # Any to handle both str and list (multipart)
 
 class ChatRequest(BaseModel):
     messages: List[ChatMessage]
@@ -254,9 +261,45 @@ async def query(request: Request, q: Query):
 )
 @limiter.limit("10/minute")
 async def chat(request: Request, body: ChatRequest):
-    start   = time.time()
-    message = body.messages[-1].content
+    start = time.time()
 
+    # Extract text from last message (handles str and multipart list)
+    raw = body.messages[-1].content
+    if isinstance(raw, list):
+        message = " ".join(
+            p.get("text", "") for p in raw
+            if isinstance(p, dict) and p.get("type") == "text"
+        )
+    else:
+        message = str(raw)
+
+    # Route tabular data to universal analyzer
+    if _looks_like_tabular(message):
+        try:
+            from universal_analyzer import analyze as run_analyze
+            summary, report_path = run_analyze(message, vel_port=VEL_PORT)
+        except Exception as e:
+            summary = f"Analysis error: {e}"
+
+        if body.stream:
+            def gen_analyze():
+                for line in summary.split("\n"):
+                    chunk = {
+                        "choices": [
+                            {"delta": {"content": line + "\n"}, "finish_reason": None}
+                        ]
+                    }
+                    yield f"data: {json.dumps(chunk)}\n\n"
+                yield "data: [DONE]\n\n"
+            return StreamingResponse(gen_analyze(), media_type="text/event-stream")
+
+        return {
+            "choices": [
+                {"message": {"role": "assistant", "content": summary}}
+            ]
+        }
+
+    # Normal RAG query
     if body.stream:
         def generate():
             resp = query_engine.query(message)
@@ -279,6 +322,8 @@ async def chat(request: Request, body: ChatRequest):
         result += token
     elapsed = round(time.time() - start, 2)
     query_logger.info(f"Q: {message} | T: {elapsed}s")
+    if response_flags_unknown(result):
+        add_to_discovery_queue(message)
     return {
         "choices": [
             {"message": {"role": "assistant", "content": result}}
@@ -290,10 +335,6 @@ async def chat(request: Request, body: ChatRequest):
 
 @app.post("/reload", dependencies=[Depends(verify_key)])
 async def reload_index():
-    """
-    Hot-reload the RAG index from disk without restarting the service.
-    Call this after running the pipeline (scraper → cleaner → normalizer → rag.py).
-    """
     global index, query_engine
     try:
         index, query_engine = _load_index()
@@ -341,6 +382,30 @@ async def models():
     }
 
 
+# ── Optimization endpoint ─────────────────────────────────────────────────────
+
+@app.post("/optimize", dependencies=[Depends(verify_key)])
+@limiter.limit("5/minute")
+async def optimize(request: Request, body: OptimizeRequest):
+    from optimization_engine import optimize as run_optimize
+    result = run_optimize(body.query, body.budget_usd)
+    return {"plan": result}
+
+
+# ── Reports endpoint ──────────────────────────────────────────────────────────
+
+@app.get("/reports")
+async def list_reports():
+    try:
+        reports = sorted(
+            f for f in os.listdir(_reports_dir)
+            if f.endswith("_report.html")
+        )
+        return {"reports": reports}
+    except Exception as e:
+        return {"reports": [], "error": str(e)}
+
+
 # ── Stats endpoints ───────────────────────────────────────────────────────────
 
 @app.get("/stats/specs")
@@ -371,16 +436,6 @@ async def stats_summary(body: SpecRequest):
 async def stats_regression(body: RegressionRequest):
     from stats_engine import regression_analysis
     return regression_analysis(body.target, body.predictors)
-
-
-# ── Optimization endpoint ─────────────────────────────────────────────────────
-
-@app.post("/optimize", dependencies=[Depends(verify_key)])
-@limiter.limit("5/minute")
-async def optimize(request: Request, body: OptimizeRequest):
-    from optimization_engine import optimize as run_optimize
-    result = run_optimize(body.query, body.budget_usd)
-    return {"plan": result}
 
 
 # ── Viz endpoints ─────────────────────────────────────────────────────────────
