@@ -394,6 +394,30 @@ async def optimize(request: Request, body: OptimizeRequest):
 
 # ── Reports endpoint ──────────────────────────────────────────────────────────
 
+class ReportRequest(BaseModel):
+    type:       str   # "optimization" | "spec" | "analysis"
+    query:      Optional[str] = None
+    car_name:   Optional[str] = None
+    engine_name:Optional[str] = None
+
+@app.post("/report", dependencies=[Depends(verify_key)])
+async def generate_report(body: ReportRequest):
+    from report_generator import generate_optimization_report, generate_vehicle_spec_report
+    if body.type == "optimization" and body.query:
+        from optimization_engine import optimize, load_car_specs, solve_performance_build, extract_car_from_query, extract_engine_from_query, detect_goal_type
+        car    = extract_car_from_query(body.query)
+        engine = extract_engine_from_query(body.query)
+        specs  = load_car_specs(car, engine)
+        goal_type, target = detect_goal_type(body.query)
+        if goal_type == "performance" and target:
+            plan = solve_performance_build(specs, target)
+            pdf_path, err = generate_optimization_report(plan, car or "")
+            if err:
+                raise HTTPException(status_code=500, detail=err)
+            report_id = os.path.basename(pdf_path)
+            return {"report_url": f"http://100.104.58.38:{VEL_PORT}/reports/{report_id}", "path": pdf_path}
+    raise HTTPException(status_code=400, detail="Unsupported report type or missing parameters")
+
 @app.get("/reports")
 async def list_reports():
     try:
