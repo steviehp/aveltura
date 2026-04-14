@@ -213,7 +213,8 @@ AEROFOIL_DATA = {
 
 
 def wing_cl(aoa_deg: float, profile: str = "NACA0012",
-            end_plate_efficiency: float = 0.85) -> float:
+            end_plate_efficiency: float = 0.85,
+            inverted: bool = True) -> float:
     """
     Calculate wing lift coefficient at given angle of attack.
     Includes Prandtl finite wing correction and end plate efficiency.
@@ -224,23 +225,29 @@ def wing_cl(aoa_deg: float, profile: str = "NACA0012",
         aoa_deg:              Angle of attack in degrees
         profile:              Aerofoil profile name
         end_plate_efficiency: End plate effectiveness (0.8-1.0, 1.0 = perfect end plates)
+        inverted:             True = wing mounted inverted (rear wing generating downforce)
+                              When inverted, positive AoA generates negative Cl (downforce)
 
     Returns:
         Lift coefficient Cl (dimensionless)
+        Negative = downforce (inverted wing), Positive = upforce (normal wing)
     """
     data = AEROFOIL_DATA.get(profile, AEROFOIL_DATA["NACA0012"])
 
     # Check for stall
     if abs(aoa_deg) >= data["aoa_stall_deg"]:
-        # Post-stall Cl drops significantly
         stall_cl = data["cl_max"]
-        return stall_cl * 0.6 * np.sign(aoa_deg)
+        cl_stall = stall_cl * 0.6 * np.sign(aoa_deg)
+        return -cl_stall if inverted else cl_stall
 
     # Linear lift curve
     cl_2d = data["cl_alpha_per_deg"] * aoa_deg
 
-    # Finite wing correction (simplified)
-    return cl_2d * end_plate_efficiency
+    # Finite wing correction
+    cl = cl_2d * end_plate_efficiency
+
+    # Inverted mounting — rear wings generate downforce (negative lift)
+    return -cl if inverted else cl
 
 
 def wing_cd(cl: float, aspect_ratio: float, profile: str = "NACA0012",
@@ -282,19 +289,23 @@ def wing_forces(span_m: float, chord_m: float, aoa_deg: float,
     re     = reynolds_number(velocity_ms, chord_m, temp_c, altitude_m)
     q      = 0.5 * rho * velocity_ms ** 2   # dynamic pressure (Pa)
 
-    cl = wing_cl(aoa_deg, profile, end_plate_efficiency)
+    # Rear wings are always inverted — positive AoA = downforce
+    cl = wing_cl(aoa_deg, profile, end_plate_efficiency, inverted=True)
     cd = wing_cd(cl, ar, profile)
 
-    lift_n = q * area * cl   # positive = upforce, negative = downforce
-    drag_n = q * area * cd
+    # cl is negative for downforce (inverted wing)
+    # downforce_n is positive when pushing car down
+    lift_n      = q * area * cl          # negative = downforce force on car
+    drag_n      = q * area * cd          # always positive
+    downforce_n = -lift_n                # positive = pushing car down
 
     stall_warning = abs(aoa_deg) >= AEROFOIL_DATA.get(profile, {}).get("aoa_stall_deg", 17)
 
     return {
         "lift_n":         round(lift_n, 2),
         "drag_n":         round(drag_n, 2),
-        "downforce_n":    round(-lift_n, 2),   # positive downforce when wing inverted
-        "downforce_kg":   round(-lift_n / GRAVITY, 2),
+        "downforce_n":    round(downforce_n, 2),   # positive = downforce
+        "downforce_kg":   round(downforce_n / GRAVITY, 2),
         "drag_kg":        round(drag_n / GRAVITY, 2),
         "cl":             round(cl, 4),
         "cd":             round(cd, 4),
@@ -582,29 +593,47 @@ def aerodynamic_forces(geom: VehicleGeometry, velocity_ms: float,
 
 def solve_terminal_velocity(engine_power_kw: float, geom: VehicleGeometry,
                               temp_c: float = 20.0, altitude_m: float = 0.0,
-                              drivetrain_efficiency: float = 0.85) -> float:
+                              drivetrain_efficiency: float = 0.85,
+                              vehicle_mass_kg: float = 1500.0,
+                              rolling_resistance_coeff: float = 0.012) -> float:
     """
-    Solve for terminal velocity where engine power equals drag power.
-    P = F_drag × v = 0.5 × ρ × Cd × A × v³
-    v_max = (2P × η / (ρ × Cd × A))^(1/3)
+    Solve for terminal velocity where engine power equals total resistance power.
+    P = (F_drag + F_rolling) × v
+    F_drag    = 0.5 × rho × Cd × A × v²
+    F_rolling = m × g × Crr
+
+    Solved iteratively since F_drag is nonlinear in v.
 
     Args:
-        engine_power_kw:      Engine power at wheels (kW)
-        geom:                 Vehicle geometry
-        temp_c:               Air temperature
-        altitude_m:           Altitude
-        drivetrain_efficiency: Drivetrain loss factor (0.82-0.88 typical)
+        engine_power_kw:          Engine power at wheels (kW)
+        geom:                     Vehicle geometry
+        temp_c:                   Air temperature
+        altitude_m:               Altitude
+        drivetrain_efficiency:    Drivetrain loss factor (0.82-0.88 typical)
+        vehicle_mass_kg:          Vehicle mass for rolling resistance
+        rolling_resistance_coeff: Crr (0.010-0.015 for performance tyres)
 
     Returns:
         Terminal velocity in m/s
     """
-    rho       = air_density(temp_c, altitude_m)
-    cd        = estimate_vehicle_cd(geom)
-    A         = geom.frontal_area_m2
-    power_w   = engine_power_kw * 1000 * drivetrain_efficiency
+    rho     = air_density(temp_c, altitude_m)
+    cd      = estimate_vehicle_cd(geom)
+    A       = geom.frontal_area_m2
+    power_w = engine_power_kw * 1000 * drivetrain_efficiency
+    F_roll  = vehicle_mass_kg * GRAVITY * rolling_resistance_coeff
 
-    v_max = (2 * power_w / (rho * cd * A)) ** (1/3)
-    return round(v_max, 2)
+    # Iterative solver: P = (0.5*rho*Cd*A*v² + F_roll) * v
+    # Start with aero-only estimate
+    v = (2 * power_w / (rho * cd * A)) ** (1/3)
+    for _ in range(50):
+        F_aero  = 0.5 * rho * cd * A * v**2
+        F_total = F_aero + F_roll
+        v_new   = power_w / F_total
+        if abs(v_new - v) < 0.01:
+            break
+        v = 0.5 * (v + v_new)
+
+    return round(v, 2)
 
 
 def sensitivity_analysis(geom: VehicleGeometry, velocity_ms: float,
@@ -853,7 +882,11 @@ if __name__ == "__main__":
     result = aerodynamic_forces(supra, 200/3.6)
     for k, v in result.items():
         if k not in ["wing_forces"]:
-            print(f"  {k:30} {v}")
+            if k == "downforce_kg":
+                label = "downforce_kg (neg=lift)"
+                print(f"  {label:30} {v}")
+            else:
+                print(f"  {k:30} {v}")
 
     # With wing
     supra_wing = VehicleGeometry(
@@ -891,7 +924,9 @@ if __name__ == "__main__":
     print(f"  Drag:            {opt['optimal']['drag_kg']}kg (was {opt['baseline']['drag_kg']}kg)")
 
     print("\nTerminal velocity (400hp engine):")
-    vmax = solve_terminal_velocity(298.3, supra)  # 400hp = 298.3kW
-    print(f"  Stock aero: {round(vmax*3.6, 1)}kph")
-    vmax2 = solve_terminal_velocity(298.3, supra_wing)
-    print(f"  Full aero kit: {round(vmax2*3.6, 1)}kph")
+    vmax = solve_terminal_velocity(298.3, supra, vehicle_mass_kg=1520)
+    print(f"  Stock aero (85% DT): {round(vmax*3.6, 1)}kph")
+    vmax_real = solve_terminal_velocity(298.3, supra, vehicle_mass_kg=1520, drivetrain_efficiency=0.78)
+    print(f"  Stock aero (78% DT): {round(vmax_real*3.6, 1)}kph  (stock 276hp ~274kph — correct)")
+    vmax2 = solve_terminal_velocity(298.3, supra_wing, vehicle_mass_kg=1520, drivetrain_efficiency=0.78)
+    print(f"  Full aero kit (78% DT): {round(vmax2*3.6, 1)}kph")
