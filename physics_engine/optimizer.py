@@ -186,7 +186,7 @@ def check_constraints(spec: VehicleSpec, compound_name: str,
 def objective_lap_time(params: np.ndarray, spec: VehicleSpec,
                         compound_name: str, circuit_key: str,
                         param_names: List[str]) -> float:
-    """Objective: minimize lap time."""
+    """Objective: minimize lap time with balance penalty for oversteer on RWD."""
     spec_mod = _apply_params(params, spec, param_names)
     circuit  = CIRCUITS.get(circuit_key)
     if not circuit:
@@ -197,7 +197,20 @@ def objective_lap_time(params: np.ndarray, spec: VehicleSpec,
             spec_mod, compound_name,
             circuit["corners"], circuit["straight_m"], circuit["name"]
         )
-        return lap["lap_time_s"]
+        lap_time = lap["lap_time_s"]
+
+        # Penalise significant oversteer on RWD — dangerous and slow on corner exit
+        if spec_mod.drivetrain == "rwd":
+            try:
+                bal  = understeer_gradient(spec_mod, compound_name)
+                K_us = bal["understeer_gradient_deg_g"]
+                if K_us < -1.0:
+                    # 3 second penalty per deg/g of oversteer beyond -1
+                    lap_time += abs(K_us + 1.0) * 3.0
+            except Exception:
+                pass
+
+        return lap_time
     except Exception:
         return 1e6
 
@@ -343,7 +356,7 @@ def optimize(spec: VehicleSpec, goal: str,
     Returns:
         OptimizationResult with optimal parameters and analysis
     """
-    from scipy.optimize import minimize, differential_evolution
+    from scipy.optimize import minimize
 
     velocity_ms = velocity_kph / 3.6
 
@@ -418,20 +431,21 @@ def optimize(spec: VehicleSpec, goal: str,
     # Baseline score
     baseline_score = obj(x0)
 
-    # Run optimization — use differential evolution for global search
+    # Run optimization — differential evolution for global search
+    from scipy.optimize import differential_evolution as de
     try:
-        from scipy.optimize import differential_evolution
-        de_result = differential_evolution(
+        de_result = de(
             obj, bounds,
             maxiter=max_iterations,
-            tol=1e-4,
-            seed=42,
-            popsize=8,
-            mutation=(0.5, 1.0),
-            recombination=0.7,
-            polish=True,      # finish with L-BFGS-B
-            init="sobol",
+            tol=1e-6,
+            rng=42,
+            popsize=15,
+            mutation=(0.5, 1.5),
+            recombination=0.9,
+            polish=True,
+            init="latinhypercube",
             workers=1,
+            updating="deferred",
         )
         optimal_x     = de_result.x
         optimal_score = de_result.fun
@@ -439,9 +453,14 @@ def optimize(spec: VehicleSpec, goal: str,
         iterations    = de_result.nit
     except Exception as e:
         # Fallback to L-BFGS-B
+        from scipy.optimize import minimize
         try:
-            result = minimize(obj, x0, method=method, bounds=bounds,
-                              options={"maxiter": max_iterations})
+            result = minimize(
+                obj, x0,
+                method=method,
+                bounds=bounds,
+                options={"maxiter": max_iterations, "ftol": 1e-6, "gtol": 1e-5},
+            )
             optimal_x     = result.x
             optimal_score = result.fun
             converged     = result.success
@@ -476,7 +495,7 @@ def optimize(spec: VehicleSpec, goal: str,
 
     # Improvement
     if goal in ["top_speed", "downforce", "efficiency"]:
-        # Maximization goals — objective is negative, improvement = score went more negative
+        # Maximization goals — objective is negative, improvement = went more negative
         baseline_val = -baseline_score
         optimal_val  = -optimal_score
         if baseline_val != 0:
@@ -484,8 +503,8 @@ def optimize(spec: VehicleSpec, goal: str,
         else:
             improvement_pct = 0.0
     else:
-        baseline_val = baseline_score
-        optimal_val  = optimal_score
+        baseline_val = float(baseline_score)
+        optimal_val  = float(optimal_score)
         if baseline_val != 0:
             improvement_pct = (baseline_val - optimal_val) / abs(baseline_val) * 100
         else:

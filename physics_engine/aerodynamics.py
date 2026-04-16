@@ -80,25 +80,24 @@ def flow_regime(re: float) -> str:
         return "turbulent"
 
 
+_blockage_warned = set()
+
+
 def blockage_correction(cd_measured: float, frontal_area_m2: float,
                          tunnel_cross_section_m2: float) -> float:
     """
     Correct measured Cd for wind tunnel blockage effect.
-    Blockage ratio should be < 5% for accurate results.
-
-    Args:
-        cd_measured:          Raw measured drag coefficient
-        frontal_area_m2:      Vehicle frontal area (m²)
-        tunnel_cross_section_m2: Wind tunnel cross-sectional area (m²)
-
-    Returns:
-        Corrected drag coefficient
+    Warning printed once per unique blockage ratio.
     """
+    global _blockage_warned
     blockage_ratio = frontal_area_m2 / tunnel_cross_section_m2
-    if blockage_ratio > 0.10:
+    key = round(blockage_ratio, 3)
+    if blockage_ratio > 0.10 and key not in _blockage_warned:
         print(f"WARNING: Blockage ratio {blockage_ratio:.1%} > 10% — results unreliable")
-    elif blockage_ratio > 0.05:
+        _blockage_warned.add(key)
+    elif blockage_ratio > 0.05 and key not in _blockage_warned:
         print(f"WARNING: Blockage ratio {blockage_ratio:.1%} > 5% — correction applied")
+        _blockage_warned.add(key)
     # Maskell correction method
     correction_factor = 1.0 - 0.96 * blockage_ratio
     return cd_measured * correction_factor
@@ -882,11 +881,7 @@ if __name__ == "__main__":
     result = aerodynamic_forces(supra, 200/3.6)
     for k, v in result.items():
         if k not in ["wing_forces"]:
-            if k == "downforce_kg":
-                label = "downforce_kg (neg=lift)"
-                print(f"  {label:30} {v}")
-            else:
-                print(f"  {k:30} {v}")
+            print(f"  {k:30} {v}")
 
     # With wing
     supra_wing = VehicleGeometry(
@@ -925,8 +920,6 @@ if __name__ == "__main__":
 
     print("\nTerminal velocity (400hp engine):")
     vmax = solve_terminal_velocity(298.3, supra, vehicle_mass_kg=1520)
-    print(f"  Stock aero (85% DT): {round(vmax*3.6, 1)}kph")
-    vmax_real = solve_terminal_velocity(298.3, supra, vehicle_mass_kg=1520, drivetrain_efficiency=0.78)
-    print(f"  Stock aero (78% DT): {round(vmax_real*3.6, 1)}kph  (stock 276hp ~274kph — correct)")
-    vmax2 = solve_terminal_velocity(298.3, supra_wing, vehicle_mass_kg=1520, drivetrain_efficiency=0.78)
-    print(f"  Full aero kit (78% DT): {round(vmax2*3.6, 1)}kph")
+    print(f"  Stock aero: {round(vmax*3.6, 1)}kph")
+    vmax2 = solve_terminal_velocity(298.3, supra_wing, vehicle_mass_kg=1520)
+    print(f"  Full aero kit: {round(vmax2*3.6, 1)}kph")

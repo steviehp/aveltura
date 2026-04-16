@@ -21,6 +21,7 @@ Endpoints:
   POST /stats/summary          — Summary statistics for a spec
   POST /stats/regression       — OLS regression
   GET  /reports                — List generated analysis reports
+  POST /physics                — Natural language physics engine query
 """
 
 from fastapi import FastAPI, HTTPException, Depends, Request
@@ -115,7 +116,23 @@ def response_flags_unknown(text: str) -> bool:
 
 # ── Tabular data detector ─────────────────────────────────────────────────────
 
-def _looks_like_tabular(text: str) -> bool:
+def _looks_like_physics(text: str) -> bool:
+    """Return True if message looks like a physics engine query."""
+    physics_keywords = [
+        "drag", "downforce", "aerodynam", "wind tunnel",
+        "tyre", "tire", "grip", "slip angle", "pacejka",
+        "overheat", "cooling", "brake fade", "thermal", "intercooler",
+        "stress", "fatigue", "buckling", "roll cage", "material strength",
+        "understeer", "oversteer", "lap time", "cornering force",
+        "optimize my setup", "optimise my setup", "best setup for",
+        "virtual wind tunnel", "aero sweep", "tyre compound",
+        "what material", "carbon fibre", "structural",
+    ]
+    q = text.lower()
+    return any(kw in q for kw in physics_keywords)
+
+
+
     """Return True if message looks like CSV/TSV tabular data."""
     lines = [l.strip() for l in text.strip().split("\n") if l.strip()]
     if len(lines) < 3:
@@ -273,6 +290,32 @@ async def chat(request: Request, body: ChatRequest):
     else:
         message = str(raw)
 
+    # Route physics queries to physics engine
+    if _looks_like_physics(message) and not _looks_like_tabular(message):
+        try:
+            from physics_query import physics_query as run_physics
+            result = run_physics(message)
+        except Exception as e:
+            result = f"Physics engine error: {e}"
+
+        if body.stream:
+            def gen_physics():
+                for line in result.split("\n"):
+                    chunk = {
+                        "choices": [
+                            {"delta": {"content": line + "\n"}, "finish_reason": None}
+                        ]
+                    }
+                    yield f"data: {json.dumps(chunk)}\n\n"
+                yield "data: [DONE]\n\n"
+            return StreamingResponse(gen_physics(), media_type="text/event-stream")
+
+        return {
+            "choices": [
+                {"message": {"role": "assistant", "content": result}}
+            ]
+        }
+
     # Route tabular data to universal analyzer
     if _looks_like_tabular(message):
         try:
@@ -392,31 +435,19 @@ async def optimize(request: Request, body: OptimizeRequest):
     return {"plan": result}
 
 
+class PhysicsRequest(BaseModel):
+    query: str
+
+
+@app.post("/physics", dependencies=[Depends(verify_key)])
+@limiter.limit("5/minute")
+async def physics(request: Request, body: PhysicsRequest):
+    from physics_query import physics_query as run_physics
+    result = run_physics(body.query)
+    return {"result": result}
+
+
 # ── Reports endpoint ──────────────────────────────────────────────────────────
-
-class ReportRequest(BaseModel):
-    type:       str   # "optimization" | "spec" | "analysis"
-    query:      Optional[str] = None
-    car_name:   Optional[str] = None
-    engine_name:Optional[str] = None
-
-@app.post("/report", dependencies=[Depends(verify_key)])
-async def generate_report(body: ReportRequest):
-    from report_generator import generate_optimization_report, generate_vehicle_spec_report
-    if body.type == "optimization" and body.query:
-        from optimization_engine import optimize, load_car_specs, solve_performance_build, extract_car_from_query, extract_engine_from_query, detect_goal_type
-        car    = extract_car_from_query(body.query)
-        engine = extract_engine_from_query(body.query)
-        specs  = load_car_specs(car, engine)
-        goal_type, target = detect_goal_type(body.query)
-        if goal_type == "performance" and target:
-            plan = solve_performance_build(specs, target)
-            pdf_path, err = generate_optimization_report(plan, car or "")
-            if err:
-                raise HTTPException(status_code=500, detail=err)
-            report_id = os.path.basename(pdf_path)
-            return {"report_url": f"http://100.104.58.38:{VEL_PORT}/reports/{report_id}", "path": pdf_path}
-    raise HTTPException(status_code=400, detail="Unsupported report type or missing parameters")
 
 @app.get("/reports")
 async def list_reports():
